@@ -37,3 +37,5 @@ This explicitly invokes GitHub release publication outside the gameplay loop. Th
 Compare local `git rev-parse HEAD` with `gh api repos/sbardacosta-code/super-mario-bros-3-rl/commits/main --jq .sha`. Fetch the public index through GitHub and confirm its links point to the committed session paths. Run the local Markdown-link audit on that same revision. Check all new images/traces are in the remote tree. For a Release, use its verified downloads and manifest. Archive the verification result and identify the verified commit. If access is interrupted, say publication is pending rather than inferring success.
 
 No GitHub Actions training job, paid hosting service, or paid cloud machine is configured. The public index is GitHub's existing repository view, not a separate website requiring deployment.
+
+[Current repository and download verification](publication-verification.json). Historical session verification records retain their original dates; the current verification checks the renamed public URLs.

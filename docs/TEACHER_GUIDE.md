@@ -32,3 +32,7 @@ Use each session’s **Learning timeline and GIF comparisons** page for projecti
 At each approximately 15-minute checkpoint, first describe the visible behavior, then check all evaluation trials, and finally propose an explanation to test. Reports generate automatically without API calls. Visual interpretation is a separate review of saved milestones: explanations remain marked pending until reviewed, and `stage-notes.json` binds each explanation to its model hash. Regenerating a report preserves those notes.
 
 The first SMB3 pilot contains only 9.46 minutes of active training. It is not relabeled as a 15-minute stage. Its final save repeats the trained policy; this is a useful distinction between saving and learning. A longer run still requires the user’s training-budget choice.
+
+## What counts as a successful baseline?
+
+The target is at least **18 wins in 20 final trials** with one frozen policy. Winning requires collecting the goal card and triggering a verified level clear. Progress in pixels, game score, and an occasional training success do not substitute for this test. The archived final policy has not met the target. Only after reliable completion is demonstrated will a separate experiment optimize game score. See the [completion-first roadmap](ROADMAP.md).

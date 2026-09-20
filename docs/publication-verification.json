@@ -1,0 +1,61 @@
+{
+  "verified_at": "2026-09-20T21:13:00.957493+00:00",
+  "repository": "sbardacosta-code/super-mario-bros-3-rl",
+  "verified_commit": "94197dbb8e4d58812636983570ee146c8a0bc494",
+  "remote_tree_matches_local": true,
+  "public_file_count": 531,
+  "reachable_commit_count": 1,
+  "branches": [
+    "main"
+  ],
+  "release_tags": [
+    "models-2026-09-16-smb3-session-02",
+    "models-2026-09-16-smb3-pilot"
+  ],
+  "anonymous_files_checked": [
+    "README.md",
+    "docs/classroom/README.md",
+    "docs/ROADMAP.md",
+    "sessions/2026-09-16-smb3-session-02/LESSON.md",
+    "sessions/2026-09-16-smb3-session-02/04-stage/trial-303-ending.gif"
+  ],
+  "verified_models": [
+    {
+      "url": "https://github.com/sbardacosta-code/super-mario-bros-3-rl/releases/download/models-2026-09-16-smb3-session-02/00-resumed.zip",
+      "sha256": "37b34760f34bc1101afbf3022c2a009544d0fdba75e132c1501f064ece2de1f2"
+    },
+    {
+      "url": "https://github.com/sbardacosta-code/super-mario-bros-3-rl/releases/download/models-2026-09-16-smb3-session-02/01-stage.zip",
+      "sha256": "c8942d9d616f78297ef12a176793d703026f7a37c85353915aff9fd7951d6e4d"
+    },
+    {
+      "url": "https://github.com/sbardacosta-code/super-mario-bros-3-rl/releases/download/models-2026-09-16-smb3-session-02/02-stage.zip",
+      "sha256": "9ac37ce26177cd7b4ac5f313c0cf46c95130f763a50fad0b207d2002385b251b"
+    },
+    {
+      "url": "https://github.com/sbardacosta-code/super-mario-bros-3-rl/releases/download/models-2026-09-16-smb3-session-02/03-stage.zip",
+      "sha256": "677364433c0fe787d1e67d24030e829d5c3bac677baa16b3ee2e46d054b819db"
+    },
+    {
+      "url": "https://github.com/sbardacosta-code/super-mario-bros-3-rl/releases/download/models-2026-09-16-smb3-session-02/04-stage.zip",
+      "sha256": "79b6df4826090153f2fe39a9a55fd0bd6f8c0a664505c5e6671462b948e956cc"
+    },
+    {
+      "url": "https://github.com/sbardacosta-code/super-mario-bros-3-rl/releases/download/models-2026-09-16-smb3-session-02/final.zip",
+      "sha256": "2086c553c2f2f795861a991e8c5b0253154526fdca5524a27833fa890c12b2fa"
+    },
+    {
+      "url": "https://github.com/sbardacosta-code/super-mario-bros-3-rl/releases/download/models-2026-09-16-smb3-pilot/00-untrained.zip",
+      "sha256": "e9aeb87e3dcc21c80362ebfad73600a11a8b4ce83cca7621b6d545e90f655d0b"
+    },
+    {
+      "url": "https://github.com/sbardacosta-code/super-mario-bros-3-rl/releases/download/models-2026-09-16-smb3-pilot/01-stage.zip",
+      "sha256": "5faa99a153ae7a3d1e26bc02a50e84f1e6e66f2a8074847a282f1cabc0a27722"
+    },
+    {
+      "url": "https://github.com/sbardacosta-code/super-mario-bros-3-rl/releases/download/models-2026-09-16-smb3-pilot/final.zip",
+      "sha256": "2e8a5244bad04fcc92f378637b62bb9a7484186b174de05ee82bd4ccfe87f878"
+    }
+  ],
+  "limits": "Verification covers current public branches, tags, files, repository metadata and Releases. GitHub-controlled caches and redirects are outside this verification."
+}
