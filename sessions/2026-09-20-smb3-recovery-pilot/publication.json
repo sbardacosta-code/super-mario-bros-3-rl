@@ -1,0 +1,20 @@
+{
+  "verified_at": "2026-09-20T21:53:07.481670+00:00",
+  "verified_commit": "1c0f50734c5fae398de9d2983005fccd25ee3c98",
+  "remote_tree_matches_local": true,
+  "file_count": 800,
+  "anonymous_byte_checked_files": [
+    "README.md",
+    "docs/classroom/README.md",
+    "sessions/2026-09-20-smb3-recovery-pilot/LESSON.md",
+    "sessions/2026-09-20-smb3-recovery-pilot/REPORT.md",
+    "sessions/2026-09-20-smb3-recovery-pilot/ANALYSIS.md",
+    "sessions/2026-09-20-smb3-recovery-pilot/progress.png",
+    "sessions/2026-09-20-smb3-recovery-pilot/training-history.png",
+    "sessions/2026-09-20-smb3-recovery-pilot/01-stage/trial-505-ending.gif",
+    "sessions/2026-09-20-smb3-recovery-pilot/MODELS.md"
+  ],
+  "public_classroom_http_200": true,
+  "model_download_hashes_verified": true,
+  "anonymous_model_asset_count": 3
+}
