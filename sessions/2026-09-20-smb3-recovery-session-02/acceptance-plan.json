@@ -1,0 +1,32 @@
+{
+  "declared_at": "2026-09-20T22:29:00.154450+00:00",
+  "candidate_rule": "Use this session final checkpoint, selected before inspecting any acceptance outcomes; no best-stage selection.",
+  "minimum_clears": 18,
+  "required_trials": 20,
+  "seeds": [
+    8101,
+    8102,
+    8103,
+    8104,
+    8105,
+    8106,
+    8107,
+    8108,
+    8109,
+    8110,
+    8111,
+    8112,
+    8113,
+    8114,
+    8115,
+    8116,
+    8117,
+    8118,
+    8119,
+    8120
+  ],
+  "sampling": "stochastic, same World 1-1 saved start and recovery-v2 protocol",
+  "maximum_evaluation_seconds": 600,
+  "success_rule": "All 20 unique predetermined trials complete with valid telemetry; at least 18 verified level clears. Deaths and frame limits are failures. Incomplete evaluations cannot pass.",
+  "note": "Additional evaluation only, not extra training. Do not silently retry failed seeds or tune on this set and reuse it as a fresh acceptance test."
+}
