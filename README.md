@@ -8,7 +8,7 @@ This project teaches **Super Mario Bros. 3, World 1-1** through recorded reinfor
 
 The acceptance target is **at least 18 wins in 20 final evaluation trials**. Winning means collecting the goal card and triggering the verified level-clear transition, not merely reaching the right edge. Once a completion baseline meets that target, a separate experiment will optimize game score while tracking whether completion remains reliable. [Experiment roadmap](docs/ROADMAP.md).
 
-The pilot and one-hour continuation are archived. The final policy increased mean progress to 2,211.6 pixels but cleared 0/15 final evaluation trials. Some runs miss the goal card and cannot return because the initial action set has no left movement. The target is **not yet met**. [Watch the latest learning timeline](sessions/2026-09-16-smb3-session-02/LESSON.md).
+The five-action pilot and one-hour continuation are archived. A new **seven-action recovery pilot** adds left and left-jump and starts a fresh PPO model with unchanged reward. Scripted validation confirms recovery from a missed goal card is possible; the learned policy has not demonstrated it. Its 9.47 active-minute pilot increased mean progress from 346.8 to 614.2 pixels but cleared **0/15 diagnostic evaluation trials**. The completion target is **not yet met**. [Latest learning timeline](sessions/2026-09-20-smb3-recovery-pilot/LESSON.md).
 
 ## Classroom materials
 

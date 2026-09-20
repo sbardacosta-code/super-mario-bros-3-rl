@@ -1,0 +1,23 @@
+{
+  "00-untrained": {
+    "changed": "Fresh PPO CNN with seven actions; no inherited weights or optimizer state. Left and left-jump are available, with reward and learning settings unchanged.",
+    "observed": "The seed 101 ending shows movement and jumps in the opening area, followed by death near the first walking enemy ([review](review/00-untrained-101-ending.png)). Mean progress is 346.8 pixels, median 287.",
+    "fails": "0/5 clears; all trials end in death. The wide range (49\u2013801 pixels) is variation in action samples, not evidence of a learned route.",
+    "uncertain": "A fresh seven-output network is not directly comparable to the previously trained five-output policy. Scripted recovery validation proves controls are usable, not that this network understands recovery.",
+    "model_sha256": "bd94da873e6015e4f89db64ac677fc054a7c634585218d85aa094c867946a341"
+  },
+  "01-stage": {
+    "changed": "568.27 seconds (9.47 minutes) of active training, 83,348 decisions, 162 PPO train calls and 4,964 optimizer steps. No reward or hyperparameter changes.",
+    "observed": "Mean progress rises to 614.2 pixels, but median only rises from 287 to 315. Seed 505 reaches the gap before wooden steps; seed 303 reaches an earlier gap. Both fall ([505 review](review/01-stage-505-ending.png), [303 review](review/01-stage-303-ending.png)).",
+    "fails": "0/5 clears, all deaths. Seeds 101 and 202 die near the first walking enemy; seed 404 dies near the first plant pipe. Seed 202 regresses from 287 to 84 pixels.",
+    "uncertain": "The higher mean is strongly influenced by seed 505, not uniform reliability. Left actions were sampled less often after training, but different episode lengths and routes prevent interpreting this as a universal action probability or causal explanation.",
+    "model_sha256": "a5364cda88498b0eb67f5b97eeb4de858182a2c3dae64c8a971e39b25ac1233b"
+  },
+  "final": {
+    "changed": "No further learning after 01-stage. The final save has identical policy weights and repeated five-seed outcomes; it is not another improvement.",
+    "observed": "Ten additional diagnostic seeds average 571.9 pixels, with range 316\u2013887. Seed 6101 reaches the open area with a red winged enemy; seed 6505 remains near the first plant pipe.",
+    "fails": "0/10 additional-seed clears, all deaths. Combined final diagnostic outcomes are 0/15. No evaluated run reaches the goal-card area, so learned card recovery was not demonstrated.",
+    "uncertain": "These are action samples on the same level, not unseen levels or independent training runs. This is not the reserved 20-trial acceptance test; the 18/20 target remains unmet.",
+    "model_sha256": "52b40ac6b6e684bf81df7e777c227d4aab711bc3e2ad03ebaecf0ca84ba7a890"
+  }
+}

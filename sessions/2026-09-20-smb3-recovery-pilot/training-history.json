@@ -1,0 +1,5613 @@
+{
+  "episodes": [
+    {
+      "model_decision": 167,
+      "progress_pixels": 267,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 1.6033999906794634,
+      "episode_decisions": 167,
+      "frames": 666
+    },
+    {
+      "model_decision": 391,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.170499969564844,
+      "episode_decisions": 224,
+      "frames": 895
+    },
+    {
+      "model_decision": 835,
+      "progress_pixels": 318,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.002700009383261,
+      "episode_decisions": 444,
+      "frames": 1773
+    },
+    {
+      "model_decision": 914,
+      "progress_pixels": 58,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.45150004656170495,
+      "episode_decisions": 79,
+      "frames": 315
+    },
+    {
+      "model_decision": 1305,
+      "progress_pixels": 1116,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.003600080672186,
+      "episode_decisions": 391,
+      "frames": 1564
+    },
+    {
+      "model_decision": 1453,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.090899947914295,
+      "episode_decisions": 148,
+      "frames": 591
+    },
+    {
+      "model_decision": 1569,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2136999525828287,
+      "episode_decisions": 116,
+      "frames": 463
+    },
+    {
+      "model_decision": 1869,
+      "progress_pixels": 748,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.360099944518879,
+      "episode_decisions": 300,
+      "frames": 1199
+    },
+    {
+      "model_decision": 1948,
+      "progress_pixels": 58,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.4515000433602836,
+      "episode_decisions": 79,
+      "frames": 315
+    },
+    {
+      "model_decision": 2243,
+      "progress_pixels": 813,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.012000051094219,
+      "episode_decisions": 295,
+      "frames": 1180
+    },
+    {
+      "model_decision": 2345,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.219399974186672,
+      "episode_decisions": 102,
+      "frames": 406
+    },
+    {
+      "model_decision": 2550,
+      "progress_pixels": 558,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.498300011124229,
+      "episode_decisions": 205,
+      "frames": 817
+    },
+    {
+      "model_decision": 2791,
+      "progress_pixels": 556,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.463900007773191,
+      "episode_decisions": 241,
+      "frames": 961
+    },
+    {
+      "model_decision": 2858,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18670005226158537,
+      "episode_decisions": 67,
+      "frames": 267
+    },
+    {
+      "model_decision": 3306,
+      "progress_pixels": 1502,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 13.840899979317328,
+      "episode_decisions": 448,
+      "frames": 1791
+    },
+    {
+      "model_decision": 3374,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.21719994710292667,
+      "episode_decisions": 68,
+      "frames": 272
+    },
+    {
+      "model_decision": 3653,
+      "progress_pixels": 765,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.538700001052348,
+      "episode_decisions": 279,
+      "frames": 1113
+    },
+    {
+      "model_decision": 3918,
+      "progress_pixels": 1103,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 9.92419996423996,
+      "episode_decisions": 265,
+      "frames": 1058
+    },
+    {
+      "model_decision": 4038,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1021999637887347,
+      "episode_decisions": 120,
+      "frames": 478
+    },
+    {
+      "model_decision": 4108,
+      "progress_pixels": 77,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2578000327339396,
+      "episode_decisions": 70,
+      "frames": 278
+    },
+    {
+      "model_decision": 4177,
+      "progress_pixels": 79,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.23730001659714617,
+      "episode_decisions": 69,
+      "frames": 273
+    },
+    {
+      "model_decision": 4291,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.104400048410753,
+      "episode_decisions": 114,
+      "frames": 456
+    },
+    {
+      "model_decision": 4506,
+      "progress_pixels": 770,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.614299971348373,
+      "episode_decisions": 215,
+      "frames": 857
+    },
+    {
+      "model_decision": 4789,
+      "progress_pixels": 1119,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.07700001768535,
+      "episode_decisions": 283,
+      "frames": 1130
+    },
+    {
+      "model_decision": 4899,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1060000389115885,
+      "episode_decisions": 110,
+      "frames": 440
+    },
+    {
+      "model_decision": 5095,
+      "progress_pixels": 559,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.511799961241195,
+      "episode_decisions": 196,
+      "frames": 782
+    },
+    {
+      "model_decision": 5194,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.230599990027258,
+      "episode_decisions": 99,
+      "frames": 394
+    },
+    {
+      "model_decision": 5511,
+      "progress_pixels": 889,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.763299994025147,
+      "episode_decisions": 317,
+      "frames": 1267
+    },
+    {
+      "model_decision": 5579,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.19690001258277334,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 5856,
+      "progress_pixels": 822,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.109500024962472,
+      "episode_decisions": 277,
+      "frames": 1105
+    },
+    {
+      "model_decision": 6010,
+      "progress_pixels": 776,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.6987000290246215,
+      "episode_decisions": 154,
+      "frames": 613
+    },
+    {
+      "model_decision": 6079,
+      "progress_pixels": 79,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.23750004352768883,
+      "episode_decisions": 69,
+      "frames": 275
+    },
+    {
+      "model_decision": 6149,
+      "progress_pixels": 79,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.23770001219236292,
+      "episode_decisions": 70,
+      "frames": 277
+    },
+    {
+      "model_decision": 6263,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.224400069186231,
+      "episode_decisions": 114,
+      "frames": 456
+    },
+    {
+      "model_decision": 6380,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1032000462000724,
+      "episode_decisions": 117,
+      "frames": 468
+    },
+    {
+      "model_decision": 6592,
+      "progress_pixels": 821,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.125299920531688,
+      "episode_decisions": 212,
+      "frames": 847
+    },
+    {
+      "model_decision": 6688,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2319000069692265,
+      "episode_decisions": 96,
+      "frames": 381
+    },
+    {
+      "model_decision": 6788,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2302999749663286,
+      "episode_decisions": 100,
+      "frames": 397
+    },
+    {
+      "model_decision": 6900,
+      "progress_pixels": 321,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1652999608195387,
+      "episode_decisions": 112,
+      "frames": 447
+    },
+    {
+      "model_decision": 6971,
+      "progress_pixels": 76,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2682000368949957,
+      "episode_decisions": 71,
+      "frames": 282
+    },
+    {
+      "model_decision": 7212,
+      "progress_pixels": 883,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.7336999655817635,
+      "episode_decisions": 241,
+      "frames": 963
+    },
+    {
+      "model_decision": 7323,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.215899969334714,
+      "episode_decisions": 111,
+      "frames": 441
+    },
+    {
+      "model_decision": 7441,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2229999962437432,
+      "episode_decisions": 118,
+      "frames": 470
+    },
+    {
+      "model_decision": 7632,
+      "progress_pixels": 818,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.103600096423179,
+      "episode_decisions": 191,
+      "frames": 764
+    },
+    {
+      "model_decision": 7700,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.21710005024215207,
+      "episode_decisions": 68,
+      "frames": 271
+    },
+    {
+      "model_decision": 7769,
+      "progress_pixels": 77,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.25759994046529755,
+      "episode_decisions": 69,
+      "frames": 276
+    },
+    {
+      "model_decision": 7889,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1122999548970256,
+      "episode_decisions": 120,
+      "frames": 477
+    },
+    {
+      "model_decision": 7960,
+      "progress_pixels": 77,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.25810001813806593,
+      "episode_decisions": 71,
+      "frames": 281
+    },
+    {
+      "model_decision": 8186,
+      "progress_pixels": 1130,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.209699964994797,
+      "episode_decisions": 226,
+      "frames": 903
+    },
+    {
+      "model_decision": 8313,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.109499982674606,
+      "episode_decisions": 127,
+      "frames": 505
+    },
+    {
+      "model_decision": 8419,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2176000690378714,
+      "episode_decisions": 106,
+      "frames": 424
+    },
+    {
+      "model_decision": 8491,
+      "progress_pixels": 72,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.30860003145062365,
+      "episode_decisions": 72,
+      "frames": 286
+    },
+    {
+      "model_decision": 8601,
+      "progress_pixels": 317,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.126300003757933,
+      "episode_decisions": 110,
+      "frames": 437
+    },
+    {
+      "model_decision": 8720,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1124000637209974,
+      "episode_decisions": 119,
+      "frames": 476
+    },
+    {
+      "model_decision": 8815,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2322999939206056,
+      "episode_decisions": 95,
+      "frames": 377
+    },
+    {
+      "model_decision": 8927,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1053999759315047,
+      "episode_decisions": 112,
+      "frames": 446
+    },
+    {
+      "model_decision": 9100,
+      "progress_pixels": 556,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.490999978064792,
+      "episode_decisions": 173,
+      "frames": 690
+    },
+    {
+      "model_decision": 9168,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20700003759702668,
+      "episode_decisions": 68,
+      "frames": 270
+    },
+    {
+      "model_decision": 9342,
+      "progress_pixels": 550,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.430400036595529,
+      "episode_decisions": 174,
+      "frames": 696
+    },
+    {
+      "model_decision": 9471,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1084000618138816,
+      "episode_decisions": 129,
+      "frames": 516
+    },
+    {
+      "model_decision": 9538,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.19670005203806795,
+      "episode_decisions": 67,
+      "frames": 267
+    },
+    {
+      "model_decision": 9604,
+      "progress_pixels": 86,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.16620003239950165,
+      "episode_decisions": 66,
+      "frames": 262
+    },
+    {
+      "model_decision": 9721,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.21320004350855,
+      "episode_decisions": 117,
+      "frames": 468
+    },
+    {
+      "model_decision": 9787,
+      "progress_pixels": 86,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.16610001647495665,
+      "episode_decisions": 66,
+      "frames": 261
+    },
+    {
+      "model_decision": 9940,
+      "progress_pixels": 771,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.648899967956822,
+      "episode_decisions": 153,
+      "frames": 611
+    },
+    {
+      "model_decision": 10046,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.217900001851376,
+      "episode_decisions": 106,
+      "frames": 421
+    },
+    {
+      "model_decision": 10208,
+      "progress_pixels": 752,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.455200062686345,
+      "episode_decisions": 162,
+      "frames": 648
+    },
+    {
+      "model_decision": 10274,
+      "progress_pixels": 86,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.16620003239950165,
+      "episode_decisions": 66,
+      "frames": 262
+    },
+    {
+      "model_decision": 10343,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.21730001890682615,
+      "episode_decisions": 69,
+      "frames": 273
+    },
+    {
+      "model_decision": 10534,
+      "progress_pixels": 557,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.493699947430287,
+      "episode_decisions": 191,
+      "frames": 763
+    },
+    {
+      "model_decision": 10600,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18639994965633377,
+      "episode_decisions": 66,
+      "frames": 264
+    },
+    {
+      "model_decision": 10667,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18660003074910492,
+      "episode_decisions": 67,
+      "frames": 266
+    },
+    {
+      "model_decision": 10783,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.113899977208348,
+      "episode_decisions": 116,
+      "frames": 461
+    },
+    {
+      "model_decision": 10945,
+      "progress_pixels": 747,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.405499966582283,
+      "episode_decisions": 162,
+      "frames": 645
+    },
+    {
+      "model_decision": 11050,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.218199954397278,
+      "episode_decisions": 105,
+      "frames": 418
+    },
+    {
+      "model_decision": 11168,
+      "progress_pixels": 328,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2328000476118177,
+      "episode_decisions": 118,
+      "frames": 472
+    },
+    {
+      "model_decision": 11239,
+      "progress_pixels": 75,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.27820002907537855,
+      "episode_decisions": 71,
+      "frames": 282
+    },
+    {
+      "model_decision": 11340,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2196000583353452,
+      "episode_decisions": 101,
+      "frames": 404
+    },
+    {
+      "model_decision": 11549,
+      "progress_pixels": 874,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.65649994238629,
+      "episode_decisions": 209,
+      "frames": 835
+    },
+    {
+      "model_decision": 11655,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.227600041544065,
+      "episode_decisions": 106,
+      "frames": 424
+    },
+    {
+      "model_decision": 11772,
+      "progress_pixels": 317,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1232999432832003,
+      "episode_decisions": 117,
+      "frames": 467
+    },
+    {
+      "model_decision": 11891,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.102499946806347,
+      "episode_decisions": 119,
+      "frames": 475
+    },
+    {
+      "model_decision": 12177,
+      "progress_pixels": 557,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.455799988441868,
+      "episode_decisions": 286,
+      "frames": 1142
+    },
+    {
+      "model_decision": 12422,
+      "progress_pixels": 1117,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.072300006781006,
+      "episode_decisions": 245,
+      "frames": 977
+    },
+    {
+      "model_decision": 12536,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1044000399124343,
+      "episode_decisions": 114,
+      "frames": 456
+    },
+    {
+      "model_decision": 12640,
+      "progress_pixels": 342,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.3785999738320243,
+      "episode_decisions": 104,
+      "frames": 414
+    },
+    {
+      "model_decision": 12862,
+      "progress_pixels": 755,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.461299960879842,
+      "episode_decisions": 222,
+      "frames": 887
+    },
+    {
+      "model_decision": 12975,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1050999864237383,
+      "episode_decisions": 113,
+      "frames": 449
+    },
+    {
+      "model_decision": 13048,
+      "progress_pixels": 72,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.30910004684119485,
+      "episode_decisions": 73,
+      "frames": 291
+    },
+    {
+      "model_decision": 13279,
+      "progress_pixels": 1114,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.04770002674195,
+      "episode_decisions": 231,
+      "frames": 923
+    },
+    {
+      "model_decision": 13546,
+      "progress_pixels": 1366,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 12.553399932337925,
+      "episode_decisions": 267,
+      "frames": 1066
+    },
+    {
+      "model_decision": 13657,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2156999471771996,
+      "episode_decisions": 111,
+      "frames": 443
+    },
+    {
+      "model_decision": 13767,
+      "progress_pixels": 322,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1762999756610952,
+      "episode_decisions": 110,
+      "frames": 437
+    },
+    {
+      "model_decision": 13986,
+      "progress_pixels": 886,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.772499997954583,
+      "episode_decisions": 219,
+      "frames": 875
+    },
+    {
+      "model_decision": 14192,
+      "progress_pixels": 886,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.777799941104604,
+      "episode_decisions": 206,
+      "frames": 822
+    },
+    {
+      "model_decision": 14319,
+      "progress_pixels": 558,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.529500010597985,
+      "episode_decisions": 127,
+      "frames": 505
+    },
+    {
+      "model_decision": 14389,
+      "progress_pixels": 78,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.24780003176419996,
+      "episode_decisions": 70,
+      "frames": 278
+    },
+    {
+      "model_decision": 14493,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2185999587818515,
+      "episode_decisions": 104,
+      "frames": 414
+    },
+    {
+      "model_decision": 14559,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.17610002183937468,
+      "episode_decisions": 66,
+      "frames": 261
+    },
+    {
+      "model_decision": 14671,
+      "progress_pixels": 324,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.195399967429694,
+      "episode_decisions": 112,
+      "frames": 446
+    },
+    {
+      "model_decision": 14780,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2165999700082466,
+      "episode_decisions": 109,
+      "frames": 434
+    },
+    {
+      "model_decision": 14878,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.221099996182602,
+      "episode_decisions": 98,
+      "frames": 389
+    },
+    {
+      "model_decision": 14988,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1060000401048455,
+      "episode_decisions": 110,
+      "frames": 440
+    },
+    {
+      "model_decision": 15215,
+      "progress_pixels": 822,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.129299939173507,
+      "episode_decisions": 227,
+      "frames": 907
+    },
+    {
+      "model_decision": 15310,
+      "progress_pixels": 328,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2423000321432482,
+      "episode_decisions": 95,
+      "frames": 377
+    },
+    {
+      "model_decision": 15407,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2213999509694986,
+      "episode_decisions": 97,
+      "frames": 386
+    },
+    {
+      "model_decision": 15526,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1125999903015327,
+      "episode_decisions": 119,
+      "frames": 474
+    },
+    {
+      "model_decision": 15784,
+      "progress_pixels": 887,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.7671000268892385,
+      "episode_decisions": 258,
+      "frames": 1029
+    },
+    {
+      "model_decision": 15854,
+      "progress_pixels": 77,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2579000479890965,
+      "episode_decisions": 70,
+      "frames": 279
+    },
+    {
+      "model_decision": 15967,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.115099998336518,
+      "episode_decisions": 113,
+      "frames": 449
+    },
+    {
+      "model_decision": 16034,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.17670005874242634,
+      "episode_decisions": 67,
+      "frames": 267
+    },
+    {
+      "model_decision": 16272,
+      "progress_pixels": 1120,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.104900004138472,
+      "episode_decisions": 238,
+      "frames": 951
+    },
+    {
+      "model_decision": 16339,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20660003082593903,
+      "episode_decisions": 67,
+      "frames": 266
+    },
+    {
+      "model_decision": 16507,
+      "progress_pixels": 554,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.472999964753399,
+      "episode_decisions": 168,
+      "frames": 670
+    },
+    {
+      "model_decision": 16619,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1152000857982785,
+      "episode_decisions": 112,
+      "frames": 448
+    },
+    {
+      "model_decision": 16717,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.221100009221118,
+      "episode_decisions": 98,
+      "frames": 389
+    },
+    {
+      "model_decision": 16826,
+      "progress_pixels": 317,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1265999407332856,
+      "episode_decisions": 109,
+      "frames": 434
+    },
+    {
+      "model_decision": 16944,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.102800051419763,
+      "episode_decisions": 118,
+      "frames": 472
+    },
+    {
+      "model_decision": 17057,
+      "progress_pixels": 331,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2650999846227933,
+      "episode_decisions": 113,
+      "frames": 449
+    },
+    {
+      "model_decision": 17173,
+      "progress_pixels": 328,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2338999792118557,
+      "episode_decisions": 116,
+      "frames": 461
+    },
+    {
+      "model_decision": 17243,
+      "progress_pixels": 77,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.25770001494674943,
+      "episode_decisions": 70,
+      "frames": 277
+    },
+    {
+      "model_decision": 17401,
+      "progress_pixels": 553,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.46709997774451,
+      "episode_decisions": 158,
+      "frames": 629
+    },
+    {
+      "model_decision": 17498,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2312999292335007,
+      "episode_decisions": 97,
+      "frames": 387
+    },
+    {
+      "model_decision": 17566,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2169000121357385,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 17678,
+      "progress_pixels": 335,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.305499974405393,
+      "episode_decisions": 112,
+      "frames": 445
+    },
+    {
+      "model_decision": 17823,
+      "progress_pixels": 558,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.5220001063426025,
+      "episode_decisions": 145,
+      "frames": 580
+    },
+    {
+      "model_decision": 18091,
+      "progress_pixels": 1099,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 9.882899897755124,
+      "episode_decisions": 268,
+      "frames": 1071
+    },
+    {
+      "model_decision": 18201,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2161999577947427,
+      "episode_decisions": 110,
+      "frames": 438
+    },
+    {
+      "model_decision": 18271,
+      "progress_pixels": 78,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2477000133076217,
+      "episode_decisions": 70,
+      "frames": 277
+    },
+    {
+      "model_decision": 18496,
+      "progress_pixels": 765,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.560000051220413,
+      "episode_decisions": 225,
+      "frames": 900
+    },
+    {
+      "model_decision": 18604,
+      "progress_pixels": 325,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.206999979534885,
+      "episode_decisions": 108,
+      "frames": 430
+    },
+    {
+      "model_decision": 18672,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20700003759702668,
+      "episode_decisions": 68,
+      "frames": 270
+    },
+    {
+      "model_decision": 18799,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1092000618518796,
+      "episode_decisions": 127,
+      "frames": 508
+    },
+    {
+      "model_decision": 18870,
+      "progress_pixels": 74,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2883999397745356,
+      "episode_decisions": 71,
+      "frames": 284
+    },
+    {
+      "model_decision": 18936,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.17630005808314309,
+      "episode_decisions": 66,
+      "frames": 263
+    },
+    {
+      "model_decision": 19052,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.103899961715797,
+      "episode_decisions": 116,
+      "frames": 461
+    },
+    {
+      "model_decision": 19120,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.19690001630806364,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 19190,
+      "progress_pixels": 76,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2679000440402888,
+      "episode_decisions": 70,
+      "frames": 279
+    },
+    {
+      "model_decision": 19304,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1145999737782404,
+      "episode_decisions": 114,
+      "frames": 454
+    },
+    {
+      "model_decision": 19416,
+      "progress_pixels": 324,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.195299937418895,
+      "episode_decisions": 112,
+      "frames": 447
+    },
+    {
+      "model_decision": 19515,
+      "progress_pixels": 328,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2406999657978304,
+      "episode_decisions": 99,
+      "frames": 393
+    },
+    {
+      "model_decision": 19614,
+      "progress_pixels": 335,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.31040005988325,
+      "episode_decisions": 99,
+      "frames": 396
+    },
+    {
+      "model_decision": 19725,
+      "progress_pixels": 318,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1356999298150185,
+      "episode_decisions": 111,
+      "frames": 443
+    },
+    {
+      "model_decision": 19835,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.106299974024296,
+      "episode_decisions": 110,
+      "frames": 437
+    },
+    {
+      "model_decision": 19950,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.114000030909665,
+      "episode_decisions": 115,
+      "frames": 460
+    },
+    {
+      "model_decision": 20017,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1866000368609093,
+      "episode_decisions": 67,
+      "frames": 266
+    },
+    {
+      "model_decision": 20276,
+      "progress_pixels": 552,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.416599943622714,
+      "episode_decisions": 259,
+      "frames": 1034
+    },
+    {
+      "model_decision": 20504,
+      "progress_pixels": 882,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.729099972959375,
+      "episode_decisions": 228,
+      "frames": 909
+    },
+    {
+      "model_decision": 20607,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2290999905671924,
+      "episode_decisions": 103,
+      "frames": 409
+    },
+    {
+      "model_decision": 20675,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2170000355108641,
+      "episode_decisions": 68,
+      "frames": 270
+    },
+    {
+      "model_decision": 20746,
+      "progress_pixels": 75,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.27810001382022165,
+      "episode_decisions": 71,
+      "frames": 281
+    },
+    {
+      "model_decision": 20814,
+      "progress_pixels": 80,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2270000285061542,
+      "episode_decisions": 68,
+      "frames": 270
+    },
+    {
+      "model_decision": 21081,
+      "progress_pixels": 811,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.003399944980629,
+      "episode_decisions": 267,
+      "frames": 1066
+    },
+    {
+      "model_decision": 21182,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2196000254771207,
+      "episode_decisions": 101,
+      "frames": 404
+    },
+    {
+      "model_decision": 21284,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2194999560597353,
+      "episode_decisions": 102,
+      "frames": 405
+    },
+    {
+      "model_decision": 21351,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1965000169875566,
+      "episode_decisions": 67,
+      "frames": 265
+    },
+    {
+      "model_decision": 21533,
+      "progress_pixels": 772,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.647399875684641,
+      "episode_decisions": 182,
+      "frames": 726
+    },
+    {
+      "model_decision": 21604,
+      "progress_pixels": 75,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2783000458148308,
+      "episode_decisions": 71,
+      "frames": 283
+    },
+    {
+      "model_decision": 21722,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1028999795089476,
+      "episode_decisions": 118,
+      "frames": 471
+    },
+    {
+      "model_decision": 21946,
+      "progress_pixels": 1109,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.000400076969527,
+      "episode_decisions": 224,
+      "frames": 896
+    },
+    {
+      "model_decision": 22253,
+      "progress_pixels": 1499,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 13.867399992916035,
+      "episode_decisions": 307,
+      "frames": 1226
+    },
+    {
+      "model_decision": 22372,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1124000725976657,
+      "episode_decisions": 119,
+      "frames": 476
+    },
+    {
+      "model_decision": 22483,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.215600046882173,
+      "episode_decisions": 111,
+      "frames": 444
+    },
+    {
+      "model_decision": 22701,
+      "progress_pixels": 1117,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.08299996110145,
+      "episode_decisions": 218,
+      "frames": 870
+    },
+    {
+      "model_decision": 22911,
+      "progress_pixels": 761,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.526099991984665,
+      "episode_decisions": 210,
+      "frames": 839
+    },
+    {
+      "model_decision": 23023,
+      "progress_pixels": 340,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.3552999631210696,
+      "episode_decisions": 112,
+      "frames": 447
+    },
+    {
+      "model_decision": 23118,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2321999668201897,
+      "episode_decisions": 95,
+      "frames": 378
+    },
+    {
+      "model_decision": 23352,
+      "progress_pixels": 886,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.766400100954343,
+      "episode_decisions": 234,
+      "frames": 936
+    },
+    {
+      "model_decision": 23420,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.21719994762679562,
+      "episode_decisions": 68,
+      "frames": 272
+    },
+    {
+      "model_decision": 23530,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2160999534244183,
+      "episode_decisions": 110,
+      "frames": 439
+    },
+    {
+      "model_decision": 23599,
+      "progress_pixels": 79,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.23750004539033398,
+      "episode_decisions": 69,
+      "frames": 275
+    },
+    {
+      "model_decision": 23666,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20670004741987213,
+      "episode_decisions": 67,
+      "frames": 267
+    },
+    {
+      "model_decision": 23775,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2166999866021797,
+      "episode_decisions": 109,
+      "frames": 433
+    },
+    {
+      "model_decision": 23843,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.21690001772367395,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 23909,
+      "progress_pixels": 86,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1663999463780783,
+      "episode_decisions": 66,
+      "frames": 264
+    },
+    {
+      "model_decision": 24100,
+      "progress_pixels": 824,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.163900049054064,
+      "episode_decisions": 191,
+      "frames": 761
+    },
+    {
+      "model_decision": 24210,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1061999938683584,
+      "episode_decisions": 110,
+      "frames": 438
+    },
+    {
+      "model_decision": 24276,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.17610002183937468,
+      "episode_decisions": 66,
+      "frames": 261
+    },
+    {
+      "model_decision": 24371,
+      "progress_pixels": 328,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2423000104608946,
+      "episode_decisions": 95,
+      "frames": 377
+    },
+    {
+      "model_decision": 24465,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2224000877758954,
+      "episode_decisions": 94,
+      "frames": 376
+    },
+    {
+      "model_decision": 24576,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.215699964610394,
+      "episode_decisions": 111,
+      "frames": 443
+    },
+    {
+      "model_decision": 24687,
+      "progress_pixels": 330,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.255699957080651,
+      "episode_decisions": 111,
+      "frames": 443
+    },
+    {
+      "model_decision": 24790,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.218800071772421,
+      "episode_decisions": 103,
+      "frames": 412
+    },
+    {
+      "model_decision": 24888,
+      "progress_pixels": 330,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2608000249310862,
+      "episode_decisions": 98,
+      "frames": 392
+    },
+    {
+      "model_decision": 24992,
+      "progress_pixels": 334,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2984000337019097,
+      "episode_decisions": 104,
+      "frames": 416
+    },
+    {
+      "model_decision": 25060,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.21710004651686177,
+      "episode_decisions": 68,
+      "frames": 271
+    },
+    {
+      "model_decision": 25126,
+      "progress_pixels": 87,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.15620003634830937,
+      "episode_decisions": 66,
+      "frames": 262
+    },
+    {
+      "model_decision": 25235,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.106400066841161,
+      "episode_decisions": 109,
+      "frames": 436
+    },
+    {
+      "model_decision": 25492,
+      "progress_pixels": 820,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.097400038037449,
+      "episode_decisions": 257,
+      "frames": 1026
+    },
+    {
+      "model_decision": 25587,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.232099942775676,
+      "episode_decisions": 95,
+      "frames": 379
+    },
+    {
+      "model_decision": 25722,
+      "progress_pixels": 470,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 3.646299986023223,
+      "episode_decisions": 135,
+      "frames": 537
+    },
+    {
+      "model_decision": 25789,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20670005620922893,
+      "episode_decisions": 67,
+      "frames": 267
+    },
+    {
+      "model_decision": 25907,
+      "progress_pixels": 558,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.532899986865232,
+      "episode_decisions": 118,
+      "frames": 471
+    },
+    {
+      "model_decision": 26037,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2082999614067376,
+      "episode_decisions": 130,
+      "frames": 517
+    },
+    {
+      "model_decision": 26133,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.221799978899071,
+      "episode_decisions": 96,
+      "frames": 382
+    },
+    {
+      "model_decision": 26345,
+      "progress_pixels": 887,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.785300054965774,
+      "episode_decisions": 212,
+      "frames": 847
+    },
+    {
+      "model_decision": 26455,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.106000098370714,
+      "episode_decisions": 110,
+      "frames": 440
+    },
+    {
+      "model_decision": 26561,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.217799958278192,
+      "episode_decisions": 106,
+      "frames": 422
+    },
+    {
+      "model_decision": 26630,
+      "progress_pixels": 78,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.24750004583620466,
+      "episode_decisions": 69,
+      "frames": 275
+    },
+    {
+      "model_decision": 26754,
+      "progress_pixels": 325,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.200499941041926,
+      "episode_decisions": 124,
+      "frames": 495
+    },
+    {
+      "model_decision": 26864,
+      "progress_pixels": 317,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.126299999508774,
+      "episode_decisions": 110,
+      "frames": 437
+    },
+    {
+      "model_decision": 26930,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1763000513019506,
+      "episode_decisions": 66,
+      "frames": 263
+    },
+    {
+      "model_decision": 27039,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1164999665343203,
+      "episode_decisions": 109,
+      "frames": 435
+    },
+    {
+      "model_decision": 27145,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.217600075673545,
+      "episode_decisions": 106,
+      "frames": 424
+    },
+    {
+      "model_decision": 27213,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18690001653158106,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 27279,
+      "progress_pixels": 86,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.16620004357537255,
+      "episode_decisions": 66,
+      "frames": 262
+    },
+    {
+      "model_decision": 27345,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18639994965633377,
+      "episode_decisions": 66,
+      "frames": 264
+    },
+    {
+      "model_decision": 27439,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2224000505229924,
+      "episode_decisions": 94,
+      "frames": 376
+    },
+    {
+      "model_decision": 27535,
+      "progress_pixels": 328,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2416999537381344,
+      "episode_decisions": 96,
+      "frames": 383
+    },
+    {
+      "model_decision": 27641,
+      "progress_pixels": 322,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1776000906538684,
+      "episode_decisions": 106,
+      "frames": 424
+    },
+    {
+      "model_decision": 27745,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2185999852372333,
+      "episode_decisions": 104,
+      "frames": 414
+    },
+    {
+      "model_decision": 27854,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.106400067510549,
+      "episode_decisions": 109,
+      "frames": 436
+    },
+    {
+      "model_decision": 28074,
+      "progress_pixels": 749,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.4020999687490985,
+      "episode_decisions": 220,
+      "frames": 879
+    },
+    {
+      "model_decision": 28185,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1056000493408646,
+      "episode_decisions": 111,
+      "frames": 444
+    },
+    {
+      "model_decision": 28293,
+      "progress_pixels": 317,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.126899966155179,
+      "episode_decisions": 108,
+      "frames": 431
+    },
+    {
+      "model_decision": 28405,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1152000752917957,
+      "episode_decisions": 112,
+      "frames": 448
+    },
+    {
+      "model_decision": 28510,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.218299994012341,
+      "episode_decisions": 105,
+      "frames": 417
+    },
+    {
+      "model_decision": 28612,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.219500013801735,
+      "episode_decisions": 102,
+      "frames": 405
+    },
+    {
+      "model_decision": 28804,
+      "progress_pixels": 774,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.663299937412376,
+      "episode_decisions": 192,
+      "frames": 767
+    },
+    {
+      "model_decision": 28903,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.230499973287806,
+      "episode_decisions": 99,
+      "frames": 395
+    },
+    {
+      "model_decision": 28997,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.222400069149444,
+      "episode_decisions": 94,
+      "frames": 376
+    },
+    {
+      "model_decision": 29210,
+      "progress_pixels": 881,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.724800059222616,
+      "episode_decisions": 213,
+      "frames": 852
+    },
+    {
+      "model_decision": 29305,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.232099978689803,
+      "episode_decisions": 95,
+      "frames": 379
+    },
+    {
+      "model_decision": 29373,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20690001422190107,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 29440,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18660003194236197,
+      "episode_decisions": 67,
+      "frames": 266
+    },
+    {
+      "model_decision": 29590,
+      "progress_pixels": 821,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.150000129477121,
+      "episode_decisions": 150,
+      "frames": 600
+    },
+    {
+      "model_decision": 29687,
+      "progress_pixels": 328,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2415000341716222,
+      "episode_decisions": 97,
+      "frames": 385
+    },
+    {
+      "model_decision": 29922,
+      "progress_pixels": 1111,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.016000106727006,
+      "episode_decisions": 235,
+      "frames": 940
+    },
+    {
+      "model_decision": 30143,
+      "progress_pixels": 811,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.021699988952605,
+      "episode_decisions": 221,
+      "frames": 883
+    },
+    {
+      "model_decision": 30266,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2108000587613788,
+      "episode_decisions": 123,
+      "frames": 492
+    },
+    {
+      "model_decision": 30334,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1869000258448068,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 30401,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.21679994458099827,
+      "episode_decisions": 67,
+      "frames": 268
+    },
+    {
+      "model_decision": 30495,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.232600006449502,
+      "episode_decisions": 94,
+      "frames": 374
+    },
+    {
+      "model_decision": 30612,
+      "progress_pixels": 317,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.123200075031491,
+      "episode_decisions": 117,
+      "frames": 468
+    },
+    {
+      "model_decision": 30847,
+      "progress_pixels": 1094,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 9.84619992916123,
+      "episode_decisions": 235,
+      "frames": 938
+    },
+    {
+      "model_decision": 30950,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.218999980308581,
+      "episode_decisions": 103,
+      "frames": 410
+    },
+    {
+      "model_decision": 31217,
+      "progress_pixels": 766,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.553200088092126,
+      "episode_decisions": 267,
+      "frames": 1068
+    },
+    {
+      "model_decision": 31325,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1169000061636325,
+      "episode_decisions": 108,
+      "frames": 431
+    },
+    {
+      "model_decision": 31391,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.17610002928995527,
+      "episode_decisions": 66,
+      "frames": 261
+    },
+    {
+      "model_decision": 31456,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1759999449714087,
+      "episode_decisions": 65,
+      "frames": 260
+    },
+    {
+      "model_decision": 31549,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.232900000351947,
+      "episode_decisions": 93,
+      "frames": 371
+    },
+    {
+      "model_decision": 31753,
+      "progress_pixels": 556,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.4787000269279815,
+      "episode_decisions": 204,
+      "frames": 813
+    },
+    {
+      "model_decision": 31851,
+      "progress_pixels": 334,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.301099986274494,
+      "episode_decisions": 98,
+      "frames": 389
+    },
+    {
+      "model_decision": 31953,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.219200057821581,
+      "episode_decisions": 102,
+      "frames": 408
+    },
+    {
+      "model_decision": 32053,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.220000079862075,
+      "episode_decisions": 100,
+      "frames": 400
+    },
+    {
+      "model_decision": 32147,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.232699996966403,
+      "episode_decisions": 94,
+      "frames": 373
+    },
+    {
+      "model_decision": 32325,
+      "progress_pixels": 773,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.658899979462149,
+      "episode_decisions": 178,
+      "frames": 711
+    },
+    {
+      "model_decision": 32506,
+      "progress_pixels": 776,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.687900078977691,
+      "episode_decisions": 181,
+      "frames": 721
+    },
+    {
+      "model_decision": 32571,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1759999449714087,
+      "episode_decisions": 65,
+      "frames": 260
+    },
+    {
+      "model_decision": 32786,
+      "progress_pixels": 774,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.654299988120329,
+      "episode_decisions": 215,
+      "frames": 857
+    },
+    {
+      "model_decision": 32894,
+      "progress_pixels": 317,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1270000007061753,
+      "episode_decisions": 108,
+      "frames": 430
+    },
+    {
+      "model_decision": 32961,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.17650002115988173,
+      "episode_decisions": 67,
+      "frames": 265
+    },
+    {
+      "model_decision": 33073,
+      "progress_pixels": 336,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.3152999629091937,
+      "episode_decisions": 112,
+      "frames": 447
+    },
+    {
+      "model_decision": 33139,
+      "progress_pixels": 86,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.16610001647495665,
+      "episode_decisions": 66,
+      "frames": 261
+    },
+    {
+      "model_decision": 33248,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1064000909100287,
+      "episode_decisions": 109,
+      "frames": 436
+    },
+    {
+      "model_decision": 33430,
+      "progress_pixels": 772,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.6475000115751754,
+      "episode_decisions": 182,
+      "frames": 725
+    },
+    {
+      "model_decision": 33543,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.114899918291485,
+      "episode_decisions": 113,
+      "frames": 451
+    },
+    {
+      "model_decision": 33608,
+      "progress_pixels": 86,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.16599994705757126,
+      "episode_decisions": 65,
+      "frames": 260
+    },
+    {
+      "model_decision": 33805,
+      "progress_pixels": 818,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.101299965783255,
+      "episode_decisions": 197,
+      "frames": 787
+    },
+    {
+      "model_decision": 33902,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.231299945327919,
+      "episode_decisions": 97,
+      "frames": 387
+    },
+    {
+      "model_decision": 34106,
+      "progress_pixels": 823,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.148599990498042,
+      "episode_decisions": 204,
+      "frames": 814
+    },
+    {
+      "model_decision": 34217,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1056000699172728,
+      "episode_decisions": 111,
+      "frames": 444
+    },
+    {
+      "model_decision": 34328,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.105600073642563,
+      "episode_decisions": 111,
+      "frames": 444
+    },
+    {
+      "model_decision": 34562,
+      "progress_pixels": 774,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.646700056880945,
+      "episode_decisions": 234,
+      "frames": 933
+    },
+    {
+      "model_decision": 34628,
+      "progress_pixels": 88,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.14610001319670118,
+      "episode_decisions": 66,
+      "frames": 261
+    },
+    {
+      "model_decision": 34799,
+      "progress_pixels": 775,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.6819000939431135,
+      "episode_decisions": 171,
+      "frames": 681
+    },
+    {
+      "model_decision": 34991,
+      "progress_pixels": 887,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.79350006239838,
+      "episode_decisions": 192,
+      "frames": 765
+    },
+    {
+      "model_decision": 35058,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18650001974310726,
+      "episode_decisions": 67,
+      "frames": 265
+    },
+    {
+      "model_decision": 35296,
+      "progress_pixels": 815,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.054899929091334,
+      "episode_decisions": 238,
+      "frames": 951
+    },
+    {
+      "model_decision": 35363,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1967000620206818,
+      "episode_decisions": 67,
+      "frames": 267
+    },
+    {
+      "model_decision": 35429,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.17639994801720604,
+      "episode_decisions": 66,
+      "frames": 264
+    },
+    {
+      "model_decision": 35496,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1967000501754228,
+      "episode_decisions": 67,
+      "frames": 267
+    },
+    {
+      "model_decision": 35593,
+      "progress_pixels": 328,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2414999969187193,
+      "episode_decisions": 97,
+      "frames": 385
+    },
+    {
+      "model_decision": 35700,
+      "progress_pixels": 319,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.147299974487396,
+      "episode_decisions": 107,
+      "frames": 427
+    },
+    {
+      "model_decision": 35889,
+      "progress_pixels": 775,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.674400048126699,
+      "episode_decisions": 189,
+      "frames": 756
+    },
+    {
+      "model_decision": 36098,
+      "progress_pixels": 820,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.116599918575957,
+      "episode_decisions": 209,
+      "frames": 834
+    },
+    {
+      "model_decision": 36306,
+      "progress_pixels": 757,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.487100041704252,
+      "episode_decisions": 208,
+      "frames": 829
+    },
+    {
+      "model_decision": 36496,
+      "progress_pixels": 763,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.554300031915773,
+      "episode_decisions": 190,
+      "frames": 757
+    },
+    {
+      "model_decision": 36602,
+      "progress_pixels": 323,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1877999666321557,
+      "episode_decisions": 106,
+      "frames": 422
+    },
+    {
+      "model_decision": 36756,
+      "progress_pixels": 558,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.51869996311143,
+      "episode_decisions": 154,
+      "frames": 613
+    },
+    {
+      "model_decision": 37119,
+      "progress_pixels": 1628,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 15.135099976323545,
+      "episode_decisions": 363,
+      "frames": 1449
+    },
+    {
+      "model_decision": 37227,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.116899963322794,
+      "episode_decisions": 108,
+      "frames": 431
+    },
+    {
+      "model_decision": 37489,
+      "progress_pixels": 1116,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.055300041567534,
+      "episode_decisions": 262,
+      "frames": 1047
+    },
+    {
+      "model_decision": 37598,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2164999291999266,
+      "episode_decisions": 109,
+      "frames": 435
+    },
+    {
+      "model_decision": 37795,
+      "progress_pixels": 778,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.701400012621889,
+      "episode_decisions": 197,
+      "frames": 786
+    },
+    {
+      "model_decision": 37890,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.222300021414412,
+      "episode_decisions": 95,
+      "frames": 377
+    },
+    {
+      "model_decision": 37958,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.19690001258277334,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 38051,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2228000721952412,
+      "episode_decisions": 93,
+      "frames": 372
+    },
+    {
+      "model_decision": 38236,
+      "progress_pixels": 558,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.506000074121403,
+      "episode_decisions": 185,
+      "frames": 740
+    },
+    {
+      "model_decision": 38496,
+      "progress_pixels": 761,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.5060000964440405,
+      "episode_decisions": 260,
+      "frames": 1040
+    },
+    {
+      "model_decision": 38608,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1152000572474208,
+      "episode_decisions": 112,
+      "frames": 448
+    },
+    {
+      "model_decision": 38675,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20660002710064873,
+      "episode_decisions": 67,
+      "frames": 266
+    },
+    {
+      "model_decision": 38741,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.17620003776391968,
+      "episode_decisions": 66,
+      "frames": 262
+    },
+    {
+      "model_decision": 38807,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1963999475701712,
+      "episode_decisions": 66,
+      "frames": 264
+    },
+    {
+      "model_decision": 39016,
+      "progress_pixels": 887,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.786600015126169,
+      "episode_decisions": 209,
+      "frames": 834
+    },
+    {
+      "model_decision": 39120,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2184000576962717,
+      "episode_decisions": 104,
+      "frames": 416
+    },
+    {
+      "model_decision": 39231,
+      "progress_pixels": 317,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1256000396679156,
+      "episode_decisions": 111,
+      "frames": 444
+    },
+    {
+      "model_decision": 39298,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.21679994644364342,
+      "episode_decisions": 67,
+      "frames": 268
+    },
+    {
+      "model_decision": 39405,
+      "progress_pixels": 322,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.177500005811453,
+      "episode_decisions": 107,
+      "frames": 425
+    },
+    {
+      "model_decision": 39519,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1044000575784594,
+      "episode_decisions": 114,
+      "frames": 456
+    },
+    {
+      "model_decision": 39613,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.222700017679017,
+      "episode_decisions": 94,
+      "frames": 373
+    },
+    {
+      "model_decision": 39845,
+      "progress_pixels": 1122,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.127399970166152,
+      "episode_decisions": 232,
+      "frames": 926
+    },
+    {
+      "model_decision": 40011,
+      "progress_pixels": 773,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.6637999557715375,
+      "episode_decisions": 166,
+      "frames": 662
+    },
+    {
+      "model_decision": 40208,
+      "progress_pixels": 758,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.5012998953752685,
+      "episode_decisions": 197,
+      "frames": 787
+    },
+    {
+      "model_decision": 40275,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.17650001743459143,
+      "episode_decisions": 67,
+      "frames": 265
+    },
+    {
+      "model_decision": 40342,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1966000329121016,
+      "episode_decisions": 67,
+      "frames": 266
+    },
+    {
+      "model_decision": 40450,
+      "progress_pixels": 322,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.177099995315075,
+      "episode_decisions": 108,
+      "frames": 429
+    },
+    {
+      "model_decision": 40635,
+      "progress_pixels": 775,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.676000073202886,
+      "episode_decisions": 185,
+      "frames": 740
+    },
+    {
+      "model_decision": 40867,
+      "progress_pixels": 1127,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.177299985982245,
+      "episode_decisions": 232,
+      "frames": 927
+    },
+    {
+      "model_decision": 40989,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2112999492965173,
+      "episode_decisions": 122,
+      "frames": 487
+    },
+    {
+      "model_decision": 41056,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2067999448045157,
+      "episode_decisions": 67,
+      "frames": 268
+    },
+    {
+      "model_decision": 41257,
+      "progress_pixels": 776,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.679600027448032,
+      "episode_decisions": 201,
+      "frames": 804
+    },
+    {
+      "model_decision": 41355,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2208000308892224,
+      "episode_decisions": 98,
+      "frames": 392
+    },
+    {
+      "model_decision": 41542,
+      "progress_pixels": 776,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.68539995411993,
+      "episode_decisions": 187,
+      "frames": 746
+    },
+    {
+      "model_decision": 41753,
+      "progress_pixels": 818,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.095600072556408,
+      "episode_decisions": 211,
+      "frames": 844
+    },
+    {
+      "model_decision": 42060,
+      "progress_pixels": 1116,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.03729996169568,
+      "episode_decisions": 307,
+      "frames": 1227
+    },
+    {
+      "model_decision": 42159,
+      "progress_pixels": 343,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.3904000692709815,
+      "episode_decisions": 99,
+      "frames": 396
+    },
+    {
+      "model_decision": 42272,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.104999979812419,
+      "episode_decisions": 113,
+      "frames": 450
+    },
+    {
+      "model_decision": 42338,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.17639995174249634,
+      "episode_decisions": 66,
+      "frames": 264
+    },
+    {
+      "model_decision": 42404,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1763000513019506,
+      "episode_decisions": 66,
+      "frames": 263
+    },
+    {
+      "model_decision": 42499,
+      "progress_pixels": 328,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2422999955597334,
+      "episode_decisions": 95,
+      "frames": 377
+    },
+    {
+      "model_decision": 42567,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20690001794719137,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 42774,
+      "progress_pixels": 771,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.627399917575531,
+      "episode_decisions": 207,
+      "frames": 826
+    },
+    {
+      "model_decision": 42981,
+      "progress_pixels": 552,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.437399965361692,
+      "episode_decisions": 207,
+      "frames": 826
+    },
+    {
+      "model_decision": 43075,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.232600008981535,
+      "episode_decisions": 94,
+      "frames": 374
+    },
+    {
+      "model_decision": 43141,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18620003567775711,
+      "episode_decisions": 66,
+      "frames": 262
+    },
+    {
+      "model_decision": 43354,
+      "progress_pixels": 886,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.77480007748818,
+      "episode_decisions": 213,
+      "frames": 852
+    },
+    {
+      "model_decision": 43449,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2320999458315782,
+      "episode_decisions": 95,
+      "frames": 379
+    },
+    {
+      "model_decision": 43663,
+      "progress_pixels": 755,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.464499964815332,
+      "episode_decisions": 214,
+      "frames": 855
+    },
+    {
+      "model_decision": 43773,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.106000071100425,
+      "episode_decisions": 110,
+      "frames": 440
+    },
+    {
+      "model_decision": 44077,
+      "progress_pixels": 774,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.618599985464243,
+      "episode_decisions": 304,
+      "frames": 1214
+    },
+    {
+      "model_decision": 44143,
+      "progress_pixels": 87,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1561000185611192,
+      "episode_decisions": 66,
+      "frames": 261
+    },
+    {
+      "model_decision": 44389,
+      "progress_pixels": 1120,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.101599995134166,
+      "episode_decisions": 246,
+      "frames": 984
+    },
+    {
+      "model_decision": 44498,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1164999336760957,
+      "episode_decisions": 109,
+      "frames": 435
+    },
+    {
+      "model_decision": 44604,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.217899996932829,
+      "episode_decisions": 106,
+      "frames": 421
+    },
+    {
+      "model_decision": 44670,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18630005972227082,
+      "episode_decisions": 66,
+      "frames": 263
+    },
+    {
+      "model_decision": 44783,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.10480006315629,
+      "episode_decisions": 113,
+      "frames": 452
+    },
+    {
+      "model_decision": 45014,
+      "progress_pixels": 1110,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.00769991913694,
+      "episode_decisions": 231,
+      "frames": 923
+    },
+    {
+      "model_decision": 45208,
+      "progress_pixels": 774,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.6624999179912265,
+      "episode_decisions": 194,
+      "frames": 775
+    },
+    {
+      "model_decision": 45319,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1156000425689854,
+      "episode_decisions": 111,
+      "frames": 444
+    },
+    {
+      "model_decision": 45386,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18660003872355446,
+      "episode_decisions": 67,
+      "frames": 266
+    },
+    {
+      "model_decision": 45481,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.222000058653066,
+      "episode_decisions": 95,
+      "frames": 380
+    },
+    {
+      "model_decision": 45590,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1065999672573525,
+      "episode_decisions": 109,
+      "frames": 434
+    },
+    {
+      "model_decision": 45701,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1056999158172403,
+      "episode_decisions": 111,
+      "frames": 443
+    },
+    {
+      "model_decision": 45877,
+      "progress_pixels": 549,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.419699949212372,
+      "episode_decisions": 176,
+      "frames": 703
+    },
+    {
+      "model_decision": 45945,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20690001794719137,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 46047,
+      "progress_pixels": 334,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.299200009991182,
+      "episode_decisions": 102,
+      "frames": 408
+    },
+    {
+      "model_decision": 46312,
+      "progress_pixels": 767,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.564099940675078,
+      "episode_decisions": 265,
+      "frames": 1059
+    },
+    {
+      "model_decision": 46589,
+      "progress_pixels": 1117,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.059500010276679,
+      "episode_decisions": 277,
+      "frames": 1105
+    },
+    {
+      "model_decision": 46697,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2270999927714,
+      "episode_decisions": 108,
+      "frames": 429
+    },
+    {
+      "model_decision": 46809,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.105299965594895,
+      "episode_decisions": 112,
+      "frames": 447
+    },
+    {
+      "model_decision": 47038,
+      "progress_pixels": 557,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.478699969447916,
+      "episode_decisions": 229,
+      "frames": 913
+    },
+    {
+      "model_decision": 47153,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1140000239829533,
+      "episode_decisions": 115,
+      "frames": 460
+    },
+    {
+      "model_decision": 47263,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.106000017229235,
+      "episode_decisions": 110,
+      "frames": 440
+    },
+    {
+      "model_decision": 47359,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.231900011363905,
+      "episode_decisions": 96,
+      "frames": 381
+    },
+    {
+      "model_decision": 47540,
+      "progress_pixels": 774,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.667699908779468,
+      "episode_decisions": 181,
+      "frames": 723
+    },
+    {
+      "model_decision": 47645,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.218299954372924,
+      "episode_decisions": 105,
+      "frames": 417
+    },
+    {
+      "model_decision": 47865,
+      "progress_pixels": 768,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.59229999181116,
+      "episode_decisions": 220,
+      "frames": 877
+    },
+    {
+      "model_decision": 47977,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1154999841819517,
+      "episode_decisions": 112,
+      "frames": 445
+    },
+    {
+      "model_decision": 48173,
+      "progress_pixels": 805,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.971800009399885,
+      "episode_decisions": 196,
+      "frames": 782
+    },
+    {
+      "model_decision": 48294,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.111600052943686,
+      "episode_decisions": 121,
+      "frames": 484
+    },
+    {
+      "model_decision": 48557,
+      "progress_pixels": 1101,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 9.905100004543783,
+      "episode_decisions": 263,
+      "frames": 1049
+    },
+    {
+      "model_decision": 48662,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2180999483098276,
+      "episode_decisions": 105,
+      "frames": 419
+    },
+    {
+      "model_decision": 48776,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1046999707177747,
+      "episode_decisions": 114,
+      "frames": 453
+    },
+    {
+      "model_decision": 48880,
+      "progress_pixels": 328,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2385999415710103,
+      "episode_decisions": 104,
+      "frames": 414
+    },
+    {
+      "model_decision": 48997,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1133999663579743,
+      "episode_decisions": 117,
+      "frames": 466
+    },
+    {
+      "model_decision": 49142,
+      "progress_pixels": 770,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.642099933087593,
+      "episode_decisions": 145,
+      "frames": 579
+    },
+    {
+      "model_decision": 49254,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1053999704890884,
+      "episode_decisions": 112,
+      "frames": 446
+    },
+    {
+      "model_decision": 49483,
+      "progress_pixels": 808,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.98840005492093,
+      "episode_decisions": 229,
+      "frames": 916
+    },
+    {
+      "model_decision": 49590,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2274999983492307,
+      "episode_decisions": 107,
+      "frames": 425
+    },
+    {
+      "model_decision": 49656,
+      "progress_pixels": 86,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.16610002392553724,
+      "episode_decisions": 66,
+      "frames": 261
+    },
+    {
+      "model_decision": 49768,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1052000287163537,
+      "episode_decisions": 112,
+      "frames": 448
+    },
+    {
+      "model_decision": 49873,
+      "progress_pixels": 319,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1480000728333835,
+      "episode_decisions": 105,
+      "frames": 420
+    },
+    {
+      "model_decision": 49987,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.114699951634975,
+      "episode_decisions": 114,
+      "frames": 453
+    },
+    {
+      "model_decision": 50053,
+      "progress_pixels": 87,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.15620003634830937,
+      "episode_decisions": 66,
+      "frames": 262
+    },
+    {
+      "model_decision": 50160,
+      "progress_pixels": 317,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1272999475186225,
+      "episode_decisions": 107,
+      "frames": 427
+    },
+    {
+      "model_decision": 50227,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.19670004764338955,
+      "episode_decisions": 67,
+      "frames": 267
+    },
+    {
+      "model_decision": 50437,
+      "progress_pixels": 767,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.586299961752957,
+      "episode_decisions": 210,
+      "frames": 837
+    },
+    {
+      "model_decision": 50656,
+      "progress_pixels": 1083,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 9.742599949473515,
+      "episode_decisions": 219,
+      "frames": 874
+    },
+    {
+      "model_decision": 50854,
+      "progress_pixels": 758,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.500899962877156,
+      "episode_decisions": 198,
+      "frames": 791
+    },
+    {
+      "model_decision": 51073,
+      "progress_pixels": 766,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.5726999973121565,
+      "episode_decisions": 219,
+      "frames": 873
+    },
+    {
+      "model_decision": 51139,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18630005599698052,
+      "episode_decisions": 66,
+      "frames": 263
+    },
+    {
+      "model_decision": 51345,
+      "progress_pixels": 871,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.627899981976952,
+      "episode_decisions": 206,
+      "frames": 821
+    },
+    {
+      "model_decision": 51541,
+      "progress_pixels": 766,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.581799959560158,
+      "episode_decisions": 196,
+      "frames": 782
+    },
+    {
+      "model_decision": 51756,
+      "progress_pixels": 766,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.574099932360696,
+      "episode_decisions": 215,
+      "frames": 859
+    },
+    {
+      "model_decision": 51856,
+      "progress_pixels": 339,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.3500000261410605,
+      "episode_decisions": 100,
+      "frames": 400
+    },
+    {
+      "model_decision": 51965,
+      "progress_pixels": 320,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.156499906850513,
+      "episode_decisions": 109,
+      "frames": 435
+    },
+    {
+      "model_decision": 52187,
+      "progress_pixels": 884,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.751399918895913,
+      "episode_decisions": 222,
+      "frames": 886
+    },
+    {
+      "model_decision": 52379,
+      "progress_pixels": 818,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.1032999385206494,
+      "episode_decisions": 192,
+      "frames": 767
+    },
+    {
+      "model_decision": 52489,
+      "progress_pixels": 322,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1760999493999407,
+      "episode_decisions": 110,
+      "frames": 439
+    },
+    {
+      "model_decision": 52557,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2169000195863191,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 52665,
+      "progress_pixels": 319,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.147099958063336,
+      "episode_decisions": 108,
+      "frames": 429
+    },
+    {
+      "model_decision": 52732,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2067999448045157,
+      "episode_decisions": 67,
+      "frames": 268
+    },
+    {
+      "model_decision": 52858,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.099899976106826,
+      "episode_decisions": 126,
+      "frames": 501
+    },
+    {
+      "model_decision": 52925,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.21679994644364342,
+      "episode_decisions": 67,
+      "frames": 268
+    },
+    {
+      "model_decision": 53041,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1036999505013227,
+      "episode_decisions": 116,
+      "frames": 463
+    },
+    {
+      "model_decision": 53229,
+      "progress_pixels": 553,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.454899933829438,
+      "episode_decisions": 188,
+      "frames": 751
+    },
+    {
+      "model_decision": 53483,
+      "progress_pixels": 771,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.6087000196566805,
+      "episode_decisions": 254,
+      "frames": 1013
+    },
+    {
+      "model_decision": 53682,
+      "progress_pixels": 772,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.64059995271964,
+      "episode_decisions": 199,
+      "frames": 794
+    },
+    {
+      "model_decision": 53750,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1869000146689359,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 53858,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.116999988560565,
+      "episode_decisions": 108,
+      "frames": 430
+    },
+    {
+      "model_decision": 53974,
+      "progress_pixels": 321,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.163699953700416,
+      "episode_decisions": 116,
+      "frames": 463
+    },
+    {
+      "model_decision": 54280,
+      "progress_pixels": 1089,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 9.767600050399778,
+      "episode_decisions": 306,
+      "frames": 1224
+    },
+    {
+      "model_decision": 54348,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20700003759702668,
+      "episode_decisions": 68,
+      "frames": 270
+    },
+    {
+      "model_decision": 54560,
+      "progress_pixels": 885,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.76549998120754,
+      "episode_decisions": 212,
+      "frames": 845
+    },
+    {
+      "model_decision": 54628,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.21710005024215207,
+      "episode_decisions": 68,
+      "frames": 271
+    },
+    {
+      "model_decision": 54746,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.102800032502273,
+      "episode_decisions": 118,
+      "frames": 472
+    },
+    {
+      "model_decision": 54845,
+      "progress_pixels": 338,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.3404000573500525,
+      "episode_decisions": 99,
+      "frames": 396
+    },
+    {
+      "model_decision": 54961,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.113600043434417,
+      "episode_decisions": 116,
+      "frames": 464
+    },
+    {
+      "model_decision": 55029,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20710005486034788,
+      "episode_decisions": 68,
+      "frames": 271
+    },
+    {
+      "model_decision": 55243,
+      "progress_pixels": 769,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.6046999441459775,
+      "episode_decisions": 214,
+      "frames": 853
+    },
+    {
+      "model_decision": 55311,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.21710005024215207,
+      "episode_decisions": 68,
+      "frames": 271
+    },
+    {
+      "model_decision": 55584,
+      "progress_pixels": 1107,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 9.961100000771694,
+      "episode_decisions": 273,
+      "frames": 1089
+    },
+    {
+      "model_decision": 55791,
+      "progress_pixels": 776,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.677299940987723,
+      "episode_decisions": 207,
+      "frames": 827
+    },
+    {
+      "model_decision": 55893,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2293999454996083,
+      "episode_decisions": 102,
+      "frames": 406
+    },
+    {
+      "model_decision": 56169,
+      "progress_pixels": 1111,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 9.999799949640874,
+      "episode_decisions": 276,
+      "frames": 1102
+    },
+    {
+      "model_decision": 56285,
+      "progress_pixels": 332,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.273799964255886,
+      "episode_decisions": 116,
+      "frames": 462
+    },
+    {
+      "model_decision": 56352,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18650001907371916,
+      "episode_decisions": 67,
+      "frames": 265
+    },
+    {
+      "model_decision": 56600,
+      "progress_pixels": 1116,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.060800005303463,
+      "episode_decisions": 248,
+      "frames": 992
+    },
+    {
+      "model_decision": 56834,
+      "progress_pixels": 888,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.7864000361878425,
+      "episode_decisions": 234,
+      "frames": 936
+    },
+    {
+      "model_decision": 56947,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.114800031413324,
+      "episode_decisions": 113,
+      "frames": 452
+    },
+    {
+      "model_decision": 57213,
+      "progress_pixels": 1108,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 9.973699916707119,
+      "episode_decisions": 266,
+      "frames": 1063
+    },
+    {
+      "model_decision": 57332,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2124999503721483,
+      "episode_decisions": 119,
+      "frames": 475
+    },
+    {
+      "model_decision": 57443,
+      "progress_pixels": 318,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1358999604708515,
+      "episode_decisions": 111,
+      "frames": 441
+    },
+    {
+      "model_decision": 57654,
+      "progress_pixels": 770,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.615600025921594,
+      "episode_decisions": 211,
+      "frames": 844
+    },
+    {
+      "model_decision": 57771,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.113200046500424,
+      "episode_decisions": 117,
+      "frames": 468
+    },
+    {
+      "model_decision": 57870,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.230599937203806,
+      "episode_decisions": 99,
+      "frames": 394
+    },
+    {
+      "model_decision": 57968,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2309999532881193,
+      "episode_decisions": 98,
+      "frames": 390
+    },
+    {
+      "model_decision": 58084,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1138999496470205,
+      "episode_decisions": 116,
+      "frames": 461
+    },
+    {
+      "model_decision": 58303,
+      "progress_pixels": 886,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.772499963961309,
+      "episode_decisions": 219,
+      "frames": 875
+    },
+    {
+      "model_decision": 58369,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18630004854639992,
+      "episode_decisions": 66,
+      "frames": 263
+    },
+    {
+      "model_decision": 58565,
+      "progress_pixels": 754,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.461899951566011,
+      "episode_decisions": 196,
+      "frames": 781
+    },
+    {
+      "model_decision": 58806,
+      "progress_pixels": 1107,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 9.973600106866797,
+      "episode_decisions": 241,
+      "frames": 964
+    },
+    {
+      "model_decision": 58915,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1164000139397103,
+      "episode_decisions": 109,
+      "frames": 436
+    },
+    {
+      "model_decision": 59119,
+      "progress_pixels": 882,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.738499865779886,
+      "episode_decisions": 204,
+      "frames": 815
+    },
+    {
+      "model_decision": 59185,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18630005227169022,
+      "episode_decisions": 66,
+      "frames": 263
+    },
+    {
+      "model_decision": 59345,
+      "progress_pixels": 546,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.396000047418056,
+      "episode_decisions": 160,
+      "frames": 640
+    },
+    {
+      "model_decision": 59544,
+      "progress_pixels": 772,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.64069999489584,
+      "episode_decisions": 199,
+      "frames": 793
+    },
+    {
+      "model_decision": 59611,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.19679994689067826,
+      "episode_decisions": 67,
+      "frames": 268
+    },
+    {
+      "model_decision": 59727,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.113600056618452,
+      "episode_decisions": 116,
+      "frames": 464
+    },
+    {
+      "model_decision": 59795,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20690001794719137,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 59863,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.19690001258277334,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 59975,
+      "progress_pixels": 318,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1352999330265447,
+      "episode_decisions": 112,
+      "frames": 447
+    },
+    {
+      "model_decision": 60043,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.21710005277418531,
+      "episode_decisions": 68,
+      "frames": 271
+    },
+    {
+      "model_decision": 60273,
+      "progress_pixels": 1110,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.008099948929157,
+      "episode_decisions": 230,
+      "frames": 919
+    },
+    {
+      "model_decision": 60381,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.217099966626847,
+      "episode_decisions": 108,
+      "frames": 429
+    },
+    {
+      "model_decision": 60447,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.17630005808314309,
+      "episode_decisions": 66,
+      "frames": 263
+    },
+    {
+      "model_decision": 60655,
+      "progress_pixels": 763,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.547099950345,
+      "episode_decisions": 208,
+      "frames": 829
+    },
+    {
+      "model_decision": 60762,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.21720005190582,
+      "episode_decisions": 107,
+      "frames": 428
+    },
+    {
+      "model_decision": 60878,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.113899974821834,
+      "episode_decisions": 116,
+      "frames": 461
+    },
+    {
+      "model_decision": 60995,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.113200057821814,
+      "episode_decisions": 117,
+      "frames": 468
+    },
+    {
+      "model_decision": 61062,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2067999448045157,
+      "episode_decisions": 67,
+      "frames": 268
+    },
+    {
+      "model_decision": 61173,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.215899954957422,
+      "episode_decisions": 111,
+      "frames": 441
+    },
+    {
+      "model_decision": 61336,
+      "progress_pixels": 553,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.46480003738543,
+      "episode_decisions": 163,
+      "frames": 652
+    },
+    {
+      "model_decision": 61405,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2173000207694713,
+      "episode_decisions": 69,
+      "frames": 273
+    },
+    {
+      "model_decision": 61473,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2169000195863191,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 61696,
+      "progress_pixels": 770,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.610899950290332,
+      "episode_decisions": 223,
+      "frames": 891
+    },
+    {
+      "model_decision": 61817,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1117999755661003,
+      "episode_decisions": 121,
+      "frames": 482
+    },
+    {
+      "model_decision": 61942,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.10019995921175,
+      "episode_decisions": 125,
+      "frames": 498
+    },
+    {
+      "model_decision": 62009,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2067999448045157,
+      "episode_decisions": 67,
+      "frames": 268
+    },
+    {
+      "model_decision": 62077,
+      "progress_pixels": 80,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2270000278367661,
+      "episode_decisions": 68,
+      "frames": 270
+    },
+    {
+      "model_decision": 62370,
+      "progress_pixels": 1098,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 9.86309992603492,
+      "episode_decisions": 293,
+      "frames": 1169
+    },
+    {
+      "model_decision": 62489,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.112599961605156,
+      "episode_decisions": 119,
+      "frames": 474
+    },
+    {
+      "model_decision": 62612,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1009999664966017,
+      "episode_decisions": 123,
+      "frames": 490
+    },
+    {
+      "model_decision": 62780,
+      "progress_pixels": 462,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 3.552999957377324,
+      "episode_decisions": 168,
+      "frames": 670
+    },
+    {
+      "model_decision": 62911,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1078999713936355,
+      "episode_decisions": 131,
+      "frames": 521
+    },
+    {
+      "model_decision": 62978,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2067999448045157,
+      "episode_decisions": 67,
+      "frames": 268
+    },
+    {
+      "model_decision": 63081,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2190999846789055,
+      "episode_decisions": 103,
+      "frames": 409
+    },
+    {
+      "model_decision": 63257,
+      "progress_pixels": 553,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.459699963364983,
+      "episode_decisions": 176,
+      "frames": 703
+    },
+    {
+      "model_decision": 63380,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1110999675875064,
+      "episode_decisions": 123,
+      "frames": 489
+    },
+    {
+      "model_decision": 63641,
+      "progress_pixels": 788,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.7756999184784945,
+      "episode_decisions": 261,
+      "frames": 1043
+    },
+    {
+      "model_decision": 63749,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1069999682949856,
+      "episode_decisions": 108,
+      "frames": 430
+    },
+    {
+      "model_decision": 63816,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.206799948529806,
+      "episode_decisions": 67,
+      "frames": 268
+    },
+    {
+      "model_decision": 63932,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1037999432592187,
+      "episode_decisions": 116,
+      "frames": 462
+    },
+    {
+      "model_decision": 63998,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1963999475701712,
+      "episode_decisions": 66,
+      "frames": 264
+    },
+    {
+      "model_decision": 64187,
+      "progress_pixels": 550,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.424599933961872,
+      "episode_decisions": 189,
+      "frames": 754
+    },
+    {
+      "model_decision": 64255,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.21700003737350926,
+      "episode_decisions": 68,
+      "frames": 270
+    },
+    {
+      "model_decision": 64377,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.101499970856821,
+      "episode_decisions": 122,
+      "frames": 485
+    },
+    {
+      "model_decision": 64497,
+      "progress_pixels": 317,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1222999583987985,
+      "episode_decisions": 120,
+      "frames": 477
+    },
+    {
+      "model_decision": 64604,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2272999285778496,
+      "episode_decisions": 107,
+      "frames": 427
+    },
+    {
+      "model_decision": 64673,
+      "progress_pixels": 79,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.23740003386046737,
+      "episode_decisions": 69,
+      "frames": 274
+    },
+    {
+      "model_decision": 64742,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2173000207694713,
+      "episode_decisions": 69,
+      "frames": 273
+    },
+    {
+      "model_decision": 64865,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.110999949363759,
+      "episode_decisions": 123,
+      "frames": 490
+    },
+    {
+      "model_decision": 64989,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1004000441753305,
+      "episode_decisions": 124,
+      "frames": 496
+    },
+    {
+      "model_decision": 65056,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.196600025461521,
+      "episode_decisions": 67,
+      "frames": 266
+    },
+    {
+      "model_decision": 65170,
+      "progress_pixels": 317,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1245999370585196,
+      "episode_decisions": 114,
+      "frames": 454
+    },
+    {
+      "model_decision": 65402,
+      "progress_pixels": 818,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.087499951769132,
+      "episode_decisions": 232,
+      "frames": 925
+    },
+    {
+      "model_decision": 65515,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.10480003565317,
+      "episode_decisions": 113,
+      "frames": 452
+    },
+    {
+      "model_decision": 65633,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.102999960858142,
+      "episode_decisions": 118,
+      "frames": 470
+    },
+    {
+      "model_decision": 65753,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2121999687806237,
+      "episode_decisions": 120,
+      "frames": 478
+    },
+    {
+      "model_decision": 65962,
+      "progress_pixels": 771,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.626499952486483,
+      "episode_decisions": 209,
+      "frames": 835
+    },
+    {
+      "model_decision": 66031,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2173000207694713,
+      "episode_decisions": 69,
+      "frames": 273
+    },
+    {
+      "model_decision": 66098,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.19670004391809925,
+      "episode_decisions": 67,
+      "frames": 267
+    },
+    {
+      "model_decision": 66218,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.102199956192635,
+      "episode_decisions": 120,
+      "frames": 478
+    },
+    {
+      "model_decision": 66286,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.21700003737350926,
+      "episode_decisions": 68,
+      "frames": 270
+    },
+    {
+      "model_decision": 66353,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20660003082593903,
+      "episode_decisions": 67,
+      "frames": 266
+    },
+    {
+      "model_decision": 66462,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.106499946938129,
+      "episode_decisions": 109,
+      "frames": 435
+    },
+    {
+      "model_decision": 66575,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1048999488411937,
+      "episode_decisions": 113,
+      "frames": 451
+    },
+    {
+      "model_decision": 66643,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20700003387173638,
+      "episode_decisions": 68,
+      "frames": 270
+    },
+    {
+      "model_decision": 66710,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1965000169875566,
+      "episode_decisions": 67,
+      "frames": 265
+    },
+    {
+      "model_decision": 66831,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1118999833706766,
+      "episode_decisions": 121,
+      "frames": 481
+    },
+    {
+      "model_decision": 66899,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2169000195863191,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 67018,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.11269997456111,
+      "episode_decisions": 119,
+      "frames": 473
+    },
+    {
+      "model_decision": 67255,
+      "progress_pixels": 887,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.77550001963391,
+      "episode_decisions": 237,
+      "frames": 945
+    },
+    {
+      "model_decision": 67322,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18650002279900946,
+      "episode_decisions": 67,
+      "frames": 265
+    },
+    {
+      "model_decision": 67436,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1145999435393605,
+      "episode_decisions": 114,
+      "frames": 454
+    },
+    {
+      "model_decision": 67555,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1025999605772085,
+      "episode_decisions": 119,
+      "frames": 474
+    },
+    {
+      "model_decision": 67721,
+      "progress_pixels": 552,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.453699956415221,
+      "episode_decisions": 166,
+      "frames": 663
+    },
+    {
+      "model_decision": 67822,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2298999532940798,
+      "episode_decisions": 101,
+      "frames": 401
+    },
+    {
+      "model_decision": 68016,
+      "progress_pixels": 885,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.7727000157756265,
+      "episode_decisions": 194,
+      "frames": 773
+    },
+    {
+      "model_decision": 68126,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.10609994866536,
+      "episode_decisions": 110,
+      "frames": 439
+    },
+    {
+      "model_decision": 68292,
+      "progress_pixels": 554,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.473600037716096,
+      "episode_decisions": 166,
+      "frames": 664
+    },
+    {
+      "model_decision": 68360,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2169000195863191,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 68474,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.114599962544162,
+      "episode_decisions": 114,
+      "frames": 454
+    },
+    {
+      "model_decision": 68592,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.113099996757228,
+      "episode_decisions": 118,
+      "frames": 469
+    },
+    {
+      "model_decision": 68708,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1136000438127667,
+      "episode_decisions": 116,
+      "frames": 464
+    },
+    {
+      "model_decision": 68823,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1142999706498813,
+      "episode_decisions": 115,
+      "frames": 457
+    },
+    {
+      "model_decision": 68891,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2169000158610288,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 68998,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.107299979630625,
+      "episode_decisions": 107,
+      "frames": 427
+    },
+    {
+      "model_decision": 69176,
+      "progress_pixels": 773,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.658899910165928,
+      "episode_decisions": 178,
+      "frames": 711
+    },
+    {
+      "model_decision": 69283,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.217299960029777,
+      "episode_decisions": 107,
+      "frames": 427
+    },
+    {
+      "model_decision": 69350,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18660002754768357,
+      "episode_decisions": 67,
+      "frames": 266
+    },
+    {
+      "model_decision": 69474,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1105999464634806,
+      "episode_decisions": 124,
+      "frames": 494
+    },
+    {
+      "model_decision": 69541,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1965000244381372,
+      "episode_decisions": 67,
+      "frames": 265
+    },
+    {
+      "model_decision": 69779,
+      "progress_pixels": 765,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.555100009427406,
+      "episode_decisions": 238,
+      "frames": 949
+    },
+    {
+      "model_decision": 69902,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.111099977279082,
+      "episode_decisions": 123,
+      "frames": 489
+    },
+    {
+      "model_decision": 70127,
+      "progress_pixels": 1104,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 9.95000004733447,
+      "episode_decisions": 225,
+      "frames": 900
+    },
+    {
+      "model_decision": 70241,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.114699964527972,
+      "episode_decisions": 114,
+      "frames": 453
+    },
+    {
+      "model_decision": 70346,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2180000434746034,
+      "episode_decisions": 105,
+      "frames": 420
+    },
+    {
+      "model_decision": 70540,
+      "progress_pixels": 770,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.622499924618751,
+      "episode_decisions": 194,
+      "frames": 775
+    },
+    {
+      "model_decision": 70664,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.11069996812148,
+      "episode_decisions": 124,
+      "frames": 493
+    },
+    {
+      "model_decision": 70817,
+      "progress_pixels": 552,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.458899941528216,
+      "episode_decisions": 153,
+      "frames": 611
+    },
+    {
+      "model_decision": 71077,
+      "progress_pixels": 1100,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 9.89619996395777,
+      "episode_decisions": 260,
+      "frames": 1038
+    },
+    {
+      "model_decision": 71144,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20660003455122933,
+      "episode_decisions": 67,
+      "frames": 266
+    },
+    {
+      "model_decision": 71211,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20660003455122933,
+      "episode_decisions": 67,
+      "frames": 266
+    },
+    {
+      "model_decision": 71422,
+      "progress_pixels": 888,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.795600022247527,
+      "episode_decisions": 211,
+      "frames": 844
+    },
+    {
+      "model_decision": 71531,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.116400063416222,
+      "episode_decisions": 109,
+      "frames": 436
+    },
+    {
+      "model_decision": 71729,
+      "progress_pixels": 822,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.140899957972579,
+      "episode_decisions": 198,
+      "frames": 791
+    },
+    {
+      "model_decision": 71896,
+      "progress_pixels": 555,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.483499991183635,
+      "episode_decisions": 167,
+      "frames": 665
+    },
+    {
+      "model_decision": 72014,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.112999971373938,
+      "episode_decisions": 118,
+      "frames": 470
+    },
+    {
+      "model_decision": 72079,
+      "progress_pixels": 87,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.15599994914373383,
+      "episode_decisions": 65,
+      "frames": 260
+    },
+    {
+      "model_decision": 72192,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.114800042443676,
+      "episode_decisions": 113,
+      "frames": 452
+    },
+    {
+      "model_decision": 72406,
+      "progress_pixels": 770,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.614499902032549,
+      "episode_decisions": 214,
+      "frames": 855
+    },
+    {
+      "model_decision": 72629,
+      "progress_pixels": 761,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.521099977166159,
+      "episode_decisions": 223,
+      "frames": 889
+    },
+    {
+      "model_decision": 72748,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.112599955056794,
+      "episode_decisions": 119,
+      "frames": 474
+    },
+    {
+      "model_decision": 72864,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2136999421636574,
+      "episode_decisions": 116,
+      "frames": 463
+    },
+    {
+      "model_decision": 72978,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.104700025258353,
+      "episode_decisions": 114,
+      "frames": 453
+    },
+    {
+      "model_decision": 73092,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.104599969694391,
+      "episode_decisions": 114,
+      "frames": 454
+    },
+    {
+      "model_decision": 73190,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2310999952896964,
+      "episode_decisions": 98,
+      "frames": 389
+    },
+    {
+      "model_decision": 73258,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.19690002003335394,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 73371,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.10499999509193,
+      "episode_decisions": 113,
+      "frames": 450
+    },
+    {
+      "model_decision": 73564,
+      "progress_pixels": 772,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.642999977862928,
+      "episode_decisions": 193,
+      "frames": 770
+    },
+    {
+      "model_decision": 73725,
+      "progress_pixels": 559,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.525800006114878,
+      "episode_decisions": 161,
+      "frames": 642
+    },
+    {
+      "model_decision": 73792,
+      "progress_pixels": 86,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.166500019520754,
+      "episode_decisions": 67,
+      "frames": 265
+    },
+    {
+      "model_decision": 73859,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1966000291868113,
+      "episode_decisions": 67,
+      "frames": 266
+    },
+    {
+      "model_decision": 73925,
+      "progress_pixels": 86,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.16610002392553724,
+      "episode_decisions": 66,
+      "frames": 261
+    },
+    {
+      "model_decision": 74139,
+      "progress_pixels": 773,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.644599970779382,
+      "episode_decisions": 214,
+      "frames": 854
+    },
+    {
+      "model_decision": 74335,
+      "progress_pixels": 756,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.48190001148032,
+      "episode_decisions": 196,
+      "frames": 781
+    },
+    {
+      "model_decision": 74403,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.19690002003335394,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 74470,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.17650001929723658,
+      "episode_decisions": 67,
+      "frames": 265
+    },
+    {
+      "model_decision": 74699,
+      "progress_pixels": 868,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.588400065927999,
+      "episode_decisions": 229,
+      "frames": 916
+    },
+    {
+      "model_decision": 74811,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1052000717900228,
+      "episode_decisions": 112,
+      "frames": 448
+    },
+    {
+      "model_decision": 75053,
+      "progress_pixels": 1094,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 9.843200041650562,
+      "episode_decisions": 242,
+      "frames": 968
+    },
+    {
+      "model_decision": 75122,
+      "progress_pixels": 79,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.23730000914656557,
+      "episode_decisions": 69,
+      "frames": 273
+    },
+    {
+      "model_decision": 75353,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1676000685838517,
+      "episode_decisions": 231,
+      "frames": 924
+    },
+    {
+      "model_decision": 75420,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20660003082593903,
+      "episode_decisions": 67,
+      "frames": 266
+    },
+    {
+      "model_decision": 75537,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1033999407372903,
+      "episode_decisions": 117,
+      "frames": 466
+    },
+    {
+      "model_decision": 75603,
+      "progress_pixels": 86,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.16610001647495665,
+      "episode_decisions": 66,
+      "frames": 261
+    },
+    {
+      "model_decision": 75718,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.114299994718749,
+      "episode_decisions": 115,
+      "frames": 457
+    },
+    {
+      "model_decision": 75928,
+      "progress_pixels": 807,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.986299960495671,
+      "episode_decisions": 210,
+      "frames": 837
+    },
+    {
+      "model_decision": 75994,
+      "progress_pixels": 85,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.17610001811408438,
+      "episode_decisions": 66,
+      "frames": 261
+    },
+    {
+      "model_decision": 76060,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18630004482110962,
+      "episode_decisions": 66,
+      "frames": 263
+    },
+    {
+      "model_decision": 76319,
+      "progress_pixels": 758,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.476700036902912,
+      "episode_decisions": 259,
+      "frames": 1033
+    },
+    {
+      "model_decision": 76430,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.105799965269398,
+      "episode_decisions": 111,
+      "frames": 442
+    },
+    {
+      "model_decision": 76581,
+      "progress_pixels": 467,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 3.609600043913815,
+      "episode_decisions": 151,
+      "frames": 604
+    },
+    {
+      "model_decision": 76685,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.228499941440532,
+      "episode_decisions": 104,
+      "frames": 415
+    },
+    {
+      "model_decision": 76793,
+      "progress_pixels": 327,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.226800044241827,
+      "episode_decisions": 108,
+      "frames": 432
+    },
+    {
+      "model_decision": 76861,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.19690001630806364,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 76982,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.101699965685839,
+      "episode_decisions": 121,
+      "frames": 483
+    },
+    {
+      "model_decision": 77093,
+      "progress_pixels": 320,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.15569995372789,
+      "episode_decisions": 111,
+      "frames": 443
+    },
+    {
+      "model_decision": 77160,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.19679994689067826,
+      "episode_decisions": 67,
+      "frames": 268
+    },
+    {
+      "model_decision": 77275,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.114000022120308,
+      "episode_decisions": 115,
+      "frames": 460
+    },
+    {
+      "model_decision": 77537,
+      "progress_pixels": 771,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.605499981815228,
+      "episode_decisions": 262,
+      "frames": 1045
+    },
+    {
+      "model_decision": 77603,
+      "progress_pixels": 84,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.18639994593104348,
+      "episode_decisions": 66,
+      "frames": 264
+    },
+    {
+      "model_decision": 77671,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20690001794719137,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 77845,
+      "progress_pixels": 771,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.640499953267863,
+      "episode_decisions": 174,
+      "frames": 695
+    },
+    {
+      "model_decision": 77960,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1140000578016043,
+      "episode_decisions": 115,
+      "frames": 460
+    },
+    {
+      "model_decision": 78166,
+      "progress_pixels": 771,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.627600044710562,
+      "episode_decisions": 206,
+      "frames": 824
+    },
+    {
+      "model_decision": 78266,
+      "progress_pixels": 326,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.2202999584260397,
+      "episode_decisions": 100,
+      "frames": 397
+    },
+    {
+      "model_decision": 78511,
+      "progress_pixels": 857,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.472099952661665,
+      "episode_decisions": 245,
+      "frames": 979
+    },
+    {
+      "model_decision": 78631,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1020000495773274,
+      "episode_decisions": 120,
+      "frames": 480
+    },
+    {
+      "model_decision": 78753,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1012000562332105,
+      "episode_decisions": 122,
+      "frames": 488
+    },
+    {
+      "model_decision": 78820,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20670005114516243,
+      "episode_decisions": 67,
+      "frames": 267
+    },
+    {
+      "model_decision": 78936,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.113799967773957,
+      "episode_decisions": 116,
+      "frames": 462
+    },
+    {
+      "model_decision": 79182,
+      "progress_pixels": 1093,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 9.831600020785118,
+      "episode_decisions": 246,
+      "frames": 984
+    },
+    {
+      "model_decision": 79250,
+      "progress_pixels": 82,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.20700003759702668,
+      "episode_decisions": 68,
+      "frames": 270
+    },
+    {
+      "model_decision": 79364,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1046999652753584,
+      "episode_decisions": 114,
+      "frames": 453
+    },
+    {
+      "model_decision": 79580,
+      "progress_pixels": 816,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.073800005047815,
+      "episode_decisions": 216,
+      "frames": 862
+    },
+    {
+      "model_decision": 79648,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.21710004226770252,
+      "episode_decisions": 68,
+      "frames": 271
+    },
+    {
+      "model_decision": 79811,
+      "progress_pixels": 555,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 4.4850999837508425,
+      "episode_decisions": 163,
+      "frames": 649
+    },
+    {
+      "model_decision": 79879,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.21700003737350926,
+      "episode_decisions": 68,
+      "frames": 270
+    },
+    {
+      "model_decision": 79989,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.116099942853907,
+      "episode_decisions": 110,
+      "frames": 439
+    },
+    {
+      "model_decision": 80204,
+      "progress_pixels": 787,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.784000078012468,
+      "episode_decisions": 215,
+      "frames": 860
+    },
+    {
+      "model_decision": 80445,
+      "progress_pixels": 774,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.643900018039858,
+      "episode_decisions": 241,
+      "frames": 961
+    },
+    {
+      "model_decision": 80642,
+      "progress_pixels": 821,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.131299968837993,
+      "episode_decisions": 197,
+      "frames": 787
+    },
+    {
+      "model_decision": 80758,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1137999650090933,
+      "episode_decisions": 116,
+      "frames": 462
+    },
+    {
+      "model_decision": 80875,
+      "progress_pixels": 317,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1232000596937723,
+      "episode_decisions": 117,
+      "frames": 468
+    },
+    {
+      "model_decision": 81060,
+      "progress_pixels": 889,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.816000051039737,
+      "episode_decisions": 185,
+      "frames": 740
+    },
+    {
+      "model_decision": 81175,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.104000036721118,
+      "episode_decisions": 115,
+      "frames": 460
+    },
+    {
+      "model_decision": 81243,
+      "progress_pixels": 80,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2270000352873467,
+      "episode_decisions": 68,
+      "frames": 270
+    },
+    {
+      "model_decision": 81357,
+      "progress_pixels": 324,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.1944000220973976,
+      "episode_decisions": 114,
+      "frames": 456
+    },
+    {
+      "model_decision": 81605,
+      "progress_pixels": 1115,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.050800091063138,
+      "episode_decisions": 248,
+      "frames": 992
+    },
+    {
+      "model_decision": 81745,
+      "progress_pixels": 773,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 6.674000081926351,
+      "episode_decisions": 140,
+      "frames": 560
+    },
+    {
+      "model_decision": 81813,
+      "progress_pixels": 81,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.2169000195863191,
+      "episode_decisions": 68,
+      "frames": 269
+    },
+    {
+      "model_decision": 82049,
+      "progress_pixels": 886,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 7.765699981275247,
+      "episode_decisions": 236,
+      "frames": 943
+    },
+    {
+      "model_decision": 82116,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.196700053231325,
+      "episode_decisions": 67,
+      "frames": 267
+    },
+    {
+      "model_decision": 82226,
+      "progress_pixels": 315,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.106199977104552,
+      "episode_decisions": 110,
+      "frames": 438
+    },
+    {
+      "model_decision": 82293,
+      "progress_pixels": 83,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.1966000291868113,
+      "episode_decisions": 67,
+      "frames": 266
+    },
+    {
+      "model_decision": 82584,
+      "progress_pixels": 1119,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.073900001210859,
+      "episode_decisions": 291,
+      "frames": 1161
+    },
+    {
+      "model_decision": 82653,
+      "progress_pixels": 79,
+      "level_complete": false,
+      "death": true,
+      "training_reward": -0.23759994650026783,
+      "episode_decisions": 69,
+      "frames": 276
+    },
+    {
+      "model_decision": 82886,
+      "progress_pixels": 1113,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.036900019302266,
+      "episode_decisions": 233,
+      "frames": 931
+    },
+    {
+      "model_decision": 83127,
+      "progress_pixels": 1110,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 10.00379997905111,
+      "episode_decisions": 241,
+      "frames": 962
+    },
+    {
+      "model_decision": 83244,
+      "progress_pixels": 316,
+      "level_complete": false,
+      "death": true,
+      "training_reward": 2.113499972532736,
+      "episode_decisions": 117,
+      "frames": 465
+    }
+  ],
+  "trailing_partial_episode_decisions": 104,
+  "interpretation": "Exploratory training episodes, not independent fixed-policy evaluations."
+}

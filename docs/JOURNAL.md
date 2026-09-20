@@ -65,3 +65,9 @@ The user approved adding leftward recovery controls and a fresh 10–15-minute P
 A scripted validation replay reproduces the previous seed-303 missed-card failure, returns left, then collects the card and displays COURSE CLEAR. This proves control feasibility only; it is not learned behavior. A real-backtracking assertion initially had no eligible samples because momentum advanced the high-water mark after the turn; the failed validation is retained and the assertion was corrected without changing the reward. [Validation report](../sessions/2026-09-20-smb3-recovery-validation-02/REPORT.md).
 
 The pilot uses the existing fixed five evaluation seeds and ten additional diagnostic seeds; it is not the final 20-trial acceptance test. The target remains 18/20 final clears with a frozen candidate policy. No longer training budget is assumed.
+
+## 2026-09-20 — Fresh recovery-control pilot complete
+
+The seven-action PPO pilot ran for 616.60 wall seconds, with 568.27 active seconds, 83,348 decisions and 4,964 optimizer steps. Mean progress improved from 346.8 to 614.2 pixels, but median rose only from 287 to 315 and seed 202 regressed. Final diagnostic evaluations produced 0/15 clears. No evaluated run reached the goal card; the successful scripted recovery remains validation evidence only.
+
+All stages and failures are retained. The final save duplicates the trained checkpoint’s policy weights. Parent-only RSS peaked at 225.41 MiB; macOS blocked child enumeration. The recording overhead pair was too noisy to establish a meaningful speed difference. The setup supports a longer controlled continuation, but no further budget was assumed. [Pilot analysis](../sessions/2026-09-20-smb3-recovery-pilot/ANALYSIS.md).

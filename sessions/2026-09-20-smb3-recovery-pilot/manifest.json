@@ -1,0 +1,438 @@
+{
+  "status": "completed",
+  "at": "2026-09-20T21:27:32.784362+00:00",
+  "session_id": "2026-09-20-smb3-recovery-pilot",
+  "pid": 87210,
+  "config": {
+    "protocol": "smb3-1-1-recovery-v2",
+    "game": "SuperMarioBros3-1-1-v0",
+    "fps": 60,
+    "action_repeat": 4,
+    "episode_frames": 12000,
+    "actions": [
+      [
+        "NOOP"
+      ],
+      [
+        "right"
+      ],
+      [
+        "right",
+        "A"
+      ],
+      [
+        "right",
+        "B"
+      ],
+      [
+        "right",
+        "A",
+        "B"
+      ],
+      [
+        "left"
+      ],
+      [
+        "left",
+        "A"
+      ]
+    ],
+    "action_names": [
+      "coast",
+      "walk right",
+      "jump right",
+      "run right",
+      "run and jump right",
+      "walk left",
+      "jump left"
+    ],
+    "seed": 123,
+    "evaluation_seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "final_seeds": [
+      6101,
+      6202,
+      6303,
+      6404,
+      6505,
+      6606,
+      6707,
+      6808,
+      6909,
+      7010
+    ],
+    "ppo": {
+      "n_steps": 512,
+      "batch_size": 64,
+      "n_epochs": 4,
+      "learning_rate": 0.00025,
+      "gamma": 0.99,
+      "gae_lambda": 0.95,
+      "clip_range": 0.2,
+      "ent_coef": 0.01,
+      "target_kl": 0.02
+    },
+    "reward": {
+      "progress_scale": 0.01,
+      "frame_cost": 0.0001,
+      "death_penalty": 1.0,
+      "clear_bonus": 5.0
+    },
+    "milestones_pixels": [
+      256,
+      512,
+      1024,
+      2048
+    ],
+    "validation_file": "sessions/2026-09-20-smb3-recovery-validation-02/validation.json"
+  },
+  "kind": "12-minute pilot",
+  "budget_note": "User approved a fresh 10\u201315-minute pilot with leftward recovery controls and unchanged reward on 2026-09-20. No longer training budget approved.",
+  "requested_active_seconds": 600,
+  "source_revision": "1018fc04340f242fa6671a145607447b68b00bb8",
+  "source_hashes": {
+    "smb3_rl/__init__.py": "c302932d707e2c4292ec9cf8f3d0699e0887e5f4e3f388ab2feb35393b0255ff",
+    "smb3_rl/common.py": "8b76d60a89789cdfb21ba7af20490c8ad665cf8a7acb19c35a62fe3dfb6bc34e",
+    "smb3_rl/env.py": "8effe7eed15feaace2d6ecb35737f2df7936e444d3215e2b0e00872a817b5d1c",
+    "smb3_rl/evaluate.py": "d5bbf861efe879e9ed7319561ce45757d3a2aac89a0a52946e1e05845c788d00",
+    "smb3_rl/lesson.py": "95138e0bb49392994623cc5405eef7b112186a2ffa5f1da9db8c257f63135c33",
+    "smb3_rl/memory.py": "ac9d5565cb3a890c71bd92fcb61c7462ef24e042cccab371d757c5aed6c722a1",
+    "smb3_rl/publish.py": "1334346a1fefb6c913f0c89a8b39fb1e8d9cfc0962bcda505b4282b08795b7ce",
+    "smb3_rl/report.py": "0c839960cbd751c5717fee50ef30bc33f01748dbccf9b233adbc115c3d46b74d",
+    "smb3_rl/session.py": "b7ecf7709e8e3c0cb87a0a1a6fb4092aae0d269d94c238b8259666b28411fb4c",
+    "smb3_rl/validate.py": "5af542de1873405a4299bb0c90e760628cc92570982f1d2af51b6cd99deb78ac",
+    "smb3_rl/validate_recovery.py": "34e47bf3325a1511e9c1d00cdedd2e2d571ad498b04b1e3434e8f813f592997d",
+    "configs/smb3-1-1-recovery.json": "f3e3078575ea809c644cc735f31e79324aadc5ffec135a132906fc6b37525542",
+    "configs/smb3-1-1.json": "0c368449f1cd06539e661941010ff3a39e6072023855d0b3f40d4e6a9beca124",
+    "requirements-lock.txt": "8ff85b9d1a7e24d734af9b91fa44c4b8d83abdcbcd000550894a46fc6cdbf630"
+  },
+  "validation": {
+    "at": "2026-09-20T21:26:13.202277+00:00",
+    "status": "passed",
+    "identity": {
+      "config_sha256": "3afd66a14bb1f376f6732be9390ea3e7c9b84e17a0a6cda32fb74ca6961f2124",
+      "rom_sha256": "6ea0777ca520ba7ad7b0ea0f6452140d59aa0b1dffe5045cb1e8020dde10c267",
+      "installed_environment_sha256": "d38535d08b3ebc32c4b0a5b23d9491d454f95e8024af18244865405794ab0d18",
+      "adapter_sha256": "8effe7eed15feaace2d6ecb35737f2df7936e444d3215e2b0e00872a817b5d1c",
+      "versions": {
+        "gym-super-mario-bros": "9.1.0",
+        "nes-py": "9.0.1",
+        "gymnasium": "1.3.0",
+        "stable-baselines3": "2.9.0",
+        "torch": "2.14.0",
+        "numpy": "2.5.3",
+        "pillow": "12.3.0"
+      }
+    },
+    "checks": {
+      "gymnasium_api": "passed",
+      "ten_resets_and_120_frame_replays_identical": true,
+      "right_moves": true,
+      "run_faster_than_walk": true,
+      "jump_changes_vertical_position": true,
+      "false_clear_replay_is_death_not_success": true,
+      "timeout_exact_frames": true,
+      "repeated_progress_not_rewarded_twice": true,
+      "map_does_not_reward_progress": true,
+      "scripted_level_clear": true,
+      "pixel_stack": true,
+      "left_reduces_world_x": true,
+      "left_jump_moves_left_and_up": true,
+      "real_backtracking_has_no_positive_reward": true,
+      "recovery_starts_from_missed_card_boundary": true,
+      "return_left_after_boundary": true,
+      "recovery_collects_card_and_clears": true
+    },
+    "reset_replay_hashes": [
+      "1aec2cfb462765f57f0f96f95742a24f7cf324f1e28c5fe2ffa817d7dfe1ca3f",
+      "1aec2cfb462765f57f0f96f95742a24f7cf324f1e28c5fe2ffa817d7dfe1ca3f",
+      "1aec2cfb462765f57f0f96f95742a24f7cf324f1e28c5fe2ffa817d7dfe1ca3f",
+      "1aec2cfb462765f57f0f96f95742a24f7cf324f1e28c5fe2ffa817d7dfe1ca3f",
+      "1aec2cfb462765f57f0f96f95742a24f7cf324f1e28c5fe2ffa817d7dfe1ca3f",
+      "1aec2cfb462765f57f0f96f95742a24f7cf324f1e28c5fe2ffa817d7dfe1ca3f",
+      "1aec2cfb462765f57f0f96f95742a24f7cf324f1e28c5fe2ffa817d7dfe1ca3f",
+      "1aec2cfb462765f57f0f96f95742a24f7cf324f1e28c5fe2ffa817d7dfe1ca3f",
+      "1aec2cfb462765f57f0f96f95742a24f7cf324f1e28c5fe2ffa817d7dfe1ca3f",
+      "1aec2cfb462765f57f0f96f95742a24f7cf324f1e28c5fe2ffa817d7dfe1ca3f"
+    ],
+    "controls": {
+      "coast": {
+        "max_x": 24,
+        "y_range": [
+          384,
+          384
+        ]
+      },
+      "walk right": {
+        "max_x": 103,
+        "y_range": [
+          384,
+          384
+        ]
+      },
+      "jump right": {
+        "max_x": 103,
+        "y_range": [
+          313,
+          384
+        ]
+      },
+      "run right": {
+        "max_x": 108,
+        "y_range": [
+          384,
+          384
+        ]
+      },
+      "run and jump right": {
+        "max_x": 108,
+        "y_range": [
+          313,
+          384
+        ]
+      },
+      "walk left": {
+        "max_x": 24,
+        "y_range": [
+          384,
+          384
+        ]
+      },
+      "jump left": {
+        "max_x": 24,
+        "y_range": [
+          313,
+          384
+        ]
+      }
+    },
+    "scripted_clear_outcome": {
+      "card_selection": 0,
+      "flag_get": true,
+      "flight_timer": 0,
+      "in_level": false,
+      "invulnerability_timer": 0,
+      "is_dying": false,
+      "is_game_over": false,
+      "life": 4,
+      "lives": 4,
+      "map_x": 64,
+      "map_y": 32,
+      "p_meter": 0,
+      "p_meter_full": false,
+      "p_meter_timer": 0,
+      "pipe_timer": 0,
+      "powerup_level": 0,
+      "score": 13350,
+      "stage": 1,
+      "star_timer": 0,
+      "status": "small",
+      "status_value": 0,
+      "time": 0,
+      "world": 1,
+      "x_page": 32,
+      "x_pos": 64,
+      "x_pos_max": 64,
+      "x_screen": 0,
+      "y_page": 0,
+      "y_pos": 32,
+      "y_screen": 0,
+      "clear": true,
+      "death": false,
+      "game": "smb3",
+      "game_family": "smb3",
+      "progress": 64,
+      "progress_max": 64,
+      "rom_mode": "vanilla",
+      "single_stage": true,
+      "task_id": "SuperMarioBros3-1-1-v0",
+      "target_stage": 1,
+      "target_world": 1,
+      "timeout": false,
+      "world_label": "1",
+      "reward_components": {
+        "progress": 0.0,
+        "time": 0.0,
+        "score": 0.0,
+        "powerup": 0.0,
+        "completion": 50.0,
+        "death": 0.0
+      },
+      "reward_total_unclipped": 50.0,
+      "reward_total_clipped": 15.0,
+      "frames": 2236,
+      "decisions": 559,
+      "frames_advanced": 4,
+      "max_x": 2844,
+      "progress_pixels": 2820,
+      "milestones_reached": 4,
+      "level_complete": true,
+      "telemetry_invalid": false,
+      "finish_seconds": 37.266666666666666,
+      "termination_reason": "clear",
+      "terminated": true,
+      "truncated": false,
+      "native_reward": 15.0
+    },
+    "post_terminal_map_image_delay_frames": 60,
+    "recovery_controls": {
+      "0": {
+        "start_x": 50,
+        "end_x": 81,
+        "min_y": 384,
+        "start_high_water": 50,
+        "end_high_water": 81
+      },
+      "5": {
+        "start_x": 50,
+        "end_x": 16,
+        "min_y": 384,
+        "start_high_water": 50,
+        "end_high_water": 61
+      },
+      "6": {
+        "start_x": 50,
+        "end_x": 16,
+        "min_y": 306,
+        "start_high_water": 50,
+        "end_high_water": 61
+      }
+    },
+    "recovery_outcome": {
+      "card_selection": 0,
+      "flag_get": true,
+      "flight_timer": 0,
+      "in_level": false,
+      "invulnerability_timer": 0,
+      "is_dying": false,
+      "is_game_over": false,
+      "life": 4,
+      "lives": 4,
+      "map_x": 64,
+      "map_y": 32,
+      "p_meter": 0,
+      "p_meter_full": false,
+      "p_meter_timer": 0,
+      "pipe_timer": 0,
+      "powerup_level": 0,
+      "score": 13600,
+      "stage": 1,
+      "star_timer": 0,
+      "status": "small",
+      "status_value": 0,
+      "time": 0,
+      "world": 1,
+      "x_page": 32,
+      "x_pos": 64,
+      "x_pos_max": 64,
+      "x_screen": 0,
+      "y_page": 0,
+      "y_pos": 32,
+      "y_screen": 0,
+      "clear": true,
+      "death": false,
+      "game": "smb3",
+      "game_family": "smb3",
+      "progress": 64,
+      "progress_max": 64,
+      "rom_mode": "vanilla",
+      "single_stage": true,
+      "task_id": "SuperMarioBros3-1-1-v0",
+      "target_stage": 1,
+      "target_world": 1,
+      "timeout": false,
+      "world_label": "1",
+      "reward_components": {
+        "progress": 0.0,
+        "time": 0.0,
+        "score": 0.0,
+        "powerup": 0.0,
+        "completion": 50.0,
+        "death": 0.0
+      },
+      "reward_total_unclipped": 50.0,
+      "reward_total_clipped": 15.0,
+      "frames": 2093,
+      "decisions": 524,
+      "frames_advanced": 1,
+      "max_x": 2848,
+      "progress_pixels": 2824,
+      "milestones_reached": 4,
+      "level_complete": true,
+      "telemetry_invalid": false,
+      "finish_seconds": 34.88333333333333,
+      "termination_reason": "clear",
+      "terminated": true,
+      "truncated": false,
+      "native_reward": 15.0
+    },
+    "recovery_note": "Scripted integration test: replays 400 decisions of an archived failed policy trial, then tests leftward recovery. These actions are never supplied as PPO demonstrations.",
+    "notes": [
+      "Nominal 60 emulated frames/s; no claim that wall time equals game time.",
+      "Scripted successful controller is validation evidence, not PPO training or an evaluated learned model.",
+      "Stage-specific correction requires exact World 1-1 map-panel coordinates before declaring success."
+    ]
+  },
+  "parent_model_sha256": null,
+  "stages": [
+    {
+      "id": "00-untrained",
+      "model_sha256": "bd94da873e6015e4f89db64ac677fc054a7c634585218d85aa094c867946a341",
+      "model_path": "sessions/2026-09-20-smb3-recovery-pilot/checkpoints/00-untrained.zip",
+      "training_seconds": 0.0,
+      "status": "complete",
+      "total_model_decisions": 0,
+      "evaluation": "sessions/2026-09-20-smb3-recovery-pilot/00-untrained/evaluation.json"
+    },
+    {
+      "id": "01-stage",
+      "model_sha256": "a5364cda88498b0eb67f5b97eeb4de858182a2c3dae64c8a971e39b25ac1233b",
+      "model_path": "sessions/2026-09-20-smb3-recovery-pilot/checkpoints/01-stage.zip",
+      "training_seconds": 568.2728228750057,
+      "status": "complete",
+      "total_model_decisions": 83348,
+      "evaluation": "sessions/2026-09-20-smb3-recovery-pilot/01-stage/evaluation.json"
+    },
+    {
+      "id": "final",
+      "model_sha256": "52b40ac6b6e684bf81df7e777c227d4aab711bc3e2ad03ebaecf0ca84ba7a890",
+      "model_path": "sessions/2026-09-20-smb3-recovery-pilot/checkpoints/final.zip",
+      "training_seconds": 568.2728228750057,
+      "status": "complete",
+      "total_model_decisions": 83348,
+      "evaluation": "sessions/2026-09-20-smb3-recovery-pilot/final/evaluation.json"
+    }
+  ],
+  "training_seconds": 568.2728228750057,
+  "evaluation_seconds": 45.54241450101836,
+  "rollout_seconds": 344.524955831992,
+  "learning_seconds": 223.61338712499128,
+  "optimizer_steps": 4964,
+  "learning_update_calls": 162,
+  "training_game_frames": 332420,
+  "training_agent_decisions": 83348,
+  "checkpoint_seconds": 0.09760729101253673,
+  "peak_sampled_rss_bytes": 236355584,
+  "memory_sampling": {
+    "samples": 5922,
+    "scope": "parent_only_fallback_used",
+    "errors": [
+      "PermissionError: [Errno 1] Operation not permitted (originated from sysctl() malloc 1/3)"
+    ]
+  },
+  "source_change_accepted": false,
+  "wall_seconds": 616.6031438340142,
+  "run_right_baseline": "sessions/2026-09-20-smb3-recovery-pilot/hold-run-right/evaluation.json",
+  "overhead_without_recording": "sessions/2026-09-20-smb3-recovery-pilot/overhead-no-record/evaluation.json",
+  "overhead_with_recording": "sessions/2026-09-20-smb3-recovery-pilot/overhead-record/evaluation.json",
+  "simulation_seconds": 223.24299007325317,
+  "training_reset_calls": 624,
+  "simulated_frames_per_second": 1489.0501148140077,
+  "optimizer_steps_per_second": 22.199028706744265,
+  "final_additional_trials": "sessions/2026-09-20-smb3-recovery-pilot/final-additional-trials/evaluation.json"
+}
