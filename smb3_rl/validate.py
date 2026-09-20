@@ -7,9 +7,10 @@ from stable_baselines3.common.env_checker import check_env
 from .common import ROOT,read_json,write_json,identity,now,digest
 from .env import MarioEnv,HighWater
 
-def run():
-    c=read_json(ROOT/'configs/smb3-1-1.json');out=ROOT/'sessions/2026-09-16-smb3-validation'
-    out.mkdir(exist_ok=True)
+def run(config='configs/smb3-1-1.json', output='sessions/2026-09-16-smb3-validation', extra_checks=None):
+    c=read_json(ROOT/config);out=ROOT/output
+    out.mkdir(parents=True, exist_ok=False)
+    write_json(out/'config.json',c)
     e=MarioEnv(c,validate=False);checks={};report={'at':now(),'status':'running','identity':identity(c),'checks':checks}
     try:
         check_env(e,warn=True);checks['gymnasium_api']='passed'
@@ -78,6 +79,8 @@ def run():
             report['post_terminal_map_image_delay_frames']=60
         else:checks['scripted_level_clear']=False
         checks['pixel_stack']=obs.shape==(4,84,84) and obs.dtype==np.uint8
+        if extra_checks is not None:
+            extra_checks(e,out,checks,report)
         report['status']='passed' if all(v is True or v=='passed' for v in checks.values()) else 'failed'
         report['notes']=['Nominal 60 emulated frames/s; no claim that wall time equals game time.',
                          'Scripted successful controller is validation evidence, not PPO training or an evaluated learned model.',
@@ -86,4 +89,9 @@ def run():
         e.close();write_json(out/'validation.json',report)
     print(report['status'],checks)
     if report['status']!='passed':raise SystemExit(1)
-if __name__=='__main__':run()
+if __name__=='__main__':
+    import argparse
+    p=argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--config',default='configs/smb3-1-1.json')
+    p.add_argument('--output',default='sessions/2026-09-16-smb3-validation')
+    args=p.parse_args();run(args.config,args.output)

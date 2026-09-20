@@ -53,3 +53,16 @@ MPLCONFIGDIR=.cache/matplotlib .venv/bin/python -m smb3_rl.report sessions/SESSI
 Always use a new evaluation output directory. Keep the original failed/incomplete attempt and journal the retry. Add visual interpretation in that session's `ANALYSIS.md`; the report links it without overwriting it. No GPT calls are made automatically. Publication is a separate deliberate step after reviewing saved evidence.
 
 To plot exploratory training episodes separately from evaluation: `MPLCONFIGDIR=.cache/matplotlib .venv/bin/python scripts/training_history.py sessions/SESSION`.
+
+## Recovery-control experiment
+
+Use `configs/smb3-1-1-recovery.json` for protocol v2 (seven actions). It has its own validation record; the archived five-action configurations remain unchanged. Re-run validation into a **new** output directory, updating the configuration’s validation path first. The validator refuses to overwrite an existing archive. The recovery replay is available in `sessions/2026-09-20-smb3-recovery-validation-02/recovery-actions.json`; copy it to `.cache/recovery-controller-actions.json` when validating on a new machine. The original successful goal controller must also be present at `.cache/clear-controller-actions.json`.
+
+```sh
+MPLCONFIGDIR=.cache/matplotlib .venv/bin/python -m smb3_rl.session \
+  --config configs/smb3-1-1-recovery.json \
+  --session NEW-SESSION --pilot \
+  --budget-note 'User approved a bounded recovery-control pilot'
+```
+
+Omit `--resume`: the expanded action space requires a fresh model unless an explicit weight-transfer procedure is developed and tested. This pilot is not an equal-training-budget comparison with the previously trained five-action policy.

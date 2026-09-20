@@ -122,6 +122,8 @@ def update_index():
           '[Completion-first roadmap](../ROADMAP.md) · [Teacher guide](../TEACHER_GUIDE.md) · [Setup and resume](../SETUP.md) · [Journal](../JOURNAL.md) · [Protocol](../PROTOCOL.md) · [Model downloads](https://github.com/sbardacosta-code/super-mario-bros-3-rl/releases)','',
           '## Session archive','','| Session | Status | Evidence |','|---|---|---|',
           '| SMB3 validation | See validation report | [Controls, resets, and false-clear correction](../../sessions/2026-09-16-smb3-validation/REPORT.md) |']
+    for p in sorted((ROOT/'sessions').glob('*recovery-validation*/REPORT.md')):
+        text.append(f"| {p.parent.name} | See validation report | [Recovery-control checks]({link(p,ROOT/'docs/classroom/README.md')}) |")
     for p in sorted((ROOT/'sessions').glob('*/manifest.json')):
         m=read_json(p);text.append(f"| {m['session_id']} | {m['status']} | [Learning timeline and GIF comparisons](../../sessions/{m['session_id']}/LESSON.md) · [Full report](../../sessions/{m['session_id']}/REPORT.md) |")
     text += ['','## Teacher access','','Public reports, charts, GIFs and model Releases need only a browser and internet access; no GitHub account is required. '

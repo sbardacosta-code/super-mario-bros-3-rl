@@ -57,3 +57,11 @@ Visual review identified a concrete limitation: some runs pass the goal card and
 The user set the first acceptance target to at least 18 wins in 20 final trials. Game-score optimization is a later, separate experiment, after reliable completion is established. The next experiment will investigate leftward recovery controls and goal-card collection with a short pilot before choosing a longer budget. No additional training started with this documentation update.
 
 The public repository is named `super-mario-bros-3-rl` and contains only SMB3 materials. The public history has been rebuilt as an SMB3 snapshot. Recorded training source identifiers and hashes remain historical evidence; they are not claims that training used the new publication commit. Original history is retained in a local-only backup. Model bytes, measured outcomes and gameplay recordings are unchanged. Release source tags refer to the cleaned publication snapshot; checkpoint provenance remains in each session manifest.
+
+## 2026-09-20 — Recovery controls and fresh pilot preparation
+
+The user approved adding leftward recovery controls and a fresh 10–15-minute PPO pilot with unchanged reward. Protocol `smb3-1-1-recovery-v2` adds walk-left and jump-left; all existing action indices and learning settings stay unchanged. A new seven-output policy will be initialized rather than loading five-output weights.
+
+A scripted validation replay reproduces the previous seed-303 missed-card failure, returns left, then collects the card and displays COURSE CLEAR. This proves control feasibility only; it is not learned behavior. A real-backtracking assertion initially had no eligible samples because momentum advanced the high-water mark after the turn; the failed validation is retained and the assertion was corrected without changing the reward. [Validation report](../sessions/2026-09-20-smb3-recovery-validation-02/REPORT.md).
+
+The pilot uses the existing fixed five evaluation seeds and ten additional diagnostic seeds; it is not the final 20-trial acceptance test. The target remains 18/20 final clears with a frozen candidate policy. No longer training budget is assumed.
