@@ -1,0 +1,21 @@
+{
+  "verified_at": "2026-09-21T06:45:42.502946+00:00",
+  "verified_commit": "ff2dbfdf8a2414496b65ff477fd7fb2cd915b746",
+  "remote_tree_matches_local": true,
+  "file_count": 1189,
+  "anonymous_byte_checked_files": [
+    "README.md",
+    "docs/classroom/README.md",
+    "sessions/2026-09-20-smb3-recovery-session-02/LESSON.md",
+    "sessions/2026-09-20-smb3-recovery-session-02/REPORT.md",
+    "sessions/2026-09-20-smb3-recovery-session-02/ANALYSIS.md",
+    "sessions/2026-09-20-smb3-recovery-session-02/ACCEPTANCE.md",
+    "sessions/2026-09-20-smb3-recovery-session-02/acceptance-result.json",
+    "sessions/2026-09-20-smb3-recovery-session-02/progress.png",
+    "sessions/2026-09-20-smb3-recovery-session-02/acceptance-20/trial-8114-ending.gif",
+    "sessions/2026-09-20-smb3-recovery-session-02/MODELS.md"
+  ],
+  "public_classroom_http_200": true,
+  "model_download_hashes_verified": true,
+  "anonymous_model_asset_count": 6
+}
