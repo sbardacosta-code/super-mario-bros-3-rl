@@ -85,3 +85,7 @@ The predeclared final-checkpoint acceptance test completed all 20 seeds exactly 
 ## September 21, 2026 — approved overnight curriculum
 
 The preceding seven-action continuation failed the completion baseline: 0/20 acceptance trials cleared World 1-1. The user approved approximately six hours total unattended, including setup and evaluation. This run resumes the same checkpoint and keeps reward and PPO settings fixed. Goal-approach and missed-goal practice resets are the intervention; all scored evaluations still begin at the normal start. Scripted clear checks validate the practice setup, not the learned policy. Repeated reset/counter tests and a discarded 512-decision finite-weight PPO update passed before launch. See [the unattended plan](OVERNIGHT.md) for budget, seeds, stopping behavior and limitations. Results are pending; no success is assumed.
+
+### Overnight checkpoints: 15 and 30 active minutes
+
+Normal-start mean progress regressed from 1,488.6 to 1,154.8 and then 619 pixels, with 0/5 clears at every stage. Goal-practice episodes often clear, but full-start training episodes still have zero clears in the first two segments. Practice setup consumed about 832 seconds of the first 1,802 active seconds. The first-hour mixture continues as approved, followed automatically by predominantly normal starts. No settings were changed in response to these interim results. [Evidence and limitations](../sessions/2026-09-21-smb3-overnight-curriculum/ANALYSIS.md).

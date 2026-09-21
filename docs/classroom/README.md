@@ -15,6 +15,7 @@ This project teaches **Super Mario Bros. 3, World 1-1**. Target: **18 wins in 20
 | 2026-09-16-smb3-session-02 | completed | [Learning timeline and GIF comparisons](../../sessions/2026-09-16-smb3-session-02/LESSON.md) · [Full report](../../sessions/2026-09-16-smb3-session-02/REPORT.md) |
 | 2026-09-20-smb3-recovery-pilot | completed | [Learning timeline and GIF comparisons](../../sessions/2026-09-20-smb3-recovery-pilot/LESSON.md) · [Full report](../../sessions/2026-09-20-smb3-recovery-pilot/REPORT.md) |
 | 2026-09-20-smb3-recovery-session-02 | completed | [Learning timeline and GIF comparisons](../../sessions/2026-09-20-smb3-recovery-session-02/LESSON.md) · [Full report](../../sessions/2026-09-20-smb3-recovery-session-02/REPORT.md) |
+| 2026-09-21-smb3-overnight-curriculum | running | [Learning timeline and GIF comparisons](../../sessions/2026-09-21-smb3-overnight-curriculum/LESSON.md) · [Full report](../../sessions/2026-09-21-smb3-overnight-curriculum/REPORT.md) |
 
 ## Teacher access
 

@@ -1,0 +1,42 @@
+{
+  "1": {
+    "missed_goal": {
+      "episodes": 105,
+      "clears": 104,
+      "deaths": 1,
+      "timeouts": 0
+    },
+    "approach_goal": {
+      "episodes": 122,
+      "clears": 119,
+      "deaths": 3,
+      "timeouts": 0
+    },
+    "full_level": {
+      "episodes": 82,
+      "clears": 0,
+      "deaths": 82,
+      "timeouts": 0
+    }
+  },
+  "2": {
+    "full_level": {
+      "episodes": 80,
+      "clears": 0,
+      "deaths": 80,
+      "timeouts": 0
+    },
+    "approach_goal": {
+      "episodes": 136,
+      "clears": 136,
+      "deaths": 0,
+      "timeouts": 0
+    },
+    "missed_goal": {
+      "episodes": 155,
+      "clears": 155,
+      "deaths": 0,
+      "timeouts": 0
+    }
+  }
+}

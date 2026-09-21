@@ -1,0 +1,23 @@
+{
+  "00-resumed": {
+    "model_sha256": "277ca1daafdfe484b6e0150086eac3a377b045f306fdd8e01073658e211b66ec",
+    "changed": "The archived seven-action checkpoint was resumed with unchanged weights, PPO settings and rewards. Goal-practice resets are the training intervention.",
+    "observed": "The normal-start evaluation exactly reproduces the parent final results: mean progress 1,488.6 pixels. [Prior visual analysis](../2026-09-20-smb3-recovery-session-02/ANALYSIS.md).",
+    "fails": "All five trials die; none completes the level.",
+    "uncertain": "Five action samples on the same level do not establish generalization. Goal-practice training successes are not full-level wins. The curriculum may interfere with earlier skills, but these results alone do not establish the cause of regression."
+  },
+  "01-stage": {
+    "model_sha256": "e5a420364a444d1dc9ee72268f1464d56e76f942848b031ee2899e3ba8f8f9ac",
+    "changed": "15 additional active minutes, using 75% goal-practice reset probability.",
+    "observed": "Mean normal-start progress falls to 1,154.8 pixels. Reviewed endings show seed 202 at the first plant pipe and seeds 303, 404 and 505 falling between wooden structures. [Reviewed frames](review/01-stage-overview.png).",
+    "fails": "All five trials die. Seed 101 dies around the early flying turtle; no full-level completion is demonstrated.",
+    "uncertain": "Five action samples on the same level do not establish generalization. Goal-practice training successes are not full-level wins. The curriculum may interfere with earlier skills, but these results alone do not establish the cause of regression."
+  },
+  "02-stage": {
+    "model_sha256": "4dda2cd8cda35d57b3011d8ae16765066fcb968d71b9ebbcc525037dd5d97df4",
+    "changed": "30 additional active minutes with the same first-hour reset mixture; no parameter changes.",
+    "observed": "Mean normal-start progress falls further to 619 pixels. Seeds 101 and 404 die around the first plant pipe; seed 202 falls into a gap. Seed 303 dies in the open enemy area and seed 505 near an early walking enemy. [Reviewed frames](review/02-stage-overview.png).",
+    "fails": "All five trials die. Four paired trials lose progress relative to the 15-minute checkpoint; seed 202 improves from 342 to 1,087 pixels. Overall performance regresses.",
+    "uncertain": "Five action samples on the same level do not establish generalization. Goal-practice training successes are not full-level wins. The curriculum may interfere with earlier skills, but these results alone do not establish the cause of regression."
+  }
+}
