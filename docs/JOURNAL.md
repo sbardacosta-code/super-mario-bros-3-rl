@@ -71,3 +71,7 @@ The pilot uses the existing fixed five evaluation seeds and ten additional diagn
 The seven-action PPO pilot ran for 616.60 wall seconds, with 568.27 active seconds, 83,348 decisions and 4,964 optimizer steps. Mean progress improved from 346.8 to 614.2 pixels, but median rose only from 287 to 315 and seed 202 regressed. Final diagnostic evaluations produced 0/15 clears. No evaluated run reached the goal card; the successful scripted recovery remains validation evidence only.
 
 All stages and failures are retained. The final save duplicates the trained checkpoint’s policy weights. Parent-only RSS peaked at 225.41 MiB; macOS blocked child enumeration. The recording overhead pair was too noisy to establish a meaningful speed difference. The setup supports a longer controlled continuation, but no further budget was assumed. [Pilot analysis](../sessions/2026-09-20-smb3-recovery-pilot/ANALYSIS.md).
+
+## 2026-09-20 — Floating training-sample viewer
+
+Read the separate Pacman player for its floating recorded-GIF approach, without modifying that project. Added `scripts/watch_training.py` with live decision counters, beginning/end sample selection, automatic checkpoint following, pause/replay and an always-on-top toggle. Clips are explicitly labeled recorded, not streaming training frames. It runs in a separate process and does not change the active training loop. The desktop inspection tool timed out, so visual window verification was unavailable; the viewer exited without a logged error. Its sample-discovery test passed.

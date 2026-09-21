@@ -66,3 +66,15 @@ MPLCONFIGDIR=.cache/matplotlib .venv/bin/python -m smb3_rl.session \
 ```
 
 Omit `--resume`: the expanded action space requires a fresh model unless an explicit weight-transfer procedure is developed and tested. This pilot is not an equal-training-budget comparison with the previously trained five-action policy.
+
+## Watch gameplay while training
+
+Open a separate floating viewer, inspired by the Pacman sample player:
+
+```sh
+.venv/bin/python scripts/watch_training.py sessions/SESSION_ID
+```
+
+The viewer shows recorded checkpoint GIFs with live decision counters. It is **not a live frame stream** from the training emulator. Select any available trial’s beginning or ending; use Pause/Replay, keep the window above others, or follow the newest checkpoint automatically. Each clip plays twice and then pauses. New clips appear when checkpoint evaluation writes them, usually at 15-minute milestones. The saved-training-time counter advances at checkpoints; decision counters update during training.
+
+Closing the window or pressing Escape does not stop training. The viewer never changes model weights, game actions, or the running training code. It can also display archived sessions after training ends. It requires a local desktop with Tk. GIF decoding/display uses additional local CPU and memory; its overhead is not measured by the training process’s parent-only memory counter.
