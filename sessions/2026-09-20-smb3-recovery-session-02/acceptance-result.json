@@ -1,0 +1,16 @@
+{
+  "status": "failed",
+  "valid_completed_evaluation": true,
+  "clears": 0,
+  "trials": 20,
+  "required_clears": 18,
+  "model_sha256": "9db36aabfb0a28f1916e8096ae7d580776007ecaa7a8396973a75bf694da4003",
+  "plan_sha256": "fc120f7c5fb2a9f0059bacf04e71340dbef5563224db7c2cf646d59fbc2589b3",
+  "plan_publication_commit": "589b619",
+  "wall_seconds": 65.42489241599105,
+  "recording_seconds": 17.128976760344813,
+  "game_frames": 22776,
+  "agent_decisions": 5700,
+  "learning_updates": 0,
+  "note": "Additional frozen-policy evaluation, separate from runner timings. No failed trials retried."
+}

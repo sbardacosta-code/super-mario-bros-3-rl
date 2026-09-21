@@ -75,3 +75,9 @@ All stages and failures are retained. The final save duplicates the trained chec
 ## 2026-09-20 — Floating training-sample viewer
 
 Read the separate Pacman player for its floating recorded-GIF approach, without modifying that project. Added `scripts/watch_training.py` with live decision counters, beginning/end sample selection, automatic checkpoint following, pause/replay and an always-on-top toggle. Clips are explicitly labeled recorded, not streaming training frames. It runs in a separate process and does not change the active training loop. The desktop inspection tool timed out, so visual window verification was unavailable; the viewer exited without a logged error. Its sample-discovery test passed.
+
+## 2026-09-20 — Seven-action hour and acceptance test completed
+
+The approved continuation completed 3,600.006 active seconds and 372,975 new decisions. Fixed-seed mean progress followed 614.2 → 534.0 → 1,316.0 → 1,448.8 → 1,488.6 pixels at 0/15/30/45/60 additional minutes. Every checkpoint had 0/5 clears; individual regressions remain visible. The ten additional diagnostic trials yielded 0/10 clears, including a goal-area timeout with only small backward motion despite the newly available controls.
+
+The predeclared final-checkpoint acceptance test completed all 20 seeds exactly once: **0/20 clears, FAILED against the 18/20 target**. All ended in death, mean progress 1,604.6 pixels. Acceptance cost 65.42 seconds separately from runner timing. No extra training or score-reward changes were made. [Full analysis](../sessions/2026-09-20-smb3-recovery-session-02/ANALYSIS.md) · [Acceptance evidence](../sessions/2026-09-20-smb3-recovery-session-02/ACCEPTANCE.md).

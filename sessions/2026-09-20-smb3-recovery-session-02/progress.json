@@ -1,0 +1,9 @@
+{
+  "at": "2026-09-21T04:34:40.657015+00:00",
+  "phase": "training",
+  "model_decisions": 455899,
+  "rollout_seconds": 2464.798831302469,
+  "learning_seconds": 1129.4457578476286,
+  "update_calls": 727,
+  "last_episode_progress": 1151
+}

@@ -1,0 +1,44 @@
+{
+  "00-resumed": {
+    "model_sha256": "df8af96c1d6cb61deb4d340575d3dcb5e56663044128b0a8c3fe6caf8dfee614",
+    "changed": "The pilot final model and optimizer were resumed, with unchanged configuration. The five outcomes exactly reproduce the prior final evaluation.",
+    "observed": "Mean progress starts at 614.2 pixels; the pilot clips and visual analysis describe this same policy. [Pilot analysis](../2026-09-20-smb3-recovery-pilot/ANALYSIS.md).",
+    "fails": "All five trials die; the completion target is not met.",
+    "uncertain": "These are five action samples on the same level, not different levels or independent training runs. Clips show trajectories, not what the network understands."
+  },
+  "01-stage": {
+    "model_sha256": "644aad243c0f8c2ed09e3f5590032d666cd3765dd25521104dedfdf4b497f3a2",
+    "changed": "15 additional active minutes with the same seven actions and reward.",
+    "observed": "Mean progress falls to 534 pixels. Seed 101 dies near the first walking enemy; seeds 202, 404 and 505 reach the later open enemy area and die. [Reviewed endings](review/01-stage-overview.png).",
+    "fails": "Seeds 303 and 505 regress by 1,015 and 682 pixels. All five trials die.",
+    "uncertain": "These are five action samples on the same level, not different levels or independent training runs. Clips show trajectories, not what the network understands."
+  },
+  "02-stage": {
+    "model_sha256": "0c52c5f2ab5d4844069afd77381a915d21706f77984d16758b850eeea1dab1d5",
+    "changed": "30 additional active minutes; no settings changed.",
+    "observed": "Mean progress recovers to 1,316 pixels and every paired trial gains distance. Seed 202 reaches the later plant pipes; seed 404 reaches the wooden structures. [Reviewed endings](review/02-stage-overview.png).",
+    "fails": "The reviewed endings show enemy/plant failures and a fall between wooden structures; all five trials die.",
+    "uncertain": "These are five action samples on the same level, not different levels or independent training runs. Clips show trajectories, not what the network understands."
+  },
+  "03-stage": {
+    "model_sha256": "c5e0c7486c2c4aaab14200ab434fb5dd9dc48427e4389004d190967fc3627622",
+    "changed": "45 additional active minutes; the same reward and settings continue.",
+    "observed": "Mean progress reaches 1,448.8 pixels and outcomes cluster at 1,413\u20131,501 pixels. Seed 101 reaches the gap before the wooden steps. [Reviewed endings](review/03-stage-overview.png).",
+    "fails": "Seeds 202 and 404 regress. Reviewed clips show deaths around the flying enemies and falls before the wooden steps; no trial clears.",
+    "uncertain": "These are five action samples on the same level, not different levels or independent training runs. Clips show trajectories, not what the network understands."
+  },
+  "04-stage": {
+    "model_sha256": "f7dcf12e95fc12c78519084b26e9e08a391069df66a9a47237b3ce2b7015e0df",
+    "changed": "60 additional active minutes; the approved training budget is exhausted.",
+    "observed": "Mean progress is 1,488.6 pixels. Seed 101 reaches the later plant pipes and seed 505 reaches the tall-pipe gap. [Reviewed endings](review/04-stage-overview.png).",
+    "fails": "Seed 404 regresses from 1,415 to 327 pixels and dies near the first plant pipe. Seed 202 falls before the wooden steps. All five trials die.",
+    "uncertain": "These are five action samples on the same level, not different levels or independent training runs. Clips show trajectories, not what the network understands."
+  },
+  "final": {
+    "model_sha256": "9db36aabfb0a28f1916e8096ae7d580776007ecaa7a8396973a75bf694da4003",
+    "changed": "No learning occurred after 04-stage; the final save has identical policy weights and repeated five-seed results.",
+    "observed": "Ten additional diagnostic seeds average 1,410.7 pixels. Seed 6404 reaches the goal area but stays to the right of the uncollected card until the frame limit. [Goal timeout](final-additional-trials/trial-6404-ending.gif).",
+    "fails": "The extra ten trials yield nine deaths and one timeout, 0/10 clears. Left controls are available but purposeful missed-card recovery is not demonstrated. [20-trial acceptance result](ACCEPTANCE.md).",
+    "uncertain": "These are five action samples on the same level, not different levels or independent training runs. Clips show trajectories, not what the network understands."
+  }
+}
