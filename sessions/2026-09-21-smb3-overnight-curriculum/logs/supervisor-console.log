@@ -1,0 +1,36 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "<project>/smb3_rl/session.py", line 302, in <module>
+    main()
+    ~~~~^^
+  File "<project>/smb3_rl/session.py", line 299, in main
+    run(args)
+    ~~~^^^^^^
+  File "<project>/smb3_rl/session.py", line 227, in run
+    model.learn(total_timesteps=10**9, callback=Budget(budget, should_stop, trace), reset_num_timesteps=False)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<project>/.venv/lib/python3.13/site-packages/stable_baselines3/ppo/ppo.py", line 311, in learn
+    return super().learn(
+           ~~~~~~~~~~~~~^
+        total_timesteps=total_timesteps,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        progress_bar=progress_bar,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "<project>/.venv/lib/python3.13/site-packages/stable_baselines3/common/on_policy_algorithm.py", line 324, in learn
+    continue_training = self.collect_rollouts(self.env, callback, self.rollout_buffer, n_rollout_steps=self.n_steps)
+  File "<project>/smb3_rl/session.py", line 24, in collect_rollouts
+    return super().collect_rollouts(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "<project>/.venv/lib/python3.13/site-packages/stable_baselines3/common/on_policy_algorithm.py", line 224, in collect_rollouts
+    if not callback.on_step():
+           ~~~~~~~~~~~~~~~~^^
+  File "<project>/.venv/lib/python3.13/site-packages/stable_baselines3/common/callbacks.py", line 115, in on_step
+    return self._on_step()
+           ~~~~~~~~~~~~~^^
+  File "<project>/smb3_rl/session.py", line 59, in _on_step
+    raise RuntimeError('Invalid training telemetry; integration must be investigated before continuing.')
+RuntimeError: Invalid training telemetry; integration must be investigated before continuing.

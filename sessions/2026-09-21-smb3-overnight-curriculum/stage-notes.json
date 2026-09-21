@@ -33,5 +33,12 @@
     "observed": "Mean progress recovers to 1,597.8 pixels, slightly above the resumed mean of 1,488.6. Seed 505 reaches the tall-pipe area. [Reviewed frames](review/04-stage-overview.png).",
     "fails": "All five trials still die. Seed 101 falls between wooden structures; seeds 202, 303 and 404 die around the flying turtles. Seed 505 falls in the tall-pipe area. Recovery in distance is not reliable level completion.",
     "uncertain": "Five action samples on the same level provide limited evidence. We cannot infer what Mario understands or attribute recovery to a specific mechanism. Practice clears are not full-level successes."
+  },
+  "emergency": {
+    "model_sha256": "6e98d6be3a206002ea7260a54bb6f6e619e2634c23197cb0d899563c81427df5",
+    "changed": "Training stopped automatically at 65.80 active minutes after invalid position telemetry. An emergency checkpoint was saved; no further training or frozen-model evaluation ran.",
+    "observed": "Three normal-start training clears occurred in the final segment. Saved action replays reproduce all positions and frame counts and show COURSE CLEAR. These successes belong to the changing training policy, not an evaluation of this emergency checkpoint. [Failure and replay evidence](FAILURE.md).",
+    "fails": "The final episode reports a position jump from x=1843 to x=1588 over two frames while still marked in-level. The safety check stopped the run. The emergency model and final 20-trial acceptance were not evaluated.",
+    "uncertain": "The cause of the coordinate discontinuity remains unresolved. Three training clears do not establish reliable completion or performance of the emergency checkpoint."
   }
 }

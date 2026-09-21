@@ -93,3 +93,7 @@ Normal-start mean progress regressed from 1,488.6 to 1,154.8 and then 619 pixels
 ### Overnight checkpoints: 45 and 60 active minutes
 
 Mean normal-start progress recovered to 939.4 and then 1,597.8 pixels, but both checkpoints still cleared 0/5 trials. First-hour training produced 1,016/1,020 practice clears and 0/307 full-start clears. Reset preparation consumed about 49% of active training time. The planned switch to 90% normal-start resets is now underway; no intervention or budget extension was made. [Updated visual analysis](../sessions/2026-09-21-smb3-overnight-curriculum/ANALYSIS.md).
+
+### Overnight run stopped safely at 65.80 active minutes
+
+A full-start episode reported an implausible coordinate jump and triggered the integration safety check. The supervisor exited after saving an emergency model; no restart occurred. Deterministic action replay reproduced the failure and also verified three earlier full-start training clears with COURSE CLEAR screens. These training successes do not replace frozen-model evaluation. The final 20-trial acceptance never ran. All checkpoints and failure evidence were preserved. [Failure report](../sessions/2026-09-21-smb3-overnight-curriculum/FAILURE.md).

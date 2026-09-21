@@ -1,0 +1,31 @@
+{
+  "status": "not_run",
+  "reason": "Training aborted on invalid telemetry; no final checkpoint or acceptance evaluation was produced.",
+  "completed_trials": 0,
+  "clears": null,
+  "required_trials": 20,
+  "required_clears": 18,
+  "planned_seeds": [
+    9101,
+    9102,
+    9103,
+    9104,
+    9105,
+    9106,
+    9107,
+    9108,
+    9109,
+    9110,
+    9111,
+    9112,
+    9113,
+    9114,
+    9115,
+    9116,
+    9117,
+    9118,
+    9119,
+    9120
+  ],
+  "at": "2026-09-21T09:25:17.105218+00:00"
+}

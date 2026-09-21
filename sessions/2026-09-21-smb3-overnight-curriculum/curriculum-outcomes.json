@@ -1,0 +1,23 @@
+{
+  "missed_goal": {
+    "completed_episodes": 527,
+    "clears": 526,
+    "deaths": 1,
+    "frame_limits": 0,
+    "max_progress_pixels": 57
+  },
+  "approach_goal": {
+    "completed_episodes": 510,
+    "clears": 507,
+    "deaths": 3,
+    "frame_limits": 0,
+    "max_progress_pixels": 264
+  },
+  "full_level": {
+    "completed_episodes": 501,
+    "clears": 3,
+    "deaths": 497,
+    "frame_limits": 0,
+    "max_progress_pixels": 2824
+  }
+}

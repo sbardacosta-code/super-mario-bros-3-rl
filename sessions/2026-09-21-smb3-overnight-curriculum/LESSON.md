@@ -1,5 +1,7 @@
 # Watching Mario learn — Super Mario Bros. 3
 
+**Archived failed run:** training stopped at 65.80 active minutes on invalid telemetry. The emergency checkpoint is unevaluated; final acceptance did not run. Three full-start training clears were verified by replay. [Failure, successful replays and limits](FAILURE.md) · [All six verified model downloads](MODELS.md).
+
 ## Use this in class
 
 1. Watch the initial policy and predict where Mario will fail.
@@ -20,6 +22,7 @@ Longer sessions save checkpoints approximately every **15 minutes of additional 
 | 02-stage | 30.03 | 579,799 | 619.0 | 468.0 | 326–1087 | 0/5 |
 | 03-stage | 45.03 | 606,102 | 939.4 | 885.0 | 326–1503 | 0/5 |
 | 04-stage | 60.03 | 676,280 | 1597.8 | 1408.0 | 1362–2221 | 0/5 |
+| emergency | 65.80 | 734,039 | Pending or noncomparable | — | — | — |
 
 Progress is furthest horizontal displacement in pixels, not a completion percentage. Missing or incompatible evaluations are excluded, never scored as zero. Cumulative model decisions include previous sessions when resuming.
 
@@ -185,9 +188,15 @@ The middle of this trial is omitted from these excerpts; the full action trace i
 
 **Discuss:** What changed visibly? Did every trial improve? What extra evidence would distinguish better jump timing from a favorable action sequence?
 
+## emergency · 65.80 active minutes
+
+Saved stage: `emergency`. Model identifier: `6e98d6be3a206002ea7260a54bb6f6e619e2634c23197cb0d899563c81427df5`.
+
+**Evaluation incomplete, unavailable, or noncomparable.** No learning claim is made.
+
 ## Read the failures, too
 
-The detailed report preserves the hold-run-right baseline and the final additional-seed evaluation. Additional seeds test action variation on this same level, not generalization to unseen levels. A final save at the same training time is not another learning interval.
+The detailed report preserves the hold-run-right baseline and completed checkpoint evaluations. The planned final additional-seed evaluation did not run. Additional seeds test action variation on this same level, not generalization to unseen levels. A final save at the same training time is not another learning interval.
 
 Regenerate this page locally with `python -m smb3_rl.report sessions/SESSION_ID`. Reviewed explanations live in `stage-notes.json`, keyed to the checkpoint hash; generation preserves them and refuses to reuse notes for another model. Future stages are explicitly marked pending visual review until their saved evidence has been inspected.
 

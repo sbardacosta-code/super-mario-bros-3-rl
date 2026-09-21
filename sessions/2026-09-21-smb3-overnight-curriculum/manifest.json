@@ -1,5 +1,5 @@
 {
-  "status": "running",
+  "status": "failed",
   "at": "2026-09-21T07:44:42.795651+00:00",
   "session_id": "2026-09-21-smb3-overnight-curriculum",
   "pid": 51338,
@@ -426,20 +426,29 @@
       "status": "complete",
       "total_model_decisions": 676280,
       "evaluation": "sessions/2026-09-21-smb3-overnight-curriculum/04-stage/evaluation.json"
+    },
+    {
+      "id": "emergency",
+      "model_sha256": "6e98d6be3a206002ea7260a54bb6f6e619e2634c23197cb0d899563c81427df5",
+      "model_path": "sessions/2026-09-21-smb3-overnight-curriculum/checkpoints/emergency.zip",
+      "training_seconds": 3948.2219926670077,
+      "status": "evaluation_pending",
+      "total_model_decisions": 734039,
+      "evaluation": null
     }
   ],
-  "training_seconds": 3601.933177125,
+  "training_seconds": 3948.2219926670077,
   "evaluation_seconds": 65.94927933203871,
-  "rollout_seconds": 2984.941214790975,
-  "learning_seconds": 614.9200547907676,
-  "optimizer_steps": 10108,
-  "learning_update_calls": 428,
-  "training_game_frames": 878346,
-  "training_agent_decisions": 219957,
-  "checkpoint_seconds": 0.1994062080339063,
+  "rollout_seconds": 3243.888559540792,
+  "learning_seconds": 702.1763357878954,
+  "optimizer_steps": 12008,
+  "learning_update_calls": 540,
+  "training_game_frames": 1109053,
+  "training_agent_decisions": 277716,
+  "checkpoint_seconds": 0.21081958303693682,
   "peak_sampled_rss_bytes": 679837696,
   "memory_sampling": {
-    "samples": 31617,
+    "samples": 34668,
     "scope": "parent_only_fallback_used",
     "errors": [
       "ZombieProcess: PID still exists but it's a zombie (pid=51432)",
@@ -504,18 +513,19 @@
     "configs/smb3-1-1.json": "0c368449f1cd06539e661941010ff3a39e6072023855d0b3f40d4e6a9beca124",
     "requirements-lock.txt": "8ff85b9d1a7e24d734af9b91fa44c4b8d83abdcbcd000550894a46fc6cdbf630"
   },
-  "wall_seconds": 3670.7686431249895,
+  "wall_seconds": 4017.2047279169783,
   "run_right_baseline": "sessions/2026-09-21-smb3-overnight-curriculum/hold-run-right/evaluation.json",
-  "simulation_seconds": 754.0525932298042,
-  "training_reset_calls": 1328,
-  "simulated_frames_per_second": 1164.8338695286686,
-  "optimizer_steps_per_second": 16.43790915786499,
+  "simulation_seconds": 911.8423686441965,
+  "training_reset_calls": 1539,
+  "simulated_frames_per_second": 1216.2771090018912,
+  "optimizer_steps_per_second": 17.101117465780312,
   "curriculum_counters": {
-    "setup_frames": 1533400,
-    "setup_decisions": 383350,
-    "setup_seconds": 1752.2816647595027,
-    "practice_resets": 1021,
-    "full_resets": 307,
-    "practice_probability": 0.75
-  }
+    "setup_frames": 1557200,
+    "setup_decisions": 389300,
+    "setup_seconds": 1772.730251885485,
+    "practice_resets": 1037,
+    "full_resets": 502,
+    "practice_probability": 0.1
+  },
+  "error": "RuntimeError('Invalid training telemetry; integration must be investigated before continuing.')"
 }

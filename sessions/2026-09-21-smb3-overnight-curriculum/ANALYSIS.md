@@ -1,4 +1,4 @@
-# Overnight curriculum — first 30 active minutes
+# Overnight curriculum — archived failed experiment
 
 Full-level performance has regressed so far. The five normal-start trials average 1,488.6 pixels before training, 1,154.8 after 15 minutes, and 619 after 30 minutes. Every evaluation trial dies: 0/5 clears at each stage. The target remains 18/20 in the final acceptance evaluation, which has not run yet.
 
@@ -23,3 +23,7 @@ The 45-minute checkpoint averages 939.4 pixels, and the 60-minute checkpoint ave
 The third and fourth closed training segments contain 123/123 and 379/379 goal-practice clears, respectively, alongside 0/48 and 0/97 full-start clears. Across the first hour that is 1,016/1,020 completed practice episodes versus 0/307 completed full-start episodes. These are training counts from a changing policy, not equivalent to held-out evaluation. [Separated segment counts](review/stages-three-four-training-outcomes.json).
 
 The first-hour snapshot records 219,957 policy decisions and 428 PPO update calls. Scripted setup cost about 1,752 seconds of 3,602 active training seconds (49%); evaluation cost about 66 seconds separately. The approved next phase reduces practice-reset probability to 10%. The live fifth segment already contains predominantly full-start completed episodes, consistent with this scheduled transition. Its trace is still open and is excluded from publication until closed. The manifest’s curriculum counter is a checkpoint snapshot and will show the updated probability at the next saved stage. No live code or reward settings were changed.
+
+## Final status: stopped after 65.80 active minutes
+
+The job is no longer running. Invalid telemetry triggered a safe stop and emergency save. Three full-start training clears in the last segment were subsequently verified by replay, but the emergency checkpoint was not evaluated and the final 20-trial test did not run. Earlier running-status paragraphs describe historical checkpoints. [Failure diagnosis, replay GIFs and actual timing](FAILURE.md) · [Acceptance status](acceptance-result.json).

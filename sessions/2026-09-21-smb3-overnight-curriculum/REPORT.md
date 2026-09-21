@@ -1,6 +1,6 @@
 # SMB3 World 1-1 — 2026-09-21-smb3-overnight-curriculum
 
-Session status: **running**. This is a local CPU experiment.
+Session status: **failed**. This is a local CPU experiment.
 
 [Classroom learning timeline and stage explanations](LESSON.md) · [Manifest](manifest.json) · [Configuration](config.json) · [Dependencies](requirements.txt)
 
@@ -8,21 +8,21 @@ Session status: **running**. This is a local CPU experiment.
 
 | Measurement | Value |
 |---|---:|
-| Session wall time before chart generation | 3670.77 s |
-| Active training | 3601.93 s |
-| Rollout collection (includes inference and traces) | 2984.94 s |
-| Raw emulator stepping inside collection | 754.05 s |
-| Learning updates | 614.92 s |
+| Session wall time before chart generation | 4017.20 s |
+| Active training | 3948.22 s |
+| Rollout collection (includes inference and traces) | 3243.89 s |
+| Raw emulator stepping inside collection | 911.84 s |
+| Learning updates | 702.18 s |
 | Evaluation subprocesses (includes recording/startup) | 65.95 s |
-| Checkpoint saving | 0.20 s |
-| Training game frames | 878,346 |
-| Agent decisions | 219,957 |
-| PPO train calls / optimizer steps | 428 / 10108 |
+| Checkpoint saving | 0.21 s |
+| Training game frames | 1,109,053 |
+| Agent decisions | 277,716 |
+| PPO train calls / optimizer steps | 540 / 12008 |
 | Sampled peak RSS | 648.3 MiB (parent_only_fallback_used) |
 
 Nested timing fields overlap: raw stepping is part of collection, and collection/learning are part of active training. RSS is sampled every 100 ms; shared pages may be counted twice. Reset/setup frames are excluded from action-frame counters.
 
-Raw simulation: 1165 frames/s; end-to-end training: 244 frames/s; learning: 16.4 optimizer steps/s.
+Raw simulation: 1216 frames/s; end-to-end training: 281 frames/s; learning: 17.1 optimizer steps/s.
 
 ## Outcomes across stages
 
@@ -153,6 +153,12 @@ Mean progress changed by +658.4 pixels; completion count changed by +0. Improvem
 The middle of this trial is omitted from these excerpts; the full action trace is retained.
 
 
+## emergency
+
+65.80 additional active minutes. Model SHA-256: `6e98d6be3a206002ea7260a54bb6f6e619e2634c23197cb0d899563c81427df5`.
+
+**Evaluation pending.** Missing results are not zeros.
+
 ## Run right baseline
 
 Status: complete. [Measurements](hold-run-right/evaluation.json).
@@ -181,10 +187,14 @@ These excerpts overlap; they are two views of the same trial.
 
 [Read the visual stage-by-stage analysis](ANALYSIS.md).
 
+[Verified downloadable model checkpoints](MODELS.md) · [Download verification manifest](release.json).
+
 ## Training curriculum
 
 Only training resets use goal practice. Every evaluation and every point in the progress chart starts from the normal beginning of World 1-1. Practice clears do not count toward the 18/20 target.
 First 60 active minutes: 75% practice resets, split between goal approach and missed goal; subsequently 10% practice and 90% normal starts. These are probabilities, not guaranteed proportions.
 Scripted reset actions are not PPO decisions or demonstrations. Their frames and elapsed time are reported separately; reset setup time is included in active training wall time. Reward coefficients and the seven actions are unchanged.
-Setup and reset counters: `{'setup_frames': 1533400, 'setup_decisions': 383350, 'setup_seconds': 1752.2816647595027, 'practice_resets': 1021, 'full_resets': 307, 'practice_probability': 0.75}`.
+Setup and reset counters: `{'setup_frames': 1557200, 'setup_decisions': 389300, 'setup_seconds': 1772.730251885485, 'practice_resets': 1037, 'full_resets': 502, 'practice_probability': 0.1}`.
 Final acceptance uses predeclared new action-sampling seeds 9101–9120 on the same level. It is not a test on unseen levels.
+[Training outcomes separated by start condition](CURRICULUM.md).
+[Final 20-trial acceptance result](acceptance-result.json).

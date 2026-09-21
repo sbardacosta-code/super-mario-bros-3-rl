@@ -1,0 +1,36 @@
+{
+  "tag": "models-2026-09-21-smb3-overnight-curriculum",
+  "verified_downloads": true,
+  "models": [
+    {
+      "stage": "00-resumed",
+      "sha256": "277ca1daafdfe484b6e0150086eac3a377b045f306fdd8e01073658e211b66ec",
+      "url": "https://github.com/sbardacosta-code/super-mario-bros-3-rl/releases/download/models-2026-09-21-smb3-overnight-curriculum/00-resumed.zip"
+    },
+    {
+      "stage": "01-stage",
+      "sha256": "e5a420364a444d1dc9ee72268f1464d56e76f942848b031ee2899e3ba8f8f9ac",
+      "url": "https://github.com/sbardacosta-code/super-mario-bros-3-rl/releases/download/models-2026-09-21-smb3-overnight-curriculum/01-stage.zip"
+    },
+    {
+      "stage": "02-stage",
+      "sha256": "4dda2cd8cda35d57b3011d8ae16765066fcb968d71b9ebbcc525037dd5d97df4",
+      "url": "https://github.com/sbardacosta-code/super-mario-bros-3-rl/releases/download/models-2026-09-21-smb3-overnight-curriculum/02-stage.zip"
+    },
+    {
+      "stage": "03-stage",
+      "sha256": "33cfa248c291d974f54adbb2601e3ae5fce0b4dbe4abdbda102d44c3eddd019f",
+      "url": "https://github.com/sbardacosta-code/super-mario-bros-3-rl/releases/download/models-2026-09-21-smb3-overnight-curriculum/03-stage.zip"
+    },
+    {
+      "stage": "04-stage",
+      "sha256": "e2c3ca4382e78c77d122adf9e7cad4002c9320eb997eac8f8740b9b30dd6711d",
+      "url": "https://github.com/sbardacosta-code/super-mario-bros-3-rl/releases/download/models-2026-09-21-smb3-overnight-curriculum/04-stage.zip"
+    },
+    {
+      "stage": "emergency",
+      "sha256": "6e98d6be3a206002ea7260a54bb6f6e619e2634c23197cb0d899563c81427df5",
+      "url": "https://github.com/sbardacosta-code/super-mario-bros-3-rl/releases/download/models-2026-09-21-smb3-overnight-curriculum/emergency.zip"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "started": "2026-09-21T07:44:41.824123+00:00",
+  "pid": 51336,
+  "deadline_epoch": 1789998051.391879,
+  "status": "failed",
+  "training_pid": 51338,
+  "caffeinate_pid": 51337,
+  "exit_code": 1,
+  "finished": "2026-09-21T08:51:42.945902+00:00"
+}
