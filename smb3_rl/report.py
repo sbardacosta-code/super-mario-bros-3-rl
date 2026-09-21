@@ -92,10 +92,10 @@ def build(run):
     if m.get('curriculum'):
         lines += ['','## Training curriculum','',
                   'Only training resets use goal practice. Every evaluation and every point in the progress chart starts from the normal beginning of World 1-1. Practice clears do not count toward the 18/20 target.',
-                  'First 60 active minutes: 75% practice resets, split between goal approach and missed goal; subsequently 10% practice and 90% normal starts. These are probabilities, not guaranteed proportions.',
+                  (f"Fixed practice-reset probability: {m['practice_probability_override']:.0%}; other resets use normal starts." if m.get('practice_probability_override') is not None else 'First 60 active minutes: 75% practice resets; subsequently 10% practice and 90% normal starts. These are probabilities, not guaranteed proportions.'),
                   'Scripted reset actions are not PPO decisions or demonstrations. Their frames and elapsed time are reported separately; reset setup time is included in active training wall time. Reward coefficients and the seven actions are unchanged.',
                   f"Setup and reset counters: `{m.get('curriculum_counters',{})}`.",
-                  'Final acceptance uses predeclared new action-sampling seeds 9101–9120 on the same level. It is not a test on unseen levels.']
+                  f"Final acceptance uses predeclared action-sampling seeds {m.get('final_acceptance_seeds')} on the same level. It is not a test on unseen levels."]
         if (run/'CURRICULUM.md').exists():lines += ['[Training outcomes separated by start condition](CURRICULUM.md).']
         if (run/'acceptance-result.json').exists():lines += ['[Final 20-trial acceptance result](acceptance-result.json).']
     target.write_text('\n'.join(lines)+'\n')

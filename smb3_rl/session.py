@@ -74,11 +74,16 @@ def run(args):
         parent_model = Path(args.resume).resolve()
         parent_manifest = read_json(parent_model.parent.parent / 'manifest.json')
         if parent_manifest['config'] != config:
-            raise ValueError('Resume requires the same configuration.')
+            ignored={'protocol','validation_file','position_guard'}
+            compatible={k:v for k,v in parent_manifest['config'].items() if k not in ignored}=={k:v for k,v in config.items() if k not in ignored}
+            if not (getattr(args,'allow_telemetry_fix',False) and compatible and config.get('position_guard')=='single-frame-page-v1'):
+                raise ValueError('Resume requires the same configuration or the explicitly validated telemetry-only migration.')
         if parent_manifest['source_hashes'] != source_hashes() and not args.allow_source_change:
             raise ValueError('Source changed. Review and document the changes, then explicitly use --allow-source-change with a new budget note.')
         if parent_manifest['validation']['identity'] != validation['identity']:
-            raise ValueError('Resume environment identity differs from the parent session.')
+            unchanged=('rom_sha256','installed_environment_sha256','versions')
+            if not (getattr(args,'allow_telemetry_fix',False) and all(parent_manifest['validation']['identity'][k]==validation['identity'][k] for k in unchanged)):
+                raise ValueError('Resume environment identity differs from the parent session.')
         if digest(parent_model) not in [s['model_sha256'] for s in parent_manifest['stages']]:
             raise ValueError('Resume checkpoint is not in the parent session manifest.')
     run = ROOT / 'sessions' / args.session
@@ -91,8 +96,9 @@ def run(args):
     pilot_deadline = start + 720 if args.pilot else float('inf')
     if getattr(args, 'deadline_epoch', None):
         pilot_deadline = start + max(0, args.deadline_epoch-time.time())
-    final_reserve = 1800 if getattr(args, 'curriculum', False) else 130
+    final_reserve = getattr(args,'final_reserve_seconds',1800) if getattr(args, 'curriculum', False) else 130
     training_limit = 600 if args.pilot else args.active_minutes * 60
+    acceptance_seeds=getattr(args,'acceptance_seeds',None) or list(range(9101,9121))
     stopped = [False]
     signal.signal(signal.SIGINT, lambda *_: stopped.__setitem__(0, True))
     signal.signal(signal.SIGTERM, lambda *_: stopped.__setitem__(0, True))
@@ -112,7 +118,9 @@ def run(args):
                 'deadline_epoch':getattr(args,'deadline_epoch',None),
                 'curriculum':bool(getattr(args,'curriculum',False)),
                 'curriculum_validation':checked if getattr(args,'curriculum',False) else None,
-                'final_acceptance_seeds':list(range(9101,9121)) if getattr(args,'curriculum',False) else None}
+                'practice_probability_override':getattr(args,'practice_probability',None),
+                'telemetry_fix_accepted':bool(getattr(args,'allow_telemetry_fix',False)),
+                'final_acceptance_seeds':acceptance_seeds if getattr(args,'curriculum',False) else None}
     if args.resume:
         manifest['parent_source_hashes']=parent_manifest['source_hashes']
     write_json(run / 'config.json', config)
@@ -220,7 +228,7 @@ def run(args):
             if budget < 1:
                 break
             if getattr(args, 'curriculum', False):
-                env.practice_probability = .75 if manifest['training_seconds'] < 3600 else .10
+                env.practice_probability = args.practice_probability if getattr(args,'practice_probability',None) is not None else (.75 if manifest['training_seconds'] < 3600 else .10)
             tick = time.perf_counter()
             try:
                 with gzip.open(run/'logs'/f'{index:02d}-training-trace.jsonl.gz','xt') as trace:
@@ -249,11 +257,11 @@ def run(args):
         final, path = checkpoint('final')
         eval_stage(final, path)
         if not should_stop():
-            manifest['final_additional_trials'] = evaluate('final-additional-trials', path, list(range(9101,9121)) if getattr(args,'curriculum',False) else config['final_seeds'], max_seconds=60 if args.pilot else (900 if getattr(args,'curriculum',False) else args.eval_seconds*2))
+            manifest['final_additional_trials'] = evaluate('final-additional-trials', path, acceptance_seeds if getattr(args,'curriculum',False) else config['final_seeds'], max_seconds=60 if args.pilot else (900 if getattr(args,'curriculum',False) else args.eval_seconds*2))
             if getattr(args,'curriculum',False) and manifest.get('final_additional_trials'):
                 result=read_json(ROOT/manifest['final_additional_trials'])
                 episodes=result['episodes']
-                complete=result['status']=='complete' and [e['seed'] for e in episodes]==list(range(9101,9121)) and all(e['complete_trial'] and not e['telemetry_invalid'] for e in episodes)
+                complete=result['status']=='complete' and [e['seed'] for e in episodes]==acceptance_seeds and all(e['complete_trial'] and not e['telemetry_invalid'] for e in episodes)
                 clears=sum(bool(e['level_complete']) for e in episodes)
                 write_json(run/'acceptance-result.json',{'status':'passed' if complete and clears>=18 else 'not_met' if complete else 'incomplete','clears':clears,'completed_trials':len(episodes),'required_clears':18,'required_trials':20,'model_sha256':digest(path),'evaluation':manifest['final_additional_trials']})
         manifest['status'] = 'stopped' if should_stop() else 'completed'
@@ -286,6 +294,10 @@ def main():
     p.add_argument('--allow-source-change', action='store_true', help='Explicitly accept reviewed runner/reporting changes; configuration and environment identity must still match')
     p.add_argument('--curriculum', action='store_true', help='Validated training-only goal reset mixture; same full-start evaluation')
     p.add_argument('--deadline-epoch', type=float, help='Absolute wall deadline including evaluation; reserve 30 minutes for final tests')
+    p.add_argument('--allow-telemetry-fix',action='store_true')
+    p.add_argument('--practice-probability',type=float)
+    p.add_argument('--final-reserve-seconds',type=float,default=1800)
+    p.add_argument('--acceptance-seeds',nargs=20,type=int)
     p.add_argument('--eval-seconds', type=float, default=300)
     args = p.parse_args()
     import math
@@ -293,6 +305,9 @@ def main():
         p.error('Budgets must be finite and positive')
     if args.deadline_epoch is not None and (not math.isfinite(args.deadline_epoch) or args.deadline_epoch<=time.time()):
         p.error('Wall deadline must be finite and in the future')
+    if args.practice_probability is not None and not 0<=args.practice_probability<=1:p.error('Practice probability must be in [0,1]')
+    if not math.isfinite(args.final_reserve_seconds) or args.final_reserve_seconds<0:p.error('Invalid reserve')
+    if args.acceptance_seeds and len(set(args.acceptance_seeds))!=20:p.error('Acceptance needs 20 unique seeds')
     (ROOT / '.cache').mkdir(exist_ok=True)
     with (ROOT / '.cache/session.lock').open('w') as lock:
         fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)

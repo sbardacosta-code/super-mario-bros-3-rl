@@ -26,4 +26,6 @@ def require_validated(config):
     record=read_json(ROOT/config['validation_file'])
     if record.get('identity')!=identity(config) or record.get('status')!='passed':
         raise RuntimeError('SMB3 validation is missing, failed, or stale. Run python -m smb3_rl.validate.')
+    if config.get('position_guard') and record.get('position_guard_sha256')!=digest(ROOT/'smb3_rl/position.py'):
+        raise RuntimeError('Position guard validation is stale')
     return record

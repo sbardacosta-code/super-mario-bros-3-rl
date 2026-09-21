@@ -3,7 +3,7 @@ from smb3_rl.common import ROOT,read_json
 from smb3_rl.curriculum import CurriculumEnv
 
 def test_curriculum_resets_accounting_and_verified_goal():
-    env=CurriculumEnv(read_json(ROOT/'configs/smb3-1-1-recovery.json'))
+    env=CurriculumEnv(read_json(ROOT/'configs/smb3-1-1-position.json'))
     try:
         for condition,offset,x in [('full_level',0,24),('approach_goal',350,2585),('missed_goal',400,2792)]:
             old_frames=env.total_frames

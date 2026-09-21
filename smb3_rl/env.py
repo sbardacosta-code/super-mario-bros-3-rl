@@ -5,6 +5,7 @@ import numpy as np
 import gymnasium as gym
 from PIL import Image
 from .common import require_validated
+from .position import PositionGuard
 
 class HighWater:
     def __init__(self,x): self.start=self.maximum=int(x)
@@ -43,12 +44,17 @@ class MarioEnv(gym.Env):
         if (info['world'],info['stage'])!=(1,1) or not info['in_level']:
             raise RuntimeError('Unexpected SMB3 reset state')
         self.progress=HighWater(info['x_pos']);self.last_x=int(info['x_pos'])
+        self.position_guard=PositionGuard(self.last_x) if self.config.get('position_guard')=='single-frame-page-v1' else None
+        self.position_quarantined=False
         self.invalid=False;self.clear=False;self.death=False;self.initial_lives=info['life']
         self.stack.clear();self.stack.extend([self.pixel(rgb)]*4)
         self.info=self.metrics(info,0,False,False)
         return np.stack(self.stack),self.info
     def metrics(self,info,advanced,terminated,truncated):
         return {**info,'frames':self.frames,'decisions':self.decisions,'frames_advanced':advanced,
+                'raw_x_pos':info['x_pos'],'validated_x_pos':self.last_x,
+                'position_quarantined':self.position_quarantined,
+                'position_quarantine_count':self.position_guard.samples_quarantined if self.position_guard else 0,
                 'max_x':self.progress.maximum,'progress_pixels':self.progress.maximum-self.progress.start,
                 'milestones_reached':sum(self.progress.maximum-self.progress.start>=x for x in self.config['milestones_pixels']),
                 'level_complete':self.clear,'death':self.death,'telemetry_invalid':self.invalid,
@@ -66,9 +72,15 @@ class MarioEnv(gym.Env):
             x=int(info['x_pos'])
             # Death animation and map return do not grant horizontal progress.
             in_level=bool(info['in_level']) and not bool(info['death'])
-            if in_level and abs(x-self.last_x)>16:
+            accepted=True
+            self.position_quarantined=False
+            if in_level and self.position_guard:
+                x,accepted,invalid=self.position_guard.observe(x)
+                self.invalid |= invalid
+                self.position_quarantined=not accepted
+            elif in_level and abs(x-self.last_x)>16:
                 self.invalid=True
-            gained=self.progress.update(x,in_level and not self.invalid)
+            gained=self.progress.update(x,in_level and accepted and not self.invalid)
             self.last_x=x
             self.clear=bool(info['clear']) and not bool(info['death'])
             self.death=bool(info['death'])
@@ -78,6 +90,9 @@ class MarioEnv(gym.Env):
             if self.clear: reward+=r['clear_bonus']
             terminated=bool(term or self.clear or self.death)
             truncated=bool(trunc or self.invalid or self.frames>=self.config['episode_frames'])
+            if self.position_guard and self.position_guard.pending and (terminated or truncated):
+                self.invalid=True
+                truncated=True
             self.last_rgb=rgb.copy()
             if terminated or truncated:break
         self.stack.append(self.pixel(self.last_rgb))
