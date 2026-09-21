@@ -62,6 +62,12 @@ class Budget(BaseCallback):
 def run(args):
     config = read_json(ROOT / args.config)
     validation = require_validated(config)  # Before creating any session or model.
+    if getattr(args,'curriculum',False):
+        checked=read_json(ROOT/'docs/curriculum-validation.json')
+        if checked['status']!='passed' or checked['curriculum_sha256']!=digest(ROOT/'smb3_rl/curriculum.py') or checked['prefix_sha256']!=digest(ROOT/'sessions/2026-09-20-smb3-recovery-validation-02/recovery-actions.json'):
+            raise ValueError('Missing or stale curriculum validation')
+        if not args.resume or not getattr(args,'deadline_epoch',None):
+            raise ValueError('Curriculum run requires a parent model and absolute wall deadline')
     if subprocess.check_output(['git','status','--porcelain','--untracked-files=no'],cwd=ROOT,text=True).strip():
         raise ValueError('Commit source changes before training so the source revision is reproducible.')
     if args.resume:
@@ -83,6 +89,9 @@ def run(args):
     (run / 'logs').mkdir()
     start = time.perf_counter()
     pilot_deadline = start + 720 if args.pilot else float('inf')
+    if getattr(args, 'deadline_epoch', None):
+        pilot_deadline = start + max(0, args.deadline_epoch-time.time())
+    final_reserve = 1800 if getattr(args, 'curriculum', False) else 130
     training_limit = 600 if args.pilot else args.active_minutes * 60
     stopped = [False]
     signal.signal(signal.SIGINT, lambda *_: stopped.__setitem__(0, True))
@@ -99,7 +108,11 @@ def run(args):
                 'learning_update_calls': 0, 'training_game_frames': 0, 'training_agent_decisions': 0,
                 'checkpoint_seconds': 0.0, 'peak_sampled_rss_bytes': 0,
                 'memory_sampling': {'samples':0,'scope':'parent_and_children','errors':[]},
-                'source_change_accepted':bool(args.allow_source_change)}
+                'source_change_accepted':bool(args.allow_source_change),
+                'deadline_epoch':getattr(args,'deadline_epoch',None),
+                'curriculum':bool(getattr(args,'curriculum',False)),
+                'curriculum_validation':checked if getattr(args,'curriculum',False) else None,
+                'final_acceptance_seeds':list(range(9101,9121)) if getattr(args,'curriculum',False) else None}
     if args.resume:
         manifest['parent_source_hashes']=parent_manifest['source_hashes']
     write_json(run / 'config.json', config)
@@ -184,7 +197,11 @@ def run(args):
         if stage['status']=='invalid_telemetry':
             raise RuntimeError('Invalid evaluation telemetry; refusing further training.')
     try:
-        env = MarioEnv(config)
+        if getattr(args, 'curriculum', False):
+            from .curriculum import CurriculumEnv
+            env = CurriculumEnv(config)
+        else:
+            env = MarioEnv(config)
         model = TimedPPO.load(args.resume, env=env, device='cpu') if args.resume else TimedPPO('CnnPolicy', env, seed=config['seed'], device='cpu', verbose=0, **config['ppo'])
         model.rollout_seconds = model.update_seconds = 0.0
         model.update_calls = 0
@@ -199,9 +216,11 @@ def run(args):
             manifest['overhead_with_recording'] = evaluate('overhead-record', path, [101], True, 30)
         index = 1
         while manifest['training_seconds'] < training_limit and not should_stop():
-            budget = min(900, training_limit-manifest['training_seconds'], pilot_deadline-time.perf_counter()-130)
+            budget = min(900, training_limit-manifest['training_seconds'], pilot_deadline-time.perf_counter()-final_reserve)
             if budget < 1:
                 break
+            if getattr(args, 'curriculum', False):
+                env.practice_probability = .75 if manifest['training_seconds'] < 3600 else .10
             tick = time.perf_counter()
             try:
                 with gzip.open(run/'logs'/f'{index:02d}-training-trace.jsonl.gz','xt') as trace:
@@ -214,18 +233,29 @@ def run(args):
                 manifest.update(simulation_seconds=env.simulation_seconds, training_reset_calls=env.reset_calls,
                                 simulated_frames_per_second=env.total_frames/env.simulation_seconds if env.simulation_seconds else None,
                                 optimizer_steps_per_second=optimizer_steps[0]/model.update_seconds if model.update_seconds else None)
+                if getattr(args, 'curriculum', False):
+                    manifest['curriculum_counters'] = {k:getattr(env,k) for k in ('setup_frames','setup_decisions','setup_seconds','practice_resets','full_resets','practice_probability')}
                 persist()
             stage, path = checkpoint(f'{index:02d}-stage')
             if not all(torch.isfinite(p).all().item() for p in model.policy.parameters()):
                 raise RuntimeError('Nonfinite policy weights; stage retained for diagnosis')
             eval_stage(stage, path)
+            if getattr(args,'curriculum',False):
+                from .report import build
+                build(run)
             index += 1
             if args.pilot:
                 break
         final, path = checkpoint('final')
         eval_stage(final, path)
         if not should_stop():
-            manifest['final_additional_trials'] = evaluate('final-additional-trials', path, config['final_seeds'], max_seconds=60 if args.pilot else args.eval_seconds*2)
+            manifest['final_additional_trials'] = evaluate('final-additional-trials', path, list(range(9101,9121)) if getattr(args,'curriculum',False) else config['final_seeds'], max_seconds=60 if args.pilot else (900 if getattr(args,'curriculum',False) else args.eval_seconds*2))
+            if getattr(args,'curriculum',False) and manifest.get('final_additional_trials'):
+                result=read_json(ROOT/manifest['final_additional_trials'])
+                episodes=result['episodes']
+                complete=result['status']=='complete' and [e['seed'] for e in episodes]==list(range(9101,9121)) and all(e['complete_trial'] and not e['telemetry_invalid'] for e in episodes)
+                clears=sum(bool(e['level_complete']) for e in episodes)
+                write_json(run/'acceptance-result.json',{'status':'passed' if complete and clears>=18 else 'not_met' if complete else 'incomplete','clears':clears,'completed_trials':len(episodes),'required_clears':18,'required_trials':20,'model_sha256':digest(path),'evaluation':manifest['final_additional_trials']})
         manifest['status'] = 'stopped' if should_stop() else 'completed'
         hook.remove()
     except BaseException as exc:
@@ -239,6 +269,9 @@ def run(args):
         sampling_done.set(); sampler.join(timeout=1)
         persist()
         from .report import build
+        if getattr(args,'curriculum',False):
+            from .curriculum_report import build as summarize_curriculum
+            summarize_curriculum(run)
         build(run)
 
 def main():
@@ -251,11 +284,15 @@ def main():
     p.add_argument('--budget-note', required=True, help='Who chose this budget and when')
     p.add_argument('--resume', type=Path)
     p.add_argument('--allow-source-change', action='store_true', help='Explicitly accept reviewed runner/reporting changes; configuration and environment identity must still match')
+    p.add_argument('--curriculum', action='store_true', help='Validated training-only goal reset mixture; same full-start evaluation')
+    p.add_argument('--deadline-epoch', type=float, help='Absolute wall deadline including evaluation; reserve 30 minutes for final tests')
     p.add_argument('--eval-seconds', type=float, default=300)
     args = p.parse_args()
     import math
     if (args.active_minutes is not None and (not math.isfinite(args.active_minutes) or args.active_minutes<=0)) or not math.isfinite(args.eval_seconds) or args.eval_seconds<=0:
         p.error('Budgets must be finite and positive')
+    if args.deadline_epoch is not None and (not math.isfinite(args.deadline_epoch) or args.deadline_epoch<=time.time()):
+        p.error('Wall deadline must be finite and in the future')
     (ROOT / '.cache').mkdir(exist_ok=True)
     with (ROOT / '.cache/session.lock').open('w') as lock:
         fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)

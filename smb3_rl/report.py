@@ -89,6 +89,15 @@ def build(run):
     if (run/'ANALYSIS.md').exists():lines += ['[Read the visual stage-by-stage analysis](ANALYSIS.md).']
     else:lines += ['Visual review pending. Measurements alone do not establish why Mario made a mistake. No causal story is invented.']
     if (run/'release.json').exists():lines += ['','[Verified downloadable model checkpoints](MODELS.md) · [Download verification manifest](release.json).']
+    if m.get('curriculum'):
+        lines += ['','## Training curriculum','',
+                  'Only training resets use goal practice. Every evaluation and every point in the progress chart starts from the normal beginning of World 1-1. Practice clears do not count toward the 18/20 target.',
+                  'First 60 active minutes: 75% practice resets, split between goal approach and missed goal; subsequently 10% practice and 90% normal starts. These are probabilities, not guaranteed proportions.',
+                  'Scripted reset actions are not PPO decisions or demonstrations. Their frames and elapsed time are reported separately; reset setup time is included in active training wall time. Reward coefficients and the seven actions are unchanged.',
+                  f"Setup and reset counters: `{m.get('curriculum_counters',{})}`.",
+                  'Final acceptance uses predeclared new action-sampling seeds 9101–9120 on the same level. It is not a test on unseen levels.']
+        if (run/'CURRICULUM.md').exists():lines += ['[Training outcomes separated by start condition](CURRICULUM.md).']
+        if (run/'acceptance-result.json').exists():lines += ['[Final 20-trial acceptance result](acceptance-result.json).']
     target.write_text('\n'.join(lines)+'\n')
     import matplotlib
     matplotlib.use('Agg')

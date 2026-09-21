@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "at": "2026-09-21T07:42:11.621751+00:00",
+  "curriculum_sha256": "00fd1062c54a75dd436746e71e7bcba0b966f79027d0e7e2bce78baef6c83ed1",
+  "prefix_sha256": "137b548e67cd78c8f5e788d29ab995934b33d62b7e078d43f6f3cfc54fa8c1bf",
+  "parent_sha256": "9db36aabfb0a28f1916e8096ae7d580776007ecaa7a8396973a75bf694da4003",
+  "checks": [
+    "Repeated seeded reset yields identical observations for all three starts",
+    "Scripted verified goal clear from all three starts",
+    "Reset prefix frames excluded from agent frames and recorded separately",
+    "512-decision PPO smoke update changed finite weights; smoke model discarded"
+  ],
+  "smoke_setup_frames": 1600,
+  "smoke_agent_frames": 2048
+}

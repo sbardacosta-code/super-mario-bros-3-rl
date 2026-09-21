@@ -1,0 +1,31 @@
+{
+  "session": "2026-09-21-smb3-overnight-curriculum",
+  "setup_started_epoch": 1789976451.391879,
+  "deadline_epoch": 1789998051.391879,
+  "approved_wall_seconds": 21600,
+  "at": "2026-09-21T07:42:54.751521+00:00",
+  "acceptance_seeds": [
+    9101,
+    9102,
+    9103,
+    9104,
+    9105,
+    9106,
+    9107,
+    9108,
+    9109,
+    9110,
+    9111,
+    9112,
+    9113,
+    9114,
+    9115,
+    9116,
+    9117,
+    9118,
+    9119,
+    9120
+  ],
+  "reward_changes": false,
+  "parent": "sessions/2026-09-20-smb3-recovery-session-02/checkpoints/final.zip"
+}
