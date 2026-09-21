@@ -18,6 +18,8 @@ Longer sessions save checkpoints approximately every **15 minutes of additional 
 | Initial policy | 0.00 | 456,323 | 1488.6 | 1629.0 | 327–2221 | 0/5 |
 | 01-stage | 15.00 | 522,751 | 1154.8 | 1616.0 | 342–1628 | 0/5 |
 | 02-stage | 30.03 | 579,799 | 619.0 | 468.0 | 326–1087 | 0/5 |
+| 03-stage | 45.03 | 606,102 | 939.4 | 885.0 | 326–1503 | 0/5 |
+| 04-stage | 60.03 | 676,280 | 1597.8 | 1408.0 | 1362–2221 | 0/5 |
 
 Progress is furthest horizontal displacement in pixels, not a completion percentage. Missing or incompatible evaluations are excluded, never scored as zero. Cumulative model decisions include previous sessions when resuming.
 
@@ -112,6 +114,74 @@ Paired seeds are reproducible comparisons, but changed policies can consume rand
 These excerpts overlap; they are two views of the same trial.
 
 [All trial measurements](02-stage/evaluation.json) · [Every trial’s clips and traces](REPORT.md)
+
+**Discuss:** What changed visibly? Did every trial improve? What extra evidence would distinguish better jump timing from a favorable action sequence?
+
+## 03-stage · 45.03 active minutes
+
+Saved stage: `03-stage`. Model identifier: `33cfa248c291d974f54adbb2601e3ae5fce0b4dbe4abdbda102d44c3eddd019f`.
+
+**Measured change:** mean progress +320.4 pixels; 0/5 level clears.
+
+| Seed | Progress change since previous stage |
+|---|---:|
+| 101 | +782 |
+| 202 | -761 · regression |
+| 303 | +616 |
+| 404 | +558 |
+| 505 | +407 |
+
+Paired seeds are reproducible comparisons, but changed policies can consume randomness differently. Five trials cannot establish reliability.
+
+**What changed:** 45 additional active minutes with the same first-hour curriculum.
+
+**What visibly improved or happened:** Normal-start mean progress recovers to 939.4 pixels. Seed 101 falls into the gap after the open enemy area; seed 303 falls before the wooden steps. Seeds 404 and 505 die in the open enemy area. [Reviewed frames](review/03-stage-overview.png).
+
+**What still fails:** All five trials die. Seed 202 again dies around the first plant pipe. Progress remains below the resumed model.
+
+**Hypotheses and limits:** Five action samples on the same level provide limited evidence. We cannot infer what Mario understands or attribute recovery to a specific mechanism. Practice clears are not full-level successes.
+
+| Beginning · seed 101 · decisions 1–150 | Ending · seed 101 · decisions 155–229 |
+|---|---|
+| ![Beginning, seed 101](03-stage/trial-101-beginning.gif) | ![Ending, seed 101](03-stage/trial-101-ending.gif) |
+
+The middle of this trial is omitted from these excerpts; the full action trace is retained.
+
+[All trial measurements](03-stage/evaluation.json) · [Every trial’s clips and traces](REPORT.md)
+
+**Discuss:** What changed visibly? Did every trial improve? What extra evidence would distinguish better jump timing from a favorable action sequence?
+
+## 04-stage · 60.03 active minutes
+
+Saved stage: `04-stage`. Model identifier: `e2c3ca4382e78c77d122adf9e7cad4002c9320eb997eac8f8740b9b30dd6711d`.
+
+**Measured change:** mean progress +658.4 pixels; 0/5 level clears.
+
+| Seed | Progress change since previous stage |
+|---|---:|
+| 101 | +527 |
+| 202 | +1037 |
+| 303 | -141 · regression |
+| 404 | +523 |
+| 505 | +1346 |
+
+Paired seeds are reproducible comparisons, but changed policies can consume randomness differently. Five trials cannot establish reliability.
+
+**What changed:** 60 additional active minutes; this checkpoint concludes the scheduled 75% practice phase.
+
+**What visibly improved or happened:** Mean progress recovers to 1,597.8 pixels, slightly above the resumed mean of 1,488.6. Seed 505 reaches the tall-pipe area. [Reviewed frames](review/04-stage-overview.png).
+
+**What still fails:** All five trials still die. Seed 101 falls between wooden structures; seeds 202, 303 and 404 die around the flying turtles. Seed 505 falls in the tall-pipe area. Recovery in distance is not reliable level completion.
+
+**Hypotheses and limits:** Five action samples on the same level provide limited evidence. We cannot infer what Mario understands or attribute recovery to a specific mechanism. Practice clears are not full-level successes.
+
+| Beginning · seed 101 · decisions 1–150 | Ending · seed 101 · decisions 204–278 |
+|---|---|
+| ![Beginning, seed 101](04-stage/trial-101-beginning.gif) | ![Ending, seed 101](04-stage/trial-101-ending.gif) |
+
+The middle of this trial is omitted from these excerpts; the full action trace is retained.
+
+[All trial measurements](04-stage/evaluation.json) · [Every trial’s clips and traces](REPORT.md)
 
 **Discuss:** What changed visibly? Did every trial improve? What extra evidence would distinguish better jump timing from a favorable action sequence?
 

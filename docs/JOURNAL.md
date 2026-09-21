@@ -89,3 +89,7 @@ The preceding seven-action continuation failed the completion baseline: 0/20 acc
 ### Overnight checkpoints: 15 and 30 active minutes
 
 Normal-start mean progress regressed from 1,488.6 to 1,154.8 and then 619 pixels, with 0/5 clears at every stage. Goal-practice episodes often clear, but full-start training episodes still have zero clears in the first two segments. Practice setup consumed about 832 seconds of the first 1,802 active seconds. The first-hour mixture continues as approved, followed automatically by predominantly normal starts. No settings were changed in response to these interim results. [Evidence and limitations](../sessions/2026-09-21-smb3-overnight-curriculum/ANALYSIS.md).
+
+### Overnight checkpoints: 45 and 60 active minutes
+
+Mean normal-start progress recovered to 939.4 and then 1,597.8 pixels, but both checkpoints still cleared 0/5 trials. First-hour training produced 1,016/1,020 practice clears and 0/307 full-start clears. Reset preparation consumed about 49% of active training time. The planned switch to 90% normal-start resets is now underway; no intervention or budget extension was made. [Updated visual analysis](../sessions/2026-09-21-smb3-overnight-curriculum/ANALYSIS.md).

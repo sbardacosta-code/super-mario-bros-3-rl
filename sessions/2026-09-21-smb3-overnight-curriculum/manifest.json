@@ -408,24 +408,44 @@
       "status": "complete",
       "total_model_decisions": 579799,
       "evaluation": "sessions/2026-09-21-smb3-overnight-curriculum/02-stage/evaluation.json"
+    },
+    {
+      "id": "03-stage",
+      "model_sha256": "33cfa248c291d974f54adbb2601e3ae5fce0b4dbe4abdbda102d44c3eddd019f",
+      "model_path": "sessions/2026-09-21-smb3-overnight-curriculum/checkpoints/03-stage.zip",
+      "training_seconds": 2701.932231334009,
+      "status": "complete",
+      "total_model_decisions": 606102,
+      "evaluation": "sessions/2026-09-21-smb3-overnight-curriculum/03-stage/evaluation.json"
+    },
+    {
+      "id": "04-stage",
+      "model_sha256": "e2c3ca4382e78c77d122adf9e7cad4002c9320eb997eac8f8740b9b30dd6711d",
+      "model_path": "sessions/2026-09-21-smb3-overnight-curriculum/checkpoints/04-stage.zip",
+      "training_seconds": 3601.933177125,
+      "status": "complete",
+      "total_model_decisions": 676280,
+      "evaluation": "sessions/2026-09-21-smb3-overnight-curriculum/04-stage/evaluation.json"
     }
   ],
-  "training_seconds": 1801.927641916991,
-  "evaluation_seconds": 46.81215224904008,
-  "rollout_seconds": 1476.1017956660944,
-  "learning_seconds": 324.032907827961,
-  "optimizer_steps": 5889,
-  "learning_update_calls": 240,
-  "training_game_frames": 493162,
-  "training_agent_decisions": 123476,
-  "checkpoint_seconds": 0.1654907910269685,
+  "training_seconds": 3601.933177125,
+  "evaluation_seconds": 65.94927933203871,
+  "rollout_seconds": 2984.941214790975,
+  "learning_seconds": 614.9200547907676,
+  "optimizer_steps": 10108,
+  "learning_update_calls": 428,
+  "training_game_frames": 878346,
+  "training_agent_decisions": 219957,
+  "checkpoint_seconds": 0.1994062080339063,
   "peak_sampled_rss_bytes": 679837696,
   "memory_sampling": {
-    "samples": 16530,
+    "samples": 31617,
     "scope": "parent_only_fallback_used",
     "errors": [
       "ZombieProcess: PID still exists but it's a zombie (pid=51432)",
-      "ZombieProcess: PID still exists but it's a zombie (pid=67743)"
+      "ZombieProcess: PID still exists but it's a zombie (pid=67743)",
+      "ZombieProcess: PID still exists but it's a zombie (pid=76933)",
+      "ZombieProcess: PID still exists but it's a zombie (pid=84117)"
     ]
   },
   "source_change_accepted": true,
@@ -484,18 +504,18 @@
     "configs/smb3-1-1.json": "0c368449f1cd06539e661941010ff3a39e6072023855d0b3f40d4e6a9beca124",
     "requirements-lock.txt": "8ff85b9d1a7e24d734af9b91fa44c4b8d83abdcbcd000550894a46fc6cdbf630"
   },
-  "wall_seconds": 1851.090674417006,
+  "wall_seconds": 3670.7686431249895,
   "run_right_baseline": "sessions/2026-09-21-smb3-overnight-curriculum/hold-run-right/evaluation.json",
-  "simulation_seconds": 390.9570953072398,
-  "training_reset_calls": 681,
-  "simulated_frames_per_second": 1261.4223041851712,
-  "optimizer_steps_per_second": 18.17408003241032,
+  "simulation_seconds": 754.0525932298042,
+  "training_reset_calls": 1328,
+  "simulated_frames_per_second": 1164.8338695286686,
+  "optimizer_steps_per_second": 16.43790915786499,
   "curriculum_counters": {
-    "setup_frames": 778800,
-    "setup_decisions": 194700,
-    "setup_seconds": 832.1105155120895,
-    "practice_resets": 519,
-    "full_resets": 162,
+    "setup_frames": 1533400,
+    "setup_decisions": 383350,
+    "setup_seconds": 1752.2816647595027,
+    "practice_resets": 1021,
+    "full_resets": 307,
     "practice_probability": 0.75
   }
 }

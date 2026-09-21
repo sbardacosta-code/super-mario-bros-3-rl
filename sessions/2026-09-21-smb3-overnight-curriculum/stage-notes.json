@@ -19,5 +19,19 @@
     "observed": "Mean normal-start progress falls further to 619 pixels. Seeds 101 and 404 die around the first plant pipe; seed 202 falls into a gap. Seed 303 dies in the open enemy area and seed 505 near an early walking enemy. [Reviewed frames](review/02-stage-overview.png).",
     "fails": "All five trials die. Four paired trials lose progress relative to the 15-minute checkpoint; seed 202 improves from 342 to 1,087 pixels. Overall performance regresses.",
     "uncertain": "Five action samples on the same level do not establish generalization. Goal-practice training successes are not full-level wins. The curriculum may interfere with earlier skills, but these results alone do not establish the cause of regression."
+  },
+  "03-stage": {
+    "model_sha256": "33cfa248c291d974f54adbb2601e3ae5fce0b4dbe4abdbda102d44c3eddd019f",
+    "changed": "45 additional active minutes with the same first-hour curriculum.",
+    "observed": "Normal-start mean progress recovers to 939.4 pixels. Seed 101 falls into the gap after the open enemy area; seed 303 falls before the wooden steps. Seeds 404 and 505 die in the open enemy area. [Reviewed frames](review/03-stage-overview.png).",
+    "fails": "All five trials die. Seed 202 again dies around the first plant pipe. Progress remains below the resumed model.",
+    "uncertain": "Five action samples on the same level provide limited evidence. We cannot infer what Mario understands or attribute recovery to a specific mechanism. Practice clears are not full-level successes."
+  },
+  "04-stage": {
+    "model_sha256": "e2c3ca4382e78c77d122adf9e7cad4002c9320eb997eac8f8740b9b30dd6711d",
+    "changed": "60 additional active minutes; this checkpoint concludes the scheduled 75% practice phase.",
+    "observed": "Mean progress recovers to 1,597.8 pixels, slightly above the resumed mean of 1,488.6. Seed 505 reaches the tall-pipe area. [Reviewed frames](review/04-stage-overview.png).",
+    "fails": "All five trials still die. Seed 101 falls between wooden structures; seeds 202, 303 and 404 die around the flying turtles. Seed 505 falls in the tall-pipe area. Recovery in distance is not reliable level completion.",
+    "uncertain": "Five action samples on the same level provide limited evidence. We cannot infer what Mario understands or attribute recovery to a specific mechanism. Practice clears are not full-level successes."
   }
 }

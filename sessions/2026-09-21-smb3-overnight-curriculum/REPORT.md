@@ -8,21 +8,21 @@ Session status: **running**. This is a local CPU experiment.
 
 | Measurement | Value |
 |---|---:|
-| Session wall time before chart generation | 1851.09 s |
-| Active training | 1801.93 s |
-| Rollout collection (includes inference and traces) | 1476.10 s |
-| Raw emulator stepping inside collection | 390.96 s |
-| Learning updates | 324.03 s |
-| Evaluation subprocesses (includes recording/startup) | 46.81 s |
-| Checkpoint saving | 0.17 s |
-| Training game frames | 493,162 |
-| Agent decisions | 123,476 |
-| PPO train calls / optimizer steps | 240 / 5889 |
+| Session wall time before chart generation | 3670.77 s |
+| Active training | 3601.93 s |
+| Rollout collection (includes inference and traces) | 2984.94 s |
+| Raw emulator stepping inside collection | 754.05 s |
+| Learning updates | 614.92 s |
+| Evaluation subprocesses (includes recording/startup) | 65.95 s |
+| Checkpoint saving | 0.20 s |
+| Training game frames | 878,346 |
+| Agent decisions | 219,957 |
+| PPO train calls / optimizer steps | 428 / 10108 |
 | Sampled peak RSS | 648.3 MiB (parent_only_fallback_used) |
 
 Nested timing fields overlap: raw stepping is part of collection, and collection/learning are part of active training. RSS is sampled every 100 ms; shared pages may be counted twice. Reset/setup frames are excluded from action-frame counters.
 
-Raw simulation: 1261 frames/s; end-to-end training: 274 frames/s; learning: 18.2 optimizer steps/s.
+Raw simulation: 1165 frames/s; end-to-end training: 244 frames/s; learning: 16.4 optimizer steps/s.
 
 ## Outcomes across stages
 
@@ -103,6 +103,56 @@ Mean progress changed by -535.8 pixels; completion count changed by +0. Improvem
 These excerpts overlap; they are two views of the same trial.
 
 
+## 03-stage
+
+45.03 additional active minutes. Model SHA-256: `33cfa248c291d974f54adbb2601e3ae5fce0b4dbe4abdbda102d44c3eddd019f`.
+
+Evaluation **complete**: 5/5 finished trials. [Full measurements](03-stage/evaluation.json).
+
+**Observed measurements:** 0/5 clears; 5 deaths; mean progress 939.4 pixels (range 326–1503); mean shaped reward 8.309.
+
+Mean progress changed by +320.4 pixels; completion count changed by +0. Improvement is not assumed, and five action samples are a small evaluation.
+
+| Trial | Progress (pixels) | Outcome | Evidence |
+|---|---:|---|---|
+| 101 | 1108 | death | [Trace](03-stage/trial-101.jsonl) · [beginning](03-stage/trial-101-beginning.gif) · [ending](03-stage/trial-101-ending.gif) |
+| 202 | 326 | death | [Trace](03-stage/trial-202.jsonl) · [beginning](03-stage/trial-202-beginning.gif) · [ending](03-stage/trial-202-ending.gif) |
+| 303 | 1503 | death | [Trace](03-stage/trial-303.jsonl) · [beginning](03-stage/trial-303-beginning.gif) · [ending](03-stage/trial-303-ending.gif) |
+| 404 | 885 | death | [Trace](03-stage/trial-404.jsonl) · [beginning](03-stage/trial-404-beginning.gif) · [ending](03-stage/trial-404-ending.gif) |
+| 505 | 875 | death | [Trace](03-stage/trial-505.jsonl) · [beginning](03-stage/trial-505-beginning.gif) · [ending](03-stage/trial-505-ending.gif) |
+
+| Beginning · seed 101 · decisions 1–150 | Ending · seed 101 · decisions 155–229 |
+|---|---|
+| ![Beginning, seed 101](03-stage/trial-101-beginning.gif) | ![Ending, seed 101](03-stage/trial-101-ending.gif) |
+
+The middle of this trial is omitted from these excerpts; the full action trace is retained.
+
+
+## 04-stage
+
+60.03 additional active minutes. Model SHA-256: `e2c3ca4382e78c77d122adf9e7cad4002c9320eb997eac8f8740b9b30dd6711d`.
+
+Evaluation **complete**: 5/5 finished trials. [Full measurements](04-stage/evaluation.json).
+
+**Observed measurements:** 0/5 clears; 5 deaths; mean progress 1597.8 pixels (range 1362–2221); mean shaped reward 14.866.
+
+Mean progress changed by +658.4 pixels; completion count changed by +0. Improvement is not assumed, and five action samples are a small evaluation.
+
+| Trial | Progress (pixels) | Outcome | Evidence |
+|---|---:|---|---|
+| 101 | 1635 | death | [Trace](04-stage/trial-101.jsonl) · [beginning](04-stage/trial-101-beginning.gif) · [ending](04-stage/trial-101-ending.gif) |
+| 202 | 1363 | death | [Trace](04-stage/trial-202.jsonl) · [beginning](04-stage/trial-202-beginning.gif) · [ending](04-stage/trial-202-ending.gif) |
+| 303 | 1362 | death | [Trace](04-stage/trial-303.jsonl) · [beginning](04-stage/trial-303-beginning.gif) · [ending](04-stage/trial-303-ending.gif) |
+| 404 | 1408 | death | [Trace](04-stage/trial-404.jsonl) · [beginning](04-stage/trial-404-beginning.gif) · [ending](04-stage/trial-404-ending.gif) |
+| 505 | 2221 | death | [Trace](04-stage/trial-505.jsonl) · [beginning](04-stage/trial-505-beginning.gif) · [ending](04-stage/trial-505-ending.gif) |
+
+| Beginning · seed 101 · decisions 1–150 | Ending · seed 101 · decisions 204–278 |
+|---|---|
+| ![Beginning, seed 101](04-stage/trial-101-beginning.gif) | ![Ending, seed 101](04-stage/trial-101-ending.gif) |
+
+The middle of this trial is omitted from these excerpts; the full action trace is retained.
+
+
 ## Run right baseline
 
 Status: complete. [Measurements](hold-run-right/evaluation.json).
@@ -136,5 +186,5 @@ These excerpts overlap; they are two views of the same trial.
 Only training resets use goal practice. Every evaluation and every point in the progress chart starts from the normal beginning of World 1-1. Practice clears do not count toward the 18/20 target.
 First 60 active minutes: 75% practice resets, split between goal approach and missed goal; subsequently 10% practice and 90% normal starts. These are probabilities, not guaranteed proportions.
 Scripted reset actions are not PPO decisions or demonstrations. Their frames and elapsed time are reported separately; reset setup time is included in active training wall time. Reward coefficients and the seven actions are unchanged.
-Setup and reset counters: `{'setup_frames': 778800, 'setup_decisions': 194700, 'setup_seconds': 832.1105155120895, 'practice_resets': 519, 'full_resets': 162, 'practice_probability': 0.75}`.
+Setup and reset counters: `{'setup_frames': 1533400, 'setup_decisions': 383350, 'setup_seconds': 1752.2816647595027, 'practice_resets': 1021, 'full_resets': 307, 'practice_probability': 0.75}`.
 Final acceptance uses predeclared new action-sampling seeds 9101–9120 on the same level. It is not a test on unseen levels.
